@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Kalam:wght@400;700&display=swap');
+
+/*
+ * Regard: a readable manuscript.
+ * The text should feel written and transmitted rather than presented as
+ * software documentation: paper, ink, generous rhythm, discreet interface.
+ */
+:root {
+  --ifm-color-primary: var(--site-primary);
+  --ifm-color-primary-dark: color-mix(in srgb, var(--site-primary) 88%, black);
+  --ifm-color-primary-darker: color-mix(in srgb, var(--site-primary) 80%, black);
+  --ifm-color-primary-darkest: color-mix(in srgb, var(--site-primary) 66%, black);
+  --ifm-color-primary-light: color-mix(in srgb, var(--site-primary) 88%, white);
+  --ifm-color-primary-lighter: color-mix(in srgb, var(--site-primary) 80%, white);
+  --ifm-color-primary-lightest: color-mix(in srgb, var(--site-primary) 64%, white);
+  --ifm-background-color: var(--site-background);
+  --ifm-background-surface-color: var(--site-surface);
+  --ifm-font-color-base: var(--site-text);
+  --ifm-color-content-secondary: var(--site-muted);
+  --ifm-font-family-base: var(--site-font-body);
+  --ifm-heading-font-family: var(--site-font-heading);
+  --ifm-font-family-monospace: var(--site-font-mono);
+  --ifm-font-size-base: 108%;
+  --ifm-line-height-base: 1.72;
+  --ifm-heading-font-weight: var(--site-heading-weight);
+  --ifm-global-radius: var(--site-radius);
+  --ifm-global-border-width: var(--site-border-width);
+  --ifm-navbar-shadow: var(--site-navbar-shadow);
+  --ifm-navbar-background-color: color-mix(in srgb, var(--site-background) 94%, transparent);
+  --ifm-toc-border-color: var(--site-border);
+  --ifm-color-emphasis-200: var(--site-border);
+  --ifm-color-emphasis-300: var(--site-border);
+  --ifm-code-font-size: 88%;
+  --docusaurus-highlighted-code-line-bg: color-mix(
+    in srgb,
+    var(--site-primary) 10%,
+    transparent
+  );
+}
+
+html,
+body {
+  background: var(--site-background);
+  color: var(--site-text);
+}
+
+body {
+  background-image:
+    radial-gradient(circle at 15% 10%, rgb(109 83 48 / 3%), transparent 28rem),
+    radial-gradient(circle at 90% 35%, rgb(109 83 48 / 2.5%), transparent 24rem);
+}
+
+[data-theme='dark'] {
+  --docusaurus-highlighted-code-line-bg: color-mix(
+    in srgb,
+    var(--site-primary) 14%,
+    transparent
+  );
+}
+
+/* Keep the interface quiet; the manuscript belongs to the content. */
+.navbar,
+.menu,
+.table-of-contents,
+.footer,
+.pagination-nav,
+.breadcrumbs {
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid color-mix(in srgb, var(--site-border) 72%, transparent);
+}
+
+.navbar__title {
+  font-family: var(--site-font-heading);
+  font-size: 1.45rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+.navbar__link,
+.menu__link,
+.table-of-contents__link {
+  font-size: 0.88rem;
+}
+
+.theme-doc-markdown {
+  max-width: var(--site-content-width);
+  text-wrap: pretty;
+}
+
+.theme-doc-markdown > h1:first-child {
+  font-size: clamp(3rem, 8vw, 5.2rem);
+  line-height: 1;
+  margin-bottom: 1.4rem;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+}
+
+.theme-doc-markdown h2 {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  line-height: 1.08;
+  margin-top: 3.3rem;
+  padding-bottom: 0.28rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--site-border) 80%, transparent);
+}
+
+.theme-doc-markdown h3 {
+  font-size: clamp(1.55rem, 4vw, 2rem);
+  line-height: 1.15;
+  margin-top: 2.4rem;
+}
+
+.theme-doc-markdown h4,
+.theme-doc-markdown h5,
+.theme-doc-markdown h6 {
+  font-family: var(--site-font-body);
+  font-style: italic;
+  letter-spacing: 0.01em;
+}
+
+.theme-doc-markdown p,
+.theme-doc-markdown li {
+  font-size: 1.08rem;
+}
+
+.theme-doc-markdown p {
+  margin-bottom: 1.15rem;
+}
+
+.theme-doc-markdown strong {
+  color: color-mix(in srgb, var(--site-text) 88%, var(--site-primary));
+}
+
+.theme-doc-markdown hr {
+  height: 1.2rem;
+  margin: 3rem auto;
+  border: 0;
+  background:
+    linear-gradient(var(--site-border), var(--site-border)) center / min(15rem, 45%) 1px no-repeat;
+  opacity: 0.8;
+}
+
+.theme-doc-markdown blockquote {
+  position: relative;
+  margin: 1.9rem 0;
+  padding: 0.45rem 1.15rem 0.45rem 1.45rem;
+  border-left: 2px solid var(--site-primary);
+  color: color-mix(in srgb, var(--site-text) 72%, var(--site-muted));
+  font-style: italic;
+  background: transparent;
+}
+
+.theme-doc-markdown blockquote p {
+  font-size: 1.08rem;
+}
+
+.theme-doc-markdown a {
+  text-decoration-color: color-mix(in srgb, var(--site-primary) 55%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.theme-doc-markdown code {
+  border: 1px solid color-mix(in srgb, var(--site-border) 70%, transparent);
+  background: color-mix(in srgb, var(--site-surface) 76%, transparent);
+}
+
+/* `:::design` becomes a marginal note rather than a software alert box. */
+.theme-admonition-design {
+  border: 0;
+  border-top: 1px solid var(--site-border);
+  border-bottom: 1px solid var(--site-border);
+  border-radius: 0;
+  background: color-mix(in srgb, var(--site-surface) 52%, transparent);
+  color: var(--site-text);
+  box-shadow: none;
+}
+
+.theme-admonition-design .admonitionHeading_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module,
+.theme-admonition-design [class*='admonitionHeading'] {
+  font-family: var(--site-font-heading);
+  font-size: 1.2rem;
+}
+
+.table-of-contents {
+  border-left-color: color-mix(in srgb, var(--site-border) 76%, transparent);
+}
+
+.pagination-nav__link {
+  border-color: var(--site-border);
+  background: color-mix(in srgb, var(--site-surface) 45%, transparent);
+  box-shadow: none;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: color-mix(
+    in srgb,
+    var(--site-background) 90%,
+    black
+  );
+}
+
+@media (max-width: 996px) {
+  :root {
+    --ifm-font-size-base: 104%;
+  }
+
+  .theme-doc-markdown > h1:first-child {
+    margin-top: 0.5rem;
+  }
+
+  .theme-doc-markdown h2 {
+    margin-top: 2.7rem;
+  }
+}
