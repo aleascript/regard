@@ -2,7 +2,9 @@ name: Build and deploy site
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+      - refactor/initial-regard
   pull_request:
   workflow_dispatch:
 
