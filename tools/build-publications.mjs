@@ -90,6 +90,22 @@ function transformAdmonitions(markdown, locale, customTypes) {
   return `${output.join('\n')}\n`;
 }
 
+function transformRootRelativeImages(markdown, sourcePath) {
+  const staticPrefix =
+    path.relative(path.dirname(sourcePath), 'static').split(path.sep).join('/') || '.';
+
+  return markdown
+    .replace(
+      /(!\[[^\]]*\]\()\/(?!\/)([^)\s]+)([^)]*\))/g,
+      (_match, opening, assetPath, remainder) =>
+        `${opening}${staticPrefix}/${assetPath}${remainder}`,
+    )
+    .replace(
+      /(<img\b[^>]*\bsrc=["'])\/(?!\/)([^"']+)/gi,
+      (_match, opening, assetPath) => `${opening}${staticPrefix}/${assetPath}`,
+    );
+}
+
 function assetName(baseName, locale, format) { return `${baseName}-${locale}.${format}`; }
 function publicAssetPath(baseName, locale, format) {
   const name = assetName(baseName, locale, format);
@@ -179,7 +195,8 @@ async function preparePublication(publicationName, publication, locale, localeCo
     const sourceAbsolute = path.join(projectRoot, sourcePath);
     const destinationAbsolute = path.join(publicationWorkDir, sourcePath);
     const markdown = await fs.readFile(sourceAbsolute, 'utf8');
-    const transformed = transformAdmonitions(markdown, locale, customAdmonitions);
+    const withPortableImages = transformRootRelativeImages(markdown, sourcePath);
+    const transformed = transformAdmonitions(withPortableImages, locale, customAdmonitions);
     await fs.mkdir(path.dirname(destinationAbsolute), {recursive: true});
     await fs.writeFile(destinationAbsolute, transformed, 'utf8');
     contentEntries.push(sourcePath);
