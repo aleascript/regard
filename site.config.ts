@@ -78,8 +78,8 @@ export const site = {
     defaultFullName: 'aleascript/regard',
   },
   identity: {
-    logo: null,
-    favicon: null,
+    logo: 'img/site/regard_mosaic_valid_pips_small_transparent.svg',
+    favicon: 'img/site/regard_mosaic_valid_pips_small_transparent.svg',
   } satisfies SiteIdentity,
   license: {
     label: 'CC BY 4.0',
