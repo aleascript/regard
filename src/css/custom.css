@@ -99,6 +99,13 @@ body {
   text-wrap: balance;
 }
 
+.theme-doc-markdown img[alt='Regard'] {
+  display: block;
+  width: min(22rem, 72vw);
+  height: auto;
+  margin: 0 auto 2.5rem;
+}
+
 .theme-doc-markdown h2 {
   font-size: clamp(2rem, 5vw, 2.8rem);
   line-height: 1.08;
