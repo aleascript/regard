@@ -1,6 +1,6 @@
 ---
 id: practice
-title: 8. Regard en pratique : deux bornes de l’espace de design
+title: "8. Regard en pratique : deux bornes de l’espace de design"
 sidebar_position: 9
 ---
 

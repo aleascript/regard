@@ -1,6 +1,6 @@
 ---
 id: practice
-title: 8. Regard in practice: two bounds of the design space
+title: "8. Regard in practice: two bounds of the design space"
 sidebar_position: 9
 ---
 
