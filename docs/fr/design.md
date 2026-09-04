@@ -361,7 +361,7 @@ Le temps accumulé ne devient fictionnel que si quelque chose dans la scène **a
 
 Le lien peut parfois être imposé ou autorisé par un **Facteur Cadre**, mais il n’est pas réductible à lui : un personnage qui s’impatiente, une menace qui approche ou une situation qui se dégrade peuvent émerger directement de l’évolution de la scène.
 
-> **Quand le temps compte dans le monde, le temps de la table peut entrer en Regard avec lui.**
+> **Quand le temps compte dans le monde, le temps de la table peut entrer en résonance avec lui.**
 
 Lorsque cette évolution n’est pas déjà évidente, son effet devrait normalement devenir perceptible dans la fiction avant de devenir mécanique.
 

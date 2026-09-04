@@ -361,7 +361,7 @@ Accumulated time becomes fictional only if something in the scene **actually wai
 
 The link can sometimes be imposed or authorized by a **Frame Factor**, but it is not reducible to one: an impatient character, an approaching threat, or a deteriorating situation can emerge directly from the evolution of the scene.
 
-> **When time matters in the world, table time can enter into Regard with it.**
+> **When time matters in the world, table time can enter into resonance with it.**
 
 When that evolution is not already obvious, its effect should normally become perceptible in the fiction before it becomes mechanical.
 
