@@ -1,7 +1,7 @@
 ---
 id: practice
-title: "8. Regard en pratique : deux bornes de l’espace de design"
-sidebar_position: 9
+title: "7. Regard en pratique : deux bornes de l’espace de design"
+sidebar_position: 8
 ---
 
 Les deux premières études de cas de Regard occupent volontairement des positions très différentes.

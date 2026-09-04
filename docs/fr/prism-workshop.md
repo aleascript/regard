@@ -1,7 +1,7 @@
 ---
 id: prism-workshop
-title: 9. Atelier de Prismes
-sidebar_position: 10
+title: 8. Atelier de Prismes
+sidebar_position: 9
 ---
 
 Cette section n’est **pas** une liste de règles recommandées ni un catalogue de Prismes officiels.

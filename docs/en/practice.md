@@ -1,7 +1,7 @@
 ---
 id: practice
-title: "8. Regard in practice: two bounds of the design space"
-sidebar_position: 9
+title: "7. Regard in practice: two bounds of the design space"
+sidebar_position: 8
 ---
 
 The first two Regard case studies deliberately occupy very different positions.

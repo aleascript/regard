@@ -467,6 +467,19 @@ Elle peut définir notamment :
 - sa politique d’activation du Mode Miroir ;
 - les éventuelles formes de résonance entre le dispositif de table et la fiction.
 
+## Situer un jeu Regard dans les axes de design
+
+[Resonance propose quatre axes de design](https://aleascript.github.io/resonance/fr/design-axes) pour décrire comment un jeu organise la relation entre joueurs, système, fiction et monde : **cognitif**, **diégétique**, **perspectiviste** et **ontologique**.
+
+Dans Regard, ils n’ont pas tous le même statut :
+
+- le geste de résolution est **structurellement cognitif** : il demande d’abord aux participants de juger ce qui compte dans la situation plutôt que de chercher une valeur ou une règle à activer ;
+- il est également **structurellement diégétique** : une Mise est d’abord une vérité fictionnelle rendue pertinente, pas un modificateur abstrait attaché au personnage ;
+- le **perspectivisme** est une possibilité de design, notamment grâce aux Prismes, mais un jeu Regard peut conserver le Prisme standard sans rendre une perspective particulière mécaniquement opérante ;
+- l’engagement **ontologique** appartient au jeu et à son monde : Regard peut exprimer qu’une perspective transforme réellement le fonctionnement du monde, mais il ne l’affirme jamais par défaut.
+
+Ces axes ne remplacent pas les choix de design propres à Regard. Ils permettent de situer ce que l’implémentation cherche à faire avec eux.
+
 ## Une grille de conception
 
 Pour concevoir un jeu avec Regard, demandez notamment :

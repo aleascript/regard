@@ -467,6 +467,19 @@ It can define, among other things:
 - its policy for activating Mirror Mode;
 - any forms of resonance between the table apparatus and the fiction.
 
+## Situating a Regard game on the design axes
+
+[Resonance proposes four design axes](https://aleascript.github.io/resonance/design-axes) for describing how a game organizes the relationship between players, system, fiction, and world: **cognitive**, **diegetic**, **perspectivist**, and **ontological**.
+
+They do not all have the same status in Regard:
+
+- the resolution gesture is **structurally cognitive**: it first asks participants to judge what matters in the situation rather than search for a value or rule to activate;
+- it is also **structurally diegetic**: a Bet is first a fictional truth made relevant, not an abstract modifier attached to the character;
+- **perspectivism** is a design possibility, notably through Prisms, but a Regard game can keep the standard Prism without making a particular perspective mechanically operative;
+- **ontological** commitment belongs to the game and its world: Regard can express that a perspective actually changes how the world works, but never asserts that by default.
+
+These axes do not replace Regard's own design choices. They help situate what an implementation is trying to do with them.
+
 ## A design checklist
 
 When designing a game with Regard, ask in particular:

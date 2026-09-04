@@ -1,7 +1,7 @@
 ---
 id: prism-workshop
-title: 9. Prism Workshop
-sidebar_position: 10
+title: 8. Prism Workshop
+sidebar_position: 9
 ---
 
 This section is **not** a list of recommended rules or a catalogue of official Prisms.
