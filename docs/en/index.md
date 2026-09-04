@@ -1,9 +1,9 @@
 ---
 id: home
-title: Regard — SRD
+title: Regard
 slug: /
 sidebar_position: 1
-description: "The Regard SRD: a TTRPG framework where fiction determines what matters and can transform resolution."
+description: "Regard: a TTRPG framework where fiction determines what matters and can transform resolution."
 ---
 
 # Regard

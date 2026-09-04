@@ -1,9 +1,9 @@
 ---
 id: home
-title: Regard — SRD
+title: Regard
 slug: /
 sidebar_position: 1
-description: "Le SRD de Regard : un framework de JdR où la fiction détermine ce qui compte et peut transformer la résolution."
+description: "Regard : un framework de JdR où la fiction détermine ce qui compte et peut transformer la résolution."
 ---
 
 # Regard
