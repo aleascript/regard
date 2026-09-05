@@ -69,8 +69,19 @@ body {
 }
 
 .navbar {
-  backdrop-filter: blur(10px);
   border-bottom: 1px solid color-mix(in srgb, var(--site-border) 72%, transparent);
+}
+
+/*
+ * Docusaurus renders the mobile navigation drawer inside the navbar. Applying
+ * backdrop-filter to that ancestor creates a containing/stacking context that
+ * can clip the fixed-position drawer on mobile browsers. Keep the manuscript
+ * blur on desktop, where the drawer is not used.
+ */
+@media (min-width: 997px) {
+  .navbar {
+    backdrop-filter: blur(10px);
+  }
 }
 
 .navbar__title {
