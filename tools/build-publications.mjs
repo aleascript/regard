@@ -90,6 +90,47 @@ function transformAdmonitions(markdown, locale, customTypes) {
   return `${output.join('\n')}\n`;
 }
 
+function decodeFrontmatterScalar(value) {
+  const trimmed = value.trim();
+  if (trimmed.startsWith('"') && trimmed.endsWith('"')) {
+    try {
+      return JSON.parse(trimmed);
+    } catch {
+      return trimmed.slice(1, -1);
+    }
+  }
+  if (trimmed.startsWith("'") && trimmed.endsWith("'")) {
+    return trimmed.slice(1, -1).replaceAll("''", "'");
+  }
+  return trimmed;
+}
+
+function ensureDocumentTitleHeading(markdown) {
+  if (/^#\s+\S/m.test(markdown)) {
+    return markdown;
+  }
+
+  const frontmatter = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+  if (!frontmatter) {
+    return markdown;
+  }
+
+  const titleLine = frontmatter[1]
+    .split(/\r?\n/)
+    .find((line) => /^title\s*:/.test(line));
+  if (!titleLine) {
+    return markdown;
+  }
+
+  const title = decodeFrontmatterScalar(titleLine.replace(/^title\s*:\s*/, ''));
+  if (!title) {
+    return markdown;
+  }
+
+  const insertionPoint = frontmatter[0].length;
+  return `${markdown.slice(0, insertionPoint)}\n# ${title}\n${markdown.slice(insertionPoint)}`;
+}
+
 function transformRootRelativeImages(markdown, sourcePath) {
   const staticPrefix =
     path.relative(path.dirname(sourcePath), 'static').split(path.sep).join('/') || '.';
@@ -195,7 +236,8 @@ async function preparePublication(publicationName, publication, locale, localeCo
     const sourceAbsolute = path.join(projectRoot, sourcePath);
     const destinationAbsolute = path.join(publicationWorkDir, sourcePath);
     const markdown = await fs.readFile(sourceAbsolute, 'utf8');
-    const withPortableImages = transformRootRelativeImages(markdown, sourcePath);
+    const withChapterHeading = ensureDocumentTitleHeading(markdown);
+    const withPortableImages = transformRootRelativeImages(withChapterHeading, sourcePath);
     const transformed = transformAdmonitions(withPortableImages, locale, customAdmonitions);
     await fs.mkdir(path.dirname(destinationAbsolute), {recursive: true});
     await fs.writeFile(destinationAbsolute, transformed, 'utf8');
