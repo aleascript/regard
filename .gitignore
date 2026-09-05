@@ -3,6 +3,11 @@
 
 # Production
 /build
+/dist
+
+# Publication working files
+/.publication-workspace
+/.release-prepared
 
 # Generated files
 .docusaurus
