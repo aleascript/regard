@@ -291,7 +291,12 @@ blockquote:has(.publication-admonition-design) .publication-admonition-title {
   margin-top: 0.25em;
 }
 
-nav[role='doc-toc'] ol {
+nav[role='doc-toc'] > ol {
+  padding-inline-start: 0;
+  list-style: none;
+}
+
+nav[role='doc-toc'] ol ol {
   padding-inline-start: 1.4em;
 }
 
