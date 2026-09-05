@@ -8,6 +8,7 @@
 # Publication working files
 /.publication-workspace
 /.release-prepared
+/.vivliostyle
 
 # Generated files
 .docusaurus
