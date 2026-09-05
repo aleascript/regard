@@ -97,6 +97,10 @@ hr {
   background: linear-gradient(#c8baa0, #c8baa0) center / 38% 0.6pt no-repeat;
 }
 
+figure:has(img[src$='regard_mosaic_valid_pips_small_transparent.svg']) > figcaption {
+  display: none;
+}
+
 blockquote {
   margin: 1.3em 0;
   padding: 0.65em 0.9em 0.65em 1.05em;
@@ -315,7 +319,7 @@ nav[role='doc-toc'] a {
     order: 2;
     flex: none;
     align-self: flex-end;
-    content: target-counter(attr(href), page);
+    content: target-counter(attr(href url), page);
     text-align: right;
   }
 }
