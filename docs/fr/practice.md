@@ -80,7 +80,7 @@ Glorantha Perspectives montre comment :
 
 > **Le système ne se contente pas de décrire le monde. Il fait vivre au joueur le monde à travers sa propre logique.**
 
-[Lire Glorantha Perspectives →](https://aleascript.github.io/glorantha-perspectives/content/fr/srd/glorantha-perspectives-fr.pdf)
+[Lire Glorantha Perspectives →](https://aleascript.github.io/glorantha-perspectives/fr/)
 
 ## Regard: Scooby-Doo — le test de compression
 
