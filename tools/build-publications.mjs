@@ -259,6 +259,9 @@ async function preparePublication(publicationName, publication, locale, localeCo
     entry: entries,
     entryContext: publicationWorkDir,
     theme: themeDestination,
+    vfm: {
+      rewriteRelativeHrefExtensions: true,
+    },
     toc: {title: localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents'), sectionDepth: 2},
     ...(cover ? {cover: cover.cover} : {}),
     output: outputTargets(publication.outputName ?? publicationName, locale, localeConfig.outputs),
