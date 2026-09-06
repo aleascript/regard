@@ -8,7 +8,7 @@ description: "Regard : un framework de JdR où la fiction détermine ce qui comp
 
 # Regard
 
-![Regard](/img/site/regard_mosaic_valid_pips_small_transparent.svg)
+![Regard](/img/site/regard_mosaic_valid_pips_400.svg)
 
 **Regard est un framework de game design pour jeux de rôles dans lequel la fiction détermine ce qui entre dans la résolution et peut également déterminer comment cette résolution fonctionne.**
 

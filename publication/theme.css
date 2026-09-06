@@ -97,7 +97,7 @@ hr {
   background: linear-gradient(#c8baa0, #c8baa0) center / 38% 0.6pt no-repeat;
 }
 
-figure:has(img[src$='regard_mosaic_valid_pips_small_transparent.svg']) > figcaption {
+figure:has(img[src$='regard_mosaic_valid_pips_400.svg']) > figcaption {
   display: none;
 }
 

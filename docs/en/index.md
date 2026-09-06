@@ -8,7 +8,7 @@ description: "Regard: a TTRPG framework where fiction determines what matters an
 
 # Regard
 
-![Regard](/img/site/regard_mosaic_valid_pips_small_transparent.svg)
+![Regard](/img/site/regard_mosaic_valid_pips_400.svg)
 
 **Regard is a game design framework for role-playing games in which fiction determines what enters resolution and can also determine how that resolution works.**
 

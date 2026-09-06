@@ -58,7 +58,7 @@ export default definePublications({
       size: 'A5',
       theme: 'publication/theme.css',
       cover: {
-        image: 'static/img/site/regard_mosaic_valid_pips_small_transparent.svg',
+        image: 'static/img/site/regard_mosaic_valid_pips_400.svg',
         showTitle: true,
         showMetadata: true,
       },
