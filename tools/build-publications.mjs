@@ -8,6 +8,7 @@ import config from '../publications.config.mjs';
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const workRoot = path.join(projectRoot, '.publication-workspace');
 const outputRoot = path.join(projectRoot, 'dist', 'publications');
+const publicationDocumentStartId = 'publication-document-start';
 
 const standardAdmonitions = ['note', 'tip', 'info', 'warning', 'danger'];
 const defaultTitles = {
@@ -118,6 +119,53 @@ function readDocumentTitle(markdown) {
   return title || null;
 }
 
+function addPublicationDocumentStartAnchor(markdown) {
+  const anchor = `<div id="${publicationDocumentStartId}" aria-hidden="true"></div>`;
+  const frontmatter = markdown.match(/^---\r?\n[\s\S]*?\r?\n---(?:\r?\n|$)/);
+  if (!frontmatter) return `${anchor}\n\n${markdown}`;
+
+  const insertionPoint = frontmatter[0].length;
+  return `${markdown.slice(0, insertionPoint)}\n${anchor}\n\n${markdown.slice(insertionPoint)}`;
+}
+
+function transformTocDocumentList(nodeList) {
+  return (propsList) => ({
+    type: 'element',
+    tagName: 'ol',
+    properties: {},
+    children: nodeList.flatMap((document, index) => {
+      const {children = []} = propsList[index] ?? {};
+      const nestedChildren = [children].flat();
+
+      // Preserve Vivliostyle's default de-duplication for a document that
+      // already contains exactly one top-level H1 (such as the home page).
+      if (document.sections?.length === 1 && document.sections[0].level === 1) {
+        return nestedChildren.flatMap((element) => {
+          if (element.type === 'element' && element.tagName === 'ol') {
+            return element.children;
+          }
+          return element;
+        });
+      }
+
+      return [{
+        type: 'element',
+        tagName: 'li',
+        properties: {},
+        children: [
+          {
+            type: 'element',
+            tagName: 'a',
+            properties: {href: `${document.href}#${publicationDocumentStartId}`},
+            children: [{type: 'text', value: document.title}],
+          },
+          ...nestedChildren,
+        ],
+      }];
+    }),
+  });
+}
+
 function transformRootRelativeImages(markdown, sourcePath) {
   const staticPrefix =
     path.relative(path.dirname(sourcePath), 'static').split(path.sep).join('/') || '.';
@@ -224,7 +272,8 @@ async function preparePublication(publicationName, publication, locale, localeCo
     const destinationAbsolute = path.join(publicationWorkDir, sourcePath);
     const markdown = await fs.readFile(sourceAbsolute, 'utf8');
     const title = readDocumentTitle(markdown);
-    const withPortableImages = transformRootRelativeImages(markdown, sourcePath);
+    const withDocumentStart = addPublicationDocumentStartAnchor(markdown);
+    const withPortableImages = transformRootRelativeImages(withDocumentStart, sourcePath);
     const transformed = transformAdmonitions(withPortableImages, locale, customAdmonitions);
     await fs.mkdir(path.dirname(destinationAbsolute), {recursive: true});
     await fs.writeFile(destinationAbsolute, transformed, 'utf8');
@@ -238,7 +287,7 @@ async function preparePublication(publicationName, publication, locale, localeCo
   await fs.cp(staticSource, staticDestination, {recursive: true});
   const cover = await writeCover(publicationWorkDir, publication, locale, localeConfig, themeDestination, version);
   const entries = [...(cover ? [cover.entry] : []), {rel: 'contents'}, ...contentEntries];
-  const task = {
+  return {
     title: localeConfig.title,
     author: publication.author,
     language: locale,
@@ -249,17 +298,16 @@ async function preparePublication(publicationName, publication, locale, localeCo
     vfm: {
       rewriteRelativeHrefExtensions: true,
     },
-    // Every configured Markdown document appears once; internal headings do not
-    // become extra ToC entries and no heading is injected into the document.
-    toc: {title: localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents'), sectionDepth: 0},
+    toc: {
+      title: localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents'),
+      sectionDepth: 2,
+      transformDocumentList: transformTocDocumentList,
+    },
     ...(cover ? {cover: cover.cover} : {}),
     output: outputTargets(publication.outputName ?? publicationName, locale, localeConfig.outputs),
-    workspaceDir: '.vivliostyle',
+    workspaceDir: path.join(publicationWorkDir, '.vivliostyle'),
     static: {'/': staticDestination},
   };
-  const configPath = path.join(publicationWorkDir, 'vivliostyle.config.json');
-  await fs.writeFile(configPath, JSON.stringify(task, null, 2), 'utf8');
-  return configPath;
 }
 
 async function main() {
@@ -272,8 +320,8 @@ async function main() {
   for (const [publicationName, publication] of Object.entries(config.publications)) {
     for (const [locale, localeConfig] of Object.entries(publication.locales)) {
       console.log(`Building ${publicationName} (${locale})...`);
-      const configPath = await preparePublication(publicationName, publication, locale, localeConfig, version);
-      await build({config: configPath, logLevel: 'info'});
+      const configData = await preparePublication(publicationName, publication, locale, localeConfig, version);
+      await build({configData, logLevel: 'info'});
     }
   }
   await fs.writeFile(path.join(outputRoot, 'publications.json'), `${JSON.stringify(manifest, null, 2)}\n`, 'utf8');
