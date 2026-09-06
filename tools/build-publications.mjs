@@ -90,6 +90,34 @@ function transformAdmonitions(markdown, locale, customTypes) {
   return `${output.join('\n')}\n`;
 }
 
+function decodeFrontmatterScalar(value) {
+  const trimmed = value.trim();
+  if (trimmed.startsWith('"') && trimmed.endsWith('"')) {
+    try {
+      return JSON.parse(trimmed);
+    } catch {
+      return trimmed.slice(1, -1);
+    }
+  }
+  if (trimmed.startsWith("'") && trimmed.endsWith("'")) {
+    return trimmed.slice(1, -1).replaceAll("''", "'");
+  }
+  return trimmed;
+}
+
+function readDocumentTitle(markdown) {
+  const frontmatter = markdown.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+  if (!frontmatter) return null;
+
+  const titleLine = frontmatter[1]
+    .split(/\r?\n/)
+    .find((line) => /^title\s*:/.test(line));
+  if (!titleLine) return null;
+
+  const title = decodeFrontmatterScalar(titleLine.replace(/^title\s*:\s*/, ''));
+  return title || null;
+}
+
 function transformRootRelativeImages(markdown, sourcePath) {
   const staticPrefix =
     path.relative(path.dirname(sourcePath), 'static').split(path.sep).join('/') || '.';
@@ -195,11 +223,12 @@ async function preparePublication(publicationName, publication, locale, localeCo
     const sourceAbsolute = path.join(projectRoot, sourcePath);
     const destinationAbsolute = path.join(publicationWorkDir, sourcePath);
     const markdown = await fs.readFile(sourceAbsolute, 'utf8');
+    const title = readDocumentTitle(markdown);
     const withPortableImages = transformRootRelativeImages(markdown, sourcePath);
     const transformed = transformAdmonitions(withPortableImages, locale, customAdmonitions);
     await fs.mkdir(path.dirname(destinationAbsolute), {recursive: true});
     await fs.writeFile(destinationAbsolute, transformed, 'utf8');
-    contentEntries.push(sourcePath);
+    contentEntries.push(title ? {path: sourcePath, title} : sourcePath);
   }
   const themeSource = path.join(projectRoot, publication.theme);
   const themeDestination = path.join(publicationWorkDir, 'theme.css');
@@ -220,6 +249,8 @@ async function preparePublication(publicationName, publication, locale, localeCo
     vfm: {
       rewriteRelativeHrefExtensions: true,
     },
+    // Every configured Markdown document appears once; internal headings do not
+    // become extra ToC entries and no heading is injected into the document.
     toc: {title: localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents'), sectionDepth: 0},
     ...(cover ? {cover: cover.cover} : {}),
     output: outputTargets(publication.outputName ?? publicationName, locale, localeConfig.outputs),
