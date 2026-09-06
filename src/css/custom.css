@@ -1,9 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Kalam:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@500;600;700&display=swap');
 
 /*
- * Regard: a readable manuscript.
- * The text should feel written and transmitted rather than presented as
- * software documentation: paper, ink, generous rhythm, discreet interface.
+ * Regard: a visual field.
+ * The interface is built around contrast, focus and peripheral quiet rather
+ * than the previous manuscript metaphor. The eye/logo is the expressive mark;
+ * typography and layout stay precise, legible and deliberately unobtrusive.
  */
 :root {
   --ifm-color-primary: var(--site-primary);
@@ -20,13 +21,13 @@
   --ifm-font-family-base: var(--site-font-body);
   --ifm-heading-font-family: var(--site-font-heading);
   --ifm-font-family-monospace: var(--site-font-mono);
-  --ifm-font-size-base: 108%;
-  --ifm-line-height-base: 1.72;
+  --ifm-font-size-base: 105%;
+  --ifm-line-height-base: 1.68;
   --ifm-heading-font-weight: var(--site-heading-weight);
   --ifm-global-radius: var(--site-radius);
   --ifm-global-border-width: var(--site-border-width);
   --ifm-navbar-shadow: var(--site-navbar-shadow);
-  --ifm-navbar-background-color: color-mix(in srgb, var(--site-background) 94%, transparent);
+  --ifm-navbar-background-color: color-mix(in srgb, var(--site-background) 92%, transparent);
   --ifm-toc-border-color: var(--site-border);
   --ifm-color-emphasis-200: var(--site-border);
   --ifm-color-emphasis-300: var(--site-border);
@@ -46,8 +47,21 @@ body {
 
 body {
   background-image:
-    radial-gradient(circle at 15% 10%, rgb(109 83 48 / 3%), transparent 28rem),
-    radial-gradient(circle at 90% 35%, rgb(109 83 48 / 2.5%), transparent 24rem);
+    radial-gradient(
+      circle at 50% -16rem,
+      color-mix(in srgb, var(--site-primary) 8%, transparent),
+      transparent 34rem
+    ),
+    radial-gradient(
+      circle at 92% 38%,
+      color-mix(in srgb, var(--site-primary) 3%, transparent),
+      transparent 28rem
+    );
+  background-attachment: fixed;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--site-primary) 24%, transparent);
 }
 
 [data-theme='dark'] {
@@ -58,43 +72,47 @@ body {
   );
 }
 
-/* Keep the interface quiet; the manuscript belongs to the content. */
+/* Interface text forms the quiet periphery around the reading field. */
 .navbar,
 .menu,
 .table-of-contents,
 .footer,
 .pagination-nav,
 .breadcrumbs {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--site-font-heading);
 }
 
 .navbar {
-  border-bottom: 1px solid color-mix(in srgb, var(--site-border) 72%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--site-border) 78%, transparent);
 }
 
-/*
- * Docusaurus renders the mobile navigation drawer inside the navbar. Applying
- * backdrop-filter to that ancestor creates a containing/stacking context that
- * can clip the fixed-position drawer on mobile browsers. Keep the manuscript
- * blur on desktop, where the drawer is not used.
- */
 @media (min-width: 997px) {
   .navbar {
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(14px) saturate(118%);
   }
 }
 
 .navbar__title {
-  font-family: var(--site-font-heading);
-  font-size: 1.45rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+}
+
+.navbar__logo {
+  margin-right: 0.55rem;
 }
 
 .navbar__link,
 .menu__link,
 .table-of-contents__link {
-  font-size: 0.88rem;
+  font-size: 0.86rem;
+  letter-spacing: 0.01em;
+}
+
+.navbar__link--active,
+.menu__link--active,
+.table-of-contents__link--active {
+  font-weight: 600;
 }
 
 .theme-doc-markdown {
@@ -103,96 +121,125 @@ body {
 }
 
 .theme-doc-markdown > h1:first-child {
-  font-size: clamp(3rem, 8vw, 5.2rem);
-  line-height: 1;
-  margin-bottom: 1.4rem;
-  letter-spacing: -0.025em;
+  max-width: 12ch;
+  margin-bottom: 1.55rem;
+  font-size: clamp(3rem, 8vw, 5rem);
+  font-weight: 600;
+  line-height: 0.98;
+  letter-spacing: -0.055em;
   text-wrap: balance;
 }
 
 .theme-doc-markdown img[alt='Regard'] {
   display: block;
-  width: min(22rem, 72vw);
+  width: min(23rem, 72vw);
   height: auto;
-  margin: 0 auto 2.5rem;
+  margin: 0 auto 3rem;
 }
 
 .theme-doc-markdown h2 {
-  font-size: clamp(2rem, 5vw, 2.8rem);
+  position: relative;
+  margin-top: 3.5rem;
+  padding-top: 0.72rem;
+  border-top: 1px solid color-mix(in srgb, var(--site-border) 86%, transparent);
+  font-size: clamp(1.85rem, 4.5vw, 2.55rem);
+  font-weight: 600;
   line-height: 1.08;
-  margin-top: 3.3rem;
-  padding-bottom: 0.28rem;
-  border-bottom: 1px solid color-mix(in srgb, var(--site-border) 80%, transparent);
+  letter-spacing: -0.035em;
+}
+
+/* A small point of focus marks each new field of attention. */
+.theme-doc-markdown h2::before {
+  position: absolute;
+  top: -0.34rem;
+  left: 0;
+  box-sizing: border-box;
+  width: 0.68rem;
+  height: 0.68rem;
+  border: 2px solid var(--site-primary);
+  border-radius: 50%;
+  background: var(--site-background);
+  box-shadow: 0 0 0 0.24rem var(--site-background);
+  content: '';
 }
 
 .theme-doc-markdown h3 {
-  font-size: clamp(1.55rem, 4vw, 2rem);
-  line-height: 1.15;
-  margin-top: 2.4rem;
+  margin-top: 2.45rem;
+  font-size: clamp(1.42rem, 3.5vw, 1.82rem);
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.025em;
 }
 
 .theme-doc-markdown h4,
 .theme-doc-markdown h5,
 .theme-doc-markdown h6 {
-  font-family: var(--site-font-body);
-  font-style: italic;
-  letter-spacing: 0.01em;
+  font-family: var(--site-font-heading);
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 .theme-doc-markdown p,
 .theme-doc-markdown li {
-  font-size: 1.08rem;
+  font-size: 1.04rem;
 }
 
 .theme-doc-markdown p {
-  margin-bottom: 1.15rem;
+  margin-bottom: 1.1rem;
 }
 
 .theme-doc-markdown strong {
-  color: color-mix(in srgb, var(--site-text) 88%, var(--site-primary));
+  color: color-mix(in srgb, var(--site-text) 90%, var(--site-primary));
 }
 
 .theme-doc-markdown hr {
-  height: 1.2rem;
+  height: 1rem;
   margin: 3rem auto;
   border: 0;
   background:
-    linear-gradient(var(--site-border), var(--site-border)) center / min(15rem, 45%) 1px no-repeat;
-  opacity: 0.8;
+    radial-gradient(circle, transparent 0 2px, var(--site-primary) 2px 3px, transparent 3px) center / 10px 10px no-repeat,
+    linear-gradient(var(--site-border), var(--site-border)) center / min(18rem, 52%) 1px no-repeat;
+  opacity: 0.9;
 }
 
 .theme-doc-markdown blockquote {
-  position: relative;
-  margin: 1.9rem 0;
-  padding: 0.45rem 1.15rem 0.45rem 1.45rem;
-  border-left: 2px solid var(--site-primary);
-  color: color-mix(in srgb, var(--site-text) 72%, var(--site-muted));
-  font-style: italic;
-  background: transparent;
+  margin: 1.8rem 0;
+  padding: 0.7rem 1.1rem 0.7rem 1.25rem;
+  border-left: 3px solid var(--site-primary);
+  color: color-mix(in srgb, var(--site-text) 78%, var(--site-muted));
+  background: color-mix(in srgb, var(--site-surface) 64%, transparent);
 }
 
 .theme-doc-markdown blockquote p {
-  font-size: 1.08rem;
+  font-size: 1.02rem;
 }
 
 .theme-doc-markdown a {
-  text-decoration-color: color-mix(in srgb, var(--site-primary) 55%, transparent);
+  text-decoration-color: color-mix(in srgb, var(--site-primary) 58%, transparent);
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.16em;
+  text-underline-offset: 0.17em;
+}
+
+.theme-doc-markdown a:hover {
+  text-decoration-color: var(--site-primary);
 }
 
 .theme-doc-markdown code {
-  border: 1px solid color-mix(in srgb, var(--site-border) 70%, transparent);
-  background: color-mix(in srgb, var(--site-surface) 76%, transparent);
+  border: 1px solid color-mix(in srgb, var(--site-border) 74%, transparent);
+  background: color-mix(in srgb, var(--site-surface) 72%, transparent);
 }
 
-/* `:::design` becomes a marginal note rather than a software alert box. */
+:where(a, button, summary, input, select, textarea):focus-visible {
+  outline: 2px solid var(--site-primary);
+  outline-offset: 3px;
+}
+
+/* `:::design` is a deliberate focus frame: a change of reading mode. */
 .theme-admonition-design {
-  border: 0;
-  border-top: 1px solid var(--site-border);
-  border-bottom: 1px solid var(--site-border);
-  border-radius: 0;
-  background: color-mix(in srgb, var(--site-surface) 52%, transparent);
+  border: 1px solid var(--site-border);
+  border-left: 4px solid var(--site-primary);
+  border-radius: var(--site-radius);
+  background: color-mix(in srgb, var(--site-surface) 72%, transparent);
   color: var(--site-text);
   box-shadow: none;
 }
@@ -200,26 +247,37 @@ body {
 .theme-admonition-design .admonitionHeading_node_modules-\@docusaurus-theme-classic-lib-theme-Admonition-Layout-styles-module,
 .theme-admonition-design [class*='admonitionHeading'] {
   font-family: var(--site-font-heading);
-  font-size: 1.2rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
 }
 
 .table-of-contents {
-  border-left-color: color-mix(in srgb, var(--site-border) 76%, transparent);
+  border-left-color: color-mix(in srgb, var(--site-border) 82%, transparent);
 }
 
 .pagination-nav__link {
   border-color: var(--site-border);
-  background: color-mix(in srgb, var(--site-surface) 45%, transparent);
+  background: color-mix(in srgb, var(--site-surface) 56%, transparent);
   box-shadow: none;
+  transition:
+    border-color 140ms ease,
+    background-color 140ms ease;
 }
 
-/* The publication catalogue should feel like part of the manuscript, not a download dashboard. */
+.pagination-nav__link:hover {
+  border-color: color-mix(in srgb, var(--site-primary) 55%, var(--site-border));
+  background: color-mix(in srgb, var(--site-surface) 82%, transparent);
+}
+
+/* Publication cards use the same focus language as the reading surface. */
 .publications-page {
   max-width: var(--site-content-width);
 }
 
 .publications-header {
-  margin-bottom: 2rem;
+  margin-bottom: 2.1rem;
 }
 
 .publications-header > h1 {
@@ -238,10 +296,22 @@ body {
 }
 
 .publication-card {
+  position: relative;
+  overflow: hidden;
   padding: 1.35rem;
   border: 1px solid var(--site-border);
   border-radius: var(--site-radius);
-  background: color-mix(in srgb, var(--site-surface) 62%, transparent);
+  background: color-mix(in srgb, var(--site-surface) 68%, transparent);
+}
+
+.publication-card::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3.5rem;
+  height: 2px;
+  background: var(--site-primary);
+  content: '';
 }
 
 .publication-card > h2 {
@@ -258,14 +328,18 @@ body {
 .footer--dark {
   --ifm-footer-background-color: color-mix(
     in srgb,
-    var(--site-background) 90%,
+    var(--site-background) 92%,
     black
   );
 }
 
 @media (max-width: 996px) {
   :root {
-    --ifm-font-size-base: 104%;
+    --ifm-font-size-base: 102%;
+  }
+
+  body {
+    background-attachment: scroll;
   }
 
   .theme-doc-markdown > h1:first-child {
@@ -273,6 +347,6 @@ body {
   }
 
   .theme-doc-markdown h2 {
-    margin-top: 2.7rem;
+    margin-top: 2.8rem;
   }
 }
