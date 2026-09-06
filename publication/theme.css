@@ -312,6 +312,10 @@ nav[role='doc-toc'] ol {
   list-style: none;
 }
 
+nav[role='doc-toc'] li::marker {
+  content: '';
+}
+
 nav[role='doc-toc'] > ol {
   padding-inline-start: 0;
 }
@@ -344,7 +348,7 @@ nav[role='doc-toc'] a {
     order: 2;
     flex: none;
     align-self: flex-end;
-    content: target-counter(attr(href url), page);
+    content: target-counter(attr(href), page);
     text-align: right;
   }
 }
