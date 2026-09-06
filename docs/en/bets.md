@@ -128,6 +128,43 @@ An injury may belong to the character and still feed the adverse orientation. A 
 
 A Bet's fictional origin and its orientation are two distinct questions.
 
+## A pool can be empty
+
+An orientation may receive no Bet. Its pool then contains **zero dice**.
+
+Neither the Intention nor the mere existence of an orientation supplies an implicit Bet. Regard does not add a “base die” to represent the character, their action, or the orientation itself.
+
+> **Every die placed on the table must represent a fictional truth that the Focus has actually made relevant.**
+
+“It's the base die because there has to be one” is therefore never a sufficient answer.
+
+### One empty orientation: 0 / N
+
+An empty pool is valid. It simply means that no truth retained as relevant weighs in that orientation.
+
+For example, a character tries to convince their brother to let them leave. Nothing especially relevant weighs in the character's favor, but the brother has *Sworn to their father to protect them*. The resolution may therefore be **0 / 1**.
+
+This does not mean the character has “zero social skill.” Regard is not measuring an abstract competence here: it is observing what matters **here and now**.
+
+A strongly asymmetric result is therefore valid when it genuinely expresses the fictional situation.
+
+### Both orientations are empty: 0 / 0
+
+A **0 / 0 is not a roll to make**. It is a framing signal.
+
+The table returns to the question:
+
+> **If nothing matters in either direction, what actually makes the outcome uncertain?**
+
+Two possibilities follow:
+
+1. the answer reveals a relevant truth that had not yet been identified: it may become a Bet;
+2. no relevant truth appears: the situation probably does not require resolution, and the fiction moves forward directly.
+
+This extends the framing principle that resolution does not ask the dice what the fiction already knows: it brings them in where the fiction remains open.
+
+Regard therefore never adds a die merely to make a roll possible.
+
 ## A Bet is also a choice of attention
 
 Relevance is not only causal.

@@ -20,7 +20,7 @@ Dans la configuration standard, chaque Mise apporte un D6 et chaque résultat pa
 
 Lorsqu’une perspective mérite de devenir mécaniquement opérante, un **Prisme** peut transformer la manière dont l’incertitude est lue. Une même orientation peut réunir plusieurs perspectives : leurs Mises sont traitées par leurs Prismes respectifs puis leurs sorties sont agrégées lorsqu’elles sont comparables. Regard utilise actuellement les **Réussites** comme format commun d’interopérabilité, sans en faire une obligation universelle pour toutes les implémentations futures.
 
-Une adversité sans perspective propre n’a pas besoin d’en recevoir artificiellement une : elle peut posséder sa propre logique, être traitée en **Mode Miroir** lorsque le design veut que la perspective du protagoniste colore l’ensemble de l’épreuve, ou utiliser par défaut le **Prisme standard**.
+Une adversité sans perspective propre n’a pas besoin d’en recevoir artificiellement une : elle peut posséder sa propre logique, être traitée en **Mode Miroir** lorsque le design veut que la perspective du protagoniste colore l’ensemble de l’épreuve, ou utiliser par défaut le **Prisme standard — le Regard indifférent**.
 
 Le support, les motifs recherchés, les interactions entre pools ou même la forme du résultat peuvent ainsi exprimer une relation particulière au monde. Plus exceptionnellement, un jeu peut aussi faire entrer le dispositif réel de la table en résonance avec la fiction — par exemple avec des **Mises incarnées** optionnelles ou une synchronisation temporelle — lorsque cette continuité apporte réellement quelque chose à l’expérience.
 

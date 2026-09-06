@@ -17,7 +17,7 @@ For each orientation:
 - each **odd** result produces no Success;
 - the number of Successes obtained by the two orientations is then compared.
 
-> **This even / odd reading is Regard's standard Prism.** We use it here as the default answer for learning to play. Later we will see why this Prism is neither more “real” nor more fundamental than any other: it is a **design zero point** that fiction may keep or transform.
+> **This even / odd reading is Regard's standard Prism, also called the *Indifferent Gaze*.** It reads uncertainty without inscribing any particular perspective into it: every die is treated in the same way. We use it here as the default answer for learning to play. Later we will see why this Prism is neither more “real” nor more fundamental than any other: it is a **design zero point** that fiction may keep or transform.
 
 When the orientations correspond to identifiable actors, the table can simply speak of **sides**.
 

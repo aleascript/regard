@@ -128,6 +128,43 @@ Une blessure peut appartenir au personnage et pourtant alimenter l’orientation
 
 L’origine fictionnelle d’une Mise et son orientation sont deux questions distinctes.
 
+## Un pool peut être vide
+
+Une orientation peut ne recevoir aucune Mise. Son pool contient alors **zéro dé**.
+
+Ni l’Intention, ni le simple fait qu’une orientation existe ne fournissent de Mise implicite. Regard n’ajoute pas de « dé de base » pour représenter le personnage, son action ou son orientation.
+
+> **Chaque dé posé sur la table doit représenter une vérité fictionnelle effectivement rendue pertinente par le Focus.**
+
+La réponse « c’est le dé de base parce qu’il en faut un » n’est donc jamais suffisante.
+
+### Une orientation vide : 0 / N
+
+Un pool vide est valide. Il signifie simplement qu’aucune vérité retenue comme pertinente ne pèse dans cette orientation.
+
+Un personnage tente par exemple de convaincre son frère de le laisser partir. Rien de particulièrement pertinent ne joue en sa faveur, mais son frère a *Juré à leur père de le protéger*. La résolution peut donc être **0 / 1**.
+
+Cela ne signifie pas que le personnage possède « zéro compétence sociale ». Regard ne mesure pas ici une compétence abstraite : il observe ce qui compte **ici et maintenant**.
+
+Un résultat très asymétrique est donc acceptable s’il exprime réellement la situation fictionnelle.
+
+### Les deux orientations sont vides : 0 / 0
+
+Un **0 / 0 n’est pas un tirage à effectuer**. C’est un signal de cadrage.
+
+La table revient alors à la question :
+
+> **Si rien ne compte dans un sens ni dans l’autre, qu’est-ce qui rend réellement l’issue incertaine ?**
+
+Deux possibilités se présentent :
+
+1. la réponse révèle une vérité pertinente qui n’avait pas encore été identifiée : elle peut devenir une Mise ;
+2. aucune vérité pertinente n’apparaît : la situation ne nécessite probablement pas de résolution et la fiction avance directement.
+
+Cela prolonge le principe de cadrage selon lequel une résolution ne demande pas aux dés ce que la fiction sait déjà : elle les fait intervenir là où la fiction reste ouverte.
+
+Regard n’ajoute donc jamais un dé simplement pour rendre un tirage possible.
+
 ## Une Mise est aussi un choix de regard
 
 La pertinence n’est pas seulement causale.

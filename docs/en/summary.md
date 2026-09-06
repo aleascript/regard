@@ -20,7 +20,7 @@ In the standard configuration, each Bet contributes one D6 and each even result 
 
 When a perspective deserves to become mechanically operative, a **Prism** can transform the way uncertainty is read. The same orientation may bring together several perspectives: their Bets are processed by their respective Prisms, then their outputs are aggregated when they are comparable. Regard currently uses **Successes** as its common interoperability format without making them a universal requirement for every future implementation.
 
-Adversity without a perspective of its own does not need one to be assigned artificially: it may possess its own logic, be treated in **Mirror Mode** when the design wants the protagonist's perspective to color the entire test, or use the **standard Prism** by default.
+Adversity without a perspective of its own does not need one to be assigned artificially: it may possess its own logic, be treated in **Mirror Mode** when the design wants the protagonist's perspective to color the entire test, or use the **standard Prism — the Indifferent Gaze** by default.
 
 The medium, the patterns being sought, interactions between pools, or even the form of the result can thus express a particular relationship to the world. More exceptionally, a game may also make the actual table apparatus resonate with the fiction — for example through optional **Embodied Bets** or temporal synchronization — when that continuity genuinely adds something to the experience.
 
