@@ -148,21 +148,6 @@ body {
   letter-spacing: -0.035em;
 }
 
-/* A small point of focus marks each new field of attention. */
-.theme-doc-markdown h2::before {
-  position: absolute;
-  top: -0.34rem;
-  left: 0;
-  box-sizing: border-box;
-  width: 0.68rem;
-  height: 0.68rem;
-  border: 2px solid var(--site-primary);
-  border-radius: 50%;
-  background: var(--site-background);
-  box-shadow: 0 0 0 0.24rem var(--site-background);
-  content: '';
-}
-
 .theme-doc-markdown h3 {
   margin-top: 2.45rem;
   font-size: clamp(1.42rem, 3.5vw, 1.82rem);
@@ -196,9 +181,7 @@ body {
   height: 1rem;
   margin: 3rem auto;
   border: 0;
-  background:
-    radial-gradient(circle, transparent 0 2px, var(--site-primary) 2px 3px, transparent 3px) center / 10px 10px no-repeat,
-    linear-gradient(var(--site-border), var(--site-border)) center / min(18rem, 52%) 1px no-repeat;
+  background: linear-gradient(var(--site-border), var(--site-border)) center / min(18rem, 52%) 1px no-repeat;
   opacity: 0.9;
 }
 
