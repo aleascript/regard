@@ -17,7 +17,7 @@ Pour chaque orientation :
 - chaque résultat **impair** ne produit pas de Réussite ;
 - on compare ensuite le nombre de Réussites obtenues par les deux orientations.
 
-> **Cette lecture pair / impair constitue le Prisme standard de Regard.** Nous l’utilisons ici comme réponse par défaut pour apprendre à jouer. Nous verrons plus loin pourquoi ce Prisme n’est ni plus « réel » ni plus fondamental qu’un autre : il constitue un **point zéro de design**, que la fiction peut conserver ou transformer.
+> **Cette lecture pair / impair constitue le Prisme standard de Regard, que nous appelons aussi le *Regard indifférent*.** Il lit l’incertitude sans y inscrire de perspective particulière : chaque dé est traité de la même manière. Nous l’utilisons ici comme réponse par défaut pour apprendre à jouer. Nous verrons plus loin pourquoi ce Prisme n’est ni plus « réel » ni plus fondamental qu’un autre : il constitue un **point zéro de design**, que la fiction peut conserver ou transformer.
 
 Lorsque les orientations correspondent à des acteurs identifiables, on peut simplement parler des **camps**.
 
