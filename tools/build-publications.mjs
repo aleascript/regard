@@ -220,7 +220,7 @@ async function preparePublication(publicationName, publication, locale, localeCo
     vfm: {
       rewriteRelativeHrefExtensions: true,
     },
-    toc: {title: localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents'), sectionDepth: 2},
+    toc: {title: localeConfig.tocTitle ?? (locale === 'fr' ? 'Sommaire' : 'Contents'), sectionDepth: 0},
     ...(cover ? {cover: cover.cover} : {}),
     output: outputTargets(publication.outputName ?? publicationName, locale, localeConfig.outputs),
     workspaceDir: '.vivliostyle',
