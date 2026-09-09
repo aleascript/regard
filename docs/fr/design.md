@@ -16,7 +16,8 @@ Les éléments suivants constituent le geste de Regard :
 - définir un Focus et son Zoom ;
 - faire porter la résolution sur ce qui reste réellement incertain ;
 - rendre visibles les conséquences importantes lorsque le contrat de table le demande ;
-- sélectionner ce qui compte et dans quel sens cela compte ;
+- mettre deux issues possibles en balance ;
+- sélectionner ce qui compte et en faveur de quelle issue cela compte ;
 - éviter les redondances à l’échelle choisie ;
 - confronter les Mises à une forme d’incertitude ;
 - produire une forme de résultat exploitable par la fiction ;
@@ -28,7 +29,7 @@ D’autres éléments appartiennent à la configuration standard et peuvent êtr
 - utiliser des D6 ;
 - associer une Mise à un dé ;
 - lire les nombres pairs comme des Réussites ;
-- former deux pools à partir des deux orientations du Focus ;
+- comparer les Mises qui jouent en faveur des deux issues ;
 - utiliser la même représentation physique pour toutes les Mises ;
 - employer l’échelle standard de résultats ;
 - employer la surenchère ;
@@ -40,25 +41,25 @@ La variation n’est pas un ajout extérieur au framework.
 
 ## Une chaîne standard de responsabilités
 
-Dans la configuration standard — et dans les implémentations qui comparent deux orientations — on peut séparer les opérations ainsi :
+Dans la configuration standard — et dans les implémentations qui comparent deux issues — on peut séparer les opérations ainsi :
 
-> **Mises orientées → support d’incertitude → Prisme → signaux mécaniques → agrégation par orientation → échelle de résultat → interprétation → fiction transformée**
+> **Mises de chaque côté → support d’incertitude → Prisme → signaux mécaniques → regroupement par issue → échelle de résultat → interprétation → fiction transformée**
 
 Dans la configuration standard :
 
-> **Mises orientées → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
+> **Mises de chaque côté → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
 
 Cette séparation évite de demander à une seule mécanique de tout faire.
 
 Le **Prisme** transforme l’incertitude en signaux mécaniques.
 
-Lorsque plusieurs contributions appartiennent à une même orientation, elles doivent pouvoir être réunies avant la comparaison.
+Lorsque plusieurs contributions jouent en faveur de la même issue, elles doivent pouvoir être réunies avant la comparaison.
 
 L’**échelle de résultat** transforme ensuite la comparaison en une forme de résultat.
 
 L’**interprétation** transforme enfin cette forme de résultat en fiction à partir des Mises et de la situation.
 
-Cette chaîne est une architecture de référence, pas une obligation universelle. Une implémentation légère peut employer un Prisme dont le résultat est directement exploitable sans passer par une opposition entre deux pools.
+Cette chaîne est une architecture de référence, pas une obligation universelle. Une implémentation légère peut employer un Prisme dont le résultat est directement exploitable sans passer par une opposition entre deux ensembles de Mises.
 
 ## Les Prismes : comment une perspective transforme l’incertitude
 
@@ -81,7 +82,7 @@ Il peut modifier :
 - les dés qui peuvent être relancés ou transformés ;
 - les résultats qui s’annulent ;
 - les coûts attachés à certains résultats ;
-- les relations entre plusieurs pools ;
+- les relations entre les Mises des deux côtés ;
 - les supports utilisés ;
 - la forme même du résultat.
 
@@ -103,32 +104,32 @@ C’est un **point zéro de design**, pas une norme à laquelle les autres Prism
 
 Il constitue également le comportement par défaut d’une adversité sans perspective propre lorsque ni le monde ni le design ne justifient un autre traitement.
 
-### Orientation et Prisme répondent à deux questions différentes
+### Deux questions distinctes : de quel côté une Mise pèse, et comment elle est lue
 
 Deux décisions ne doivent pas être confondues :
 
-1. **Dans quel pool cette Mise entre-t-elle ?**  
-   Cela dépend de son orientation relativement au Focus et à l’Intention.
+1. **Quelle issue cette Mise favorise-t-elle ?**  
+   Cela dépend du Focus et de la situation fictionnelle.
 2. **Comment cette Mise devient-elle mécaniquement lisible ?**  
    Cela dépend du Prisme de la perspective qui la porte, ou du Prisme que le jeu attribue à son actualisation.
 
-> **L’orientation détermine de quel côté une vérité pèse. Le Prisme détermine comment cette vérité traverse l’incertitude pour devenir mécaniquement lisible.**
+> **Le Focus détermine de quel côté une vérité pèse. Le Prisme détermine comment cette vérité traverse l’incertitude pour devenir mécaniquement lisible.**
 
-Un pool est donc d’abord un regroupement de Mises orientées dans le même sens. Il n’a pas besoin d’être homogène du point de vue des Prismes.
+Les Mises qui favorisent une même issue n’ont donc pas besoin d’être homogènes du point de vue des Prismes.
 
 ### Un camp collectif peut réunir plusieurs Prismes
 
 > **Partager une Intention ne signifie pas partager une perspective.**
 
-Si plusieurs protagonistes contribuent à la même Intention avec des perspectives différentes, leurs Mises restent réunies par leur orientation commune, mais elles sont traitées selon leurs Prismes respectifs.
+Si plusieurs protagonistes contribuent à la même issue avec des perspectives différentes, leurs Mises restent du même côté, mais elles sont traitées selon leurs Prismes respectifs.
 
 Dans ce cas :
 
-1. les Mises restent regroupées par orientation ;
+1. les Mises restent regroupées selon l’issue qu’elles favorisent ;
 2. elles sont traitées par sous-ensembles cohérents selon les Prismes des perspectives qui les portent ;
-3. les sorties comparables sont réunies au niveau de l’orientation.
+3. les sorties comparables sont réunies pour cette issue avant la comparaison.
 
-> **Le camp détermine quelles contributions sont réunies. Le Prisme détermine comment chacune devient une contribution mécaniquement comparable.**
+> **Le côté détermine quelles contributions sont réunies. Le Prisme détermine comment chacune devient une contribution mécaniquement comparable.**
 
 Cette règle évite d’imposer artificiellement le Prisme d’un leader, le Prisme majoritaire ou un mélange mécanique sans sens fictionnel.
 
@@ -140,15 +141,15 @@ Dans l’état actuel de Regard, plusieurs Prismes peuvent contribuer à une mê
 
 Il faut cependant distinguer cette solution actuelle du principe architectural plus général.
 
-> **Lorsque plusieurs Prismes contribuent à une même résolution, leurs sorties doivent pouvoir devenir mécaniquement comparables au moment de leur agrégation. Regard utilise actuellement les Réussites pour assurer cette comparabilité. D’autres contrats d’interopérabilité sont concevables, mais le framework ne les formalise pas encore.**
+> **Lorsque plusieurs Prismes contribuent à la même issue dans une résolution, leurs sorties doivent pouvoir devenir mécaniquement comparables au moment où elles sont réunies. Regard utilise actuellement les Réussites pour assurer cette comparabilité. D’autres contrats d’interopérabilité sont concevables, mais le framework ne les formalise pas encore.**
 
 La Réussite ne doit donc pas être transformée prématurément en sortie universelle obligatoire pour toute implémentation future de Regard.
 
-Un jeu dont les Prismes ne produisent pas de sorties directement comparables doit définir lui-même comment plusieurs perspectives peuvent coopérer dans une même orientation.
+Un jeu dont les Prismes ne produisent pas de sorties directement comparables doit définir lui-même comment plusieurs perspectives peuvent coopérer du même côté.
 
 ### Adversité sans perspective propre
 
-Une orientation adverse peut être composée de vérités comme :
+Les Mises qui jouent en faveur de l’issue adverse peuvent être des vérités comme :
 
 - *paroi verticale* ;
 - *froid extrême* ;
@@ -253,7 +254,7 @@ Choisissez ensuite ce qui peut rendre cette logique sensible :
 - relances ;
 - tailles de dés ;
 - cartes, couleurs ou symboles ;
-- interactions entre pools ;
+- interactions entre les Mises des deux côtés ;
 - modifications de l’adversité ;
 - autre support d’incertitude.
 
@@ -261,7 +262,7 @@ Le support vient après le sens qu’il doit produire.
 
 ### 4. Décider quelle forme de résultat produire
 
-Si plusieurs Prismes doivent participer à une même opposition, leurs sorties doivent pouvoir devenir comparables au moment de leur agrégation. Regard utilise actuellement les Réussites pour ce rôle.
+Si plusieurs Prismes doivent participer à une même opposition, leurs sorties doivent pouvoir devenir comparables au moment où elles sont réunies. Regard utilise actuellement les Réussites pour ce rôle.
 
 Mais un jeu léger peut employer un résultat autonome si cela sert mieux l’expérience recherchée.
 
@@ -336,18 +337,18 @@ Lorsqu’une table utilise cette règle :
 
 1. la Mise doit d’abord être pertinente et non redondante pour le Focus ;
 2. son incarnation doit rendre immédiatement intelligible la vérité fictionnelle qu’elle exprime ;
-3. **la Mise reste dans son pool** et est traitée normalement par son Prisme ;
-4. son incarnation apporte **1 Réussite supplémentaire** à son orientation ;
-5. au maximum **une Mise incarnée par orientation et par résolution** ;
+3. **la Mise reste parmi les Mises de son côté** et est traitée normalement par son Prisme ;
+4. son incarnation apporte **1 Réussite supplémentaire** du même côté ;
+5. au maximum **une Mise incarnée de chaque côté et par résolution** ;
 6. le meneur peut incarner une Mise de l’adversité selon les mêmes règles.
 
-> **L’incarnation ajoute une Réussite sans modifier la manière dont le Prisme traite le pool.**
+> **L’incarnation ajoute une Réussite sans modifier la manière dont le Prisme traite les dés correspondants.**
 
 Cette formulation est importante. Retirer le dé d’une Mise incarnée pourrait modifier artificiellement le comportement d’un Prisme fondé sur une somme, des doubles, des motifs, des explosions ou d’autres relations internes au tirage.
 
 La résolution reste globale : on ne cherche pas à établir après coup quelle Mise précise « a réussi » dans le tirage.
 
-Si les deux orientations recherchent systématiquement une incarnation, les Réussites supplémentaires peuvent tendre à se neutraliser et le geste devenir un automatisme.
+Si les deux côtés recherchent systématiquement une incarnation, les Réussites supplémentaires peuvent tendre à se neutraliser et le geste devenir un automatisme.
 
 Ce n’est pas nécessairement un défaut pour un jeu qui cherche précisément une pratique rituelle, performative ou fortement incarnée. Mais Regard n’impose pas cette esthétique à toutes les implémentations.
 
@@ -492,15 +493,15 @@ Pour concevoir un jeu avec Regard, demandez notamment :
 6. **Le Focus porte-t-il sur une véritable incertitude, ou demande-t-il aux dés de décider quelque chose que la fiction a déjà établi ?**
 7. **Si une vérité est déjà fixée, quelle question reste réellement ouverte autour d’elle ?**
 8. **Le Zoom choisi correspond-il aux différences que la fiction souhaite encore distinguer ?**
-9. **Quelles vérités poussent dans le sens de l’Intention et lesquelles poussent contre elle pour ce Focus précis ?**
-10. **Plusieurs perspectives ou Prismes contribuent-ils à la même orientation ? Si oui, leurs sorties peuvent-elles devenir interopérables ?**
-11. **L’orientation adverse possède-t-elle une perspective ou une logique propre qui mérite un Prisme particulier ?**
-12. **Si elle n’en possède pas, faut-il employer le Mode Miroir ou le Prisme standard, et pourquoi ?**
+9. **Quelles sont les deux issues mises en balance, et quelles vérités jouent en faveur de chacune pour ce Focus précis ?**
+10. **Plusieurs perspectives ou Prismes contribuent-ils à la même issue ? Si oui, leurs sorties peuvent-elles devenir interopérables ?**
+11. **L’autre côté possède-t-il une perspective ou une logique propre qui mérite un Prisme particulier ?**
+12. **Si ce n’est pas le cas, faut-il employer le Mode Miroir ou le Prisme standard, et pourquoi ?**
 13. **Si un Miroir est envisagé pour une résolution collective, existe-t-il réellement une perspective unique à refléter ?**
 14. **Quelles conséquences doivent être explicites avant qu’un joueur s’y expose ?**
 15. **La configuration standard suffit-elle à exprimer ce monde ?**
 16. **Si non, quelle perspective mérite un Prisme particulier et que doit-il faire ressentir plutôt que simplement simuler ?**
-17. **Le jeu a-t-il besoin de pools opposés, et plusieurs Prismes doivent-ils partager un format de sortie commun ?**
+17. **Le jeu a-t-il besoin de comparer deux ensembles de Mises, et plusieurs Prismes doivent-ils partager un format de sortie commun ?**
 18. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
 19. **Une correspondance entre le dispositif réel de table et la fiction rend-elle quelque chose du monde réellement perceptible, ou ajoute-t-elle seulement un gimmick ?**
 20. **Quelles conséquences doivent retourner durablement dans la fiction ou sur la feuille ?**

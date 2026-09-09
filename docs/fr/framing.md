@@ -95,7 +95,7 @@ Le Zoom permet ainsi de contrôler le rythme sans inventer un sous-système pour
 
 ### Le Zoom ne règle pas la difficulté
 
-Choisir un Focus individuel ou collectif ne sert pas à ajuster artificiellement la taille des pools.
+Choisir un Focus individuel ou collectif ne sert pas à ajuster artificiellement le nombre de Mises.
 
 > **Le Zoom ne règle pas la difficulté. Il détermine quelles différences la fiction souhaite encore distinguer.**
 

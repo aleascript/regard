@@ -44,7 +44,7 @@ The quality of the result depends less on the raw total than on the proximity be
 
 ### Symbiosis — Mimicry
 
-A player's die becomes a Success only if it shows exactly the same value as a die in the adversity pool.
+A player's die becomes a Success only if it shows exactly the same value as a die in the opposing roll.
 
 You therefore do not win by simply producing more independent successes.
 
@@ -54,7 +54,7 @@ You win by finding **a form of correspondence with what you are facing**.
 
 ### Parasite — Corruption
 
-Some low results allow the player to take, move, or exchange elements of the opposing pool.
+Some low results allow the player to take, move, or exchange elements of the opposing roll.
 
 The character's strength then literally comes from what they steal from the other side.
 
@@ -110,7 +110,7 @@ In another, every ally present lets the character turn one category of failure i
 
 Collaboration exists, but it is asymmetric: one character benefits by taking something away from the others.
 
-They may gain extra Successes by taking dice from allies' pools, or protect their own Defeat by destroying a nearby ally's Success.
+They may gain extra Successes by taking dice from allies' rolls, or protect their own Defeat by destroying a nearby ally's Success.
 
 **Possible diegetic expressions:** psychic vampire, necromancer, toxic leader, noble whose status protects them at the expense of their servants.
 
@@ -131,6 +131,6 @@ They explore several directions:
 - transforming the desired composition of a scene;
 - transforming the medium;
 - transforming the form of the result itself;
-- producing, when it serves the game, a standalone result without an opposing pool.
+- producing, when it serves the game, a standalone result without opposing Bets.
 
 > **The Workshop does not define Regard's limits. It helps search for them.**

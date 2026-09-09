@@ -4,7 +4,7 @@ title: 5. What maintains coherence
 sidebar_position: 6
 ---
 
-At first glance, Regard may seem dangerously permissive: if almost any fictional truth can become a Bet, why couldn't the table simply invoke everything until the pools grow without limit?
+At first glance, Regard may seem dangerously permissive: if almost any fictional truth can become a Bet, why couldn't the table simply invoke everything until Bets accumulate without limit?
 
 The answer is not one single mechanism.
 
@@ -41,7 +41,7 @@ This is not a very difficult action. It simply does not belong to the normal spa
 
 > *You cannot kill a dragon with a toothpick simply by accumulating relevant Bets.*
 
-The problem is not the size of the pool. The proposed means does not allow this resolution to be opened in that form.
+The problem is not the number of Bets. The proposed means does not allow this resolution to be opened in that form.
 
 ### Local Frame Factor
 
@@ -136,7 +136,7 @@ It can be represented by:
 - **blue** dice in favor of the protagonists;
 - **red** dice in favor of adversity.
 
-Before the roll, if the pools are unequal, the difference feeds the Gauge in favor of the side currently at a disadvantage.
+Before the roll, if the number of Bets differs from one side to the other, the difference feeds the Gauge in favor of the side currently at a disadvantage.
 
 > The protagonists have 5 Bets and adversity has 3.  
 > The opposition remains **5 versus 3**.  

@@ -44,7 +44,7 @@ La qualité du résultat dépend moins de la somme brute que de la proximité en
 
 ### Symbiose — le Mimétisme
 
-Un dé du joueur ne devient une Réussite que s’il affiche exactement la même valeur qu’un dé de l’adversité.
+Un dé du joueur ne devient une Réussite que s’il affiche exactement la même valeur qu’un dé du tirage adverse.
 
 On ne gagne donc pas en produisant davantage de succès indépendants.
 
@@ -54,7 +54,7 @@ On gagne en trouvant **une forme de correspondance avec ce à quoi l’on fait f
 
 ### Parasite — la Corruption
 
-Certains résultats faibles permettent de prendre, déplacer ou échanger des éléments du pool adverse.
+Certains résultats faibles permettent de prendre, déplacer ou échanger des éléments du tirage adverse.
 
 La force du personnage vient alors littéralement de ce qu’il vole à l’autre.
 
@@ -110,7 +110,7 @@ Dans une autre, chaque allié présent permet de transformer une catégorie d’
 
 La collaboration existe, mais elle est asymétrique : un personnage gagne parce qu’il retire quelque chose aux autres.
 
-Il peut obtenir des Réussites supplémentaires en prenant des dés dans les pools de ses alliés, ou protéger sa propre Défaite en détruisant une Réussite d’un allié proche.
+Il peut obtenir des Réussites supplémentaires en prenant des dés dans les tirages de ses alliés, ou protéger sa propre Défaite en détruisant une Réussite d’un allié proche.
 
 **Diégèses possibles :** vampire psychique, nécromancien, chef toxique, noble dont le statut le protège au prix de ses serviteurs.
 
@@ -131,6 +131,6 @@ Ils explorent plusieurs directions :
 - transformer la composition souhaitable d’une scène ;
 - transformer le support ;
 - transformer la forme même du résultat ;
-- produire, lorsque cela sert le jeu, un résultat autonome sans pool adverse.
+- produire, lorsque cela sert le jeu, un résultat autonome sans Mises adverses.
 
 > **L’Atelier ne définit pas les limites de Regard. Il aide à les chercher.**

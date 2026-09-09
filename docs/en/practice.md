@@ -120,9 +120,9 @@ Players remain free to attempt whatever they want, but the game quickly teaches 
 
 ### The Clumsy Duo: a standalone result
 
-Shaggy and Scooby do not necessarily play against an opposing pool.
+Shaggy and Scooby do not necessarily play against adverse Bets.
 
-Each gathers their own Bets and rolls a separate pool.
+Each gathers their own Bets and makes a separate roll.
 
 Their even results count normally and their Successes are added together.
 
@@ -132,13 +132,13 @@ But their bond has an additional mechanical translation:
 
 A `3` rolled by Shaggy does not resonate with another `3` rolled by Shaggy. A `3` must also appear in Scooby's roll.
 
-They remain two characters with two distinct pools, but their clumsiness becomes more effective when they are together.
+They remain two characters with two distinct sets of Bets, but their clumsiness becomes more effective when they are together.
 
 The rule therefore pushes them mechanically toward their trope: **Shaggy and Scooby benefit from staying side by side.**
 
 The result directly describes **the scale of the chaos they produce**.
 
-This case shows that a Prism can produce a **standalone result**: Regard does not force every implementation through "two pools → comparable Successes → opposition."
+This case shows that a Prism can produce a **standalone result**: Regard does not force every implementation through "two sets of Bets → comparable Successes → opposition."
 
 ### The Brain: the most conventional logic
 

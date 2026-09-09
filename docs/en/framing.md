@@ -95,7 +95,7 @@ Zoom therefore lets the table control pacing without inventing a subsystem for e
 
 ### Zoom does not set difficulty
 
-Choosing an individual or collective Focus is not a way to adjust pool size artificially.
+Choosing an individual or collective Focus is not a way to adjust the number of Bets artificially.
 
 > **Zoom does not set difficulty. It determines which differences the fiction still wants to distinguish.**
 
