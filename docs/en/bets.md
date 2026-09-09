@@ -94,53 +94,60 @@ The movement can be summarized as follows:
 
 > **Fiction proposes. Focus selects. The Bet makes it operative.**
 
-## A Bet's orientation depends on the Focus
+## Two outcomes in the balance
+
+A resolution does not try to list everything that might happen next.
+
+The **Focus** isolates what must be decided now by placing **two possible outcomes in the balance**.
+
+An Intention often provides one outcome: what the character, group, or force is trying to obtain. The situation lets the table formulate what is at stake on the other side. The two outcomes may be directly opposed, but they do not have to be.
+
+> **The two outcomes state what the resolution must decide. They do not claim to describe everything that may happen.**
+
+For example, a messenger wants to cross a ford before being caught. The Focus can place in the balance:
+
+- *the messenger reaches the far bank before the patrol*;
+- *the patrol catches the messenger before the crossing is complete*.
+
+Other events can obviously occur around either outcome. They belong to interpretation, consequences, or what happens next, not necessarily to the question this resolution must decide.
+
+## A Bet favors an outcome
 
 A Bet is not favorable or adverse in itself.
 
 > *Driving rain*
 
-may push against the Intention when the Focus is:
+may work against a quick crossing when the Focus concerns getting over a pass before nightfall, but favor an escape when it hides the characters' tracks.
 
-> *Do we manage to cross the pass before nightfall?*
+> **A Bet favors one of the two outcomes relative to the current Focus.**
 
-but push in its favor when the Focus becomes:
+The Focus therefore selects what matters **and lets the table see which side it matters on**.
 
-> *Do we manage to lose our pursuers?*
+An injury may belong to the character and still favor the other outcome. A weakness in the opposition may instead favor the outcome sought by the character.
 
-> **A Bet is favorable or adverse relative to the Focus and the Intention under consideration.**
+A Bet's fictional origin and the side it favors are two distinct questions.
 
-In the standard configuration:
+When identifiable characters, groups, or forces carry the two outcomes, **side** remains a natural shorthand at the table. But an injury, a mountain, weather, or distance can favor the other side without constituting a fictional "side" in its own right.
 
-- Bets that push **in the direction of the Intention** form one orientation;
-- Bets that push **against the Intention** form the other;
-- the Bets in each orientation form a pool.
+There is therefore no need to give the resulting mechanical groupings a special name. At the table, you can simply speak of:
 
-When identifiable characters, groups, or forces carry those orientations, **side** remains a natural shorthand at the table.
+- the **Bets favoring this outcome**;
+- the **Bets on the other side**;
+- or, when that genuinely matches the fiction, the **Bets of each side**.
 
-But an injury, a mountain, weather, or distance can feed an adverse orientation without constituting a fictional "side" in its own right.
+## An outcome may have no Bet
 
-> **The two pools do not always represent two characters. They represent the two directions in which the situation can tip for the Focus.**
+One of the two outcomes may receive no Bet. In the standard configuration it is then represented by **zero dice**.
 
-The Focus therefore selects what matters **and lets the table see in which direction it matters**.
-
-An injury may belong to the character and still feed the adverse orientation. A weakness in the opposition may instead feed the favorable orientation.
-
-A Bet's fictional origin and its orientation are two distinct questions.
-
-## A pool can be empty
-
-An orientation may receive no Bet. Its pool then contains **zero dice**.
-
-Neither the Intention nor the mere existence of an orientation supplies an implicit Bet. Regard does not add a “base die” to represent the character, their action, or the orientation itself.
+Neither the Intention nor the mere fact that an outcome is in the balance supplies an implicit Bet. Regard does not add a “base die” to represent the character, their action, or an outcome.
 
 > **Every die placed on the table must represent a fictional truth that the Focus has actually made relevant.**
 
 “It's the base die because there has to be one” is therefore never a sufficient answer.
 
-### One empty orientation: 0 / N
+### One side with no Bet: 0 / N
 
-An empty pool is valid. It simply means that no truth retained as relevant weighs in that orientation.
+A side with no Bet is valid. It simply means that no truth retained as relevant favors that outcome.
 
 For example, a character tries to convince their brother to let them leave. Nothing especially relevant weighs in the character's favor, but the brother has *Sworn to their father to protect them*. The resolution may therefore be **0 / 1**.
 
@@ -148,13 +155,13 @@ This does not mean the character has “zero social skill.” Regard is not meas
 
 A strongly asymmetric result is therefore valid when it genuinely expresses the fictional situation.
 
-### Both orientations are empty: 0 / 0
+### No Bet on either side: 0 / 0
 
 A **0 / 0 is not a roll to make**. It is a framing signal.
 
 The table returns to the question:
 
-> **If nothing matters in either direction, what actually makes the outcome uncertain?**
+> **If nothing favors either outcome, what actually makes this resolution uncertain?**
 
 Two possibilities follow:
 
@@ -230,11 +237,11 @@ The table ritual can remain extremely light:
 > *Silence.*  
 > **Then let's see what happens.**
 
-The conversation exists to make the situation clear enough to resolve, not to maximize a pool.
+The conversation exists to make the situation clear enough to resolve, not to accumulate dice.
 
 ## Opposition and counter-Bets
 
-A Bet can naturally reveal a truth that pushes in the other direction of the Focus.
+A Bet can naturally reveal a truth that favors the other outcome.
 
 > **Player:** I'm already between him and the door.
 >
@@ -244,12 +251,12 @@ A Bet can naturally reveal a truth that pushes in the other direction of the Foc
 >
 > **GM:** But two soldiers are coming up behind you.
 
-This conversation is not a negotiation over bonuses. It gradually reveals the different elements the fiction makes relevant in both orientations.
+This conversation is not a negotiation over bonuses. It gradually reveals the different elements the fiction makes relevant on both sides.
 
-This is also why oppositions can tend to balance organically: looking at a situation more closely often reveals new elements pushing in several directions.
+This is also why oppositions can tend to balance organically: looking at a situation more closely often reveals new elements favoring each outcome.
 
 That does not mean every opposition should be balanced.
 
 A real fictional advantage should remain a real fictional advantage.
 
-Counter-Bets are an **organic counterweight** produced by exploring the fiction, not a mathematical obligation to make every pool equal.
+Counter-Bets are an **organic counterweight** produced by exploring the fiction, not a mathematical obligation to equalize the number of dice on each side.

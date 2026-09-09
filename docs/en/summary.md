@@ -12,19 +12,21 @@ A resolution begins with an **Intention**. The **Focus** specifies the question 
 
 > **Fiction proposes. Focus selects. The Bet makes it operative.**
 
-The Focus also lets the table see in which direction each Bet matters. In the standard configuration, Bets that push in the direction of the Intention and those that push against it form the two orientations of resolution, then the two pools.
+The Focus places **two possible outcomes in the balance**. Those two outcomes state what the resolution must decide now; they do not claim to exhaustively describe everything that may happen next.
 
-> **The two pools do not always represent two characters. They represent the two directions in which the situation can tip for the Focus.**
+Each Bet favors one of those outcomes. There is no need to give the resulting mechanical groupings a special name: at the table, simply speak of the **Bets on either side**, or the **Bets of each side** when the fiction actually contains two sides.
 
-In the standard configuration, each Bet contributes one D6 and each even result produces one Success. Comparing Successes determines toward which orientation the fiction will lean. The standard configuration is enough to play immediately, but it is not the identity of the framework: it is a default answer to the decisions every Regard implementation must make.
+In the standard configuration, each Bet contributes one D6 and each even result produces one Success. The roll and its reading through a Prism give each side **reality's answer** in a usable form. Comparing those answers determines which outcome prevails in the fiction. The standard configuration is enough to play immediately, but it is not the identity of the framework: it is a default answer to the decisions every Regard implementation must make.
 
-When a perspective deserves to become mechanically operative, a **Prism** can transform the way uncertainty is read. The same orientation may bring together several perspectives: their Bets are processed by their respective Prisms, then their outputs are aggregated when they are comparable. Regard currently uses **Successes** as its common interoperability format without making them a universal requirement for every future implementation.
+When a perspective deserves to become mechanically operative, a **Prism** can transform the way uncertainty is read. Several perspectives may contribute to the same outcome: their Bets are processed by their respective Prisms, then their outputs are brought together when they are comparable. Regard currently uses **Successes** as its common interoperability format without making them a universal requirement for every future implementation.
 
 Adversity without a perspective of its own does not need one to be assigned artificially: it may possess its own logic, be treated in **Mirror Mode** when the design wants the protagonist's perspective to color the entire test, or use the **standard Prism — the Indifferent Gaze** by default.
 
-The medium, the patterns being sought, interactions between pools, or even the form of the result can thus express a particular relationship to the world. More exceptionally, a game may also make the actual table apparatus resonate with the fiction — for example through optional **Embodied Bets** or temporal synchronization — when that continuity genuinely adds something to the experience.
+The medium, the patterns being sought, interactions between the Bets on either side, or even the form of the result can thus express a particular relationship to the world. More exceptionally, a game may also make the actual table apparatus resonate with the fiction — for example through optional **Embodied Bets** or temporal synchronization — when that continuity genuinely adds something to the experience.
 
-> **The Prism transforms uncertainty. Orientations determine which side truths weigh on. The result decides between them. The Bets give that result a fictional form.**
+> **The Prism transforms uncertainty. The Focus places two outcomes in the balance. The Bets say what weighs on each side. Reality's answer decides between them. Interpretation gives that result a fictional form.**
+
+Exploit and Fiasco remind us that the two initial outcomes do not bound everything the fiction may produce. They may establish one outcome **and** bring forth a consequence, discovery, or transformation that was not stated beforehand.
 
 Resolution does not stop at the result. Its interpretation returns to the world. Some consequences remain local; others become persistent truths, written on the sheet or elsewhere in the fiction. They may in turn become relevant in a future resolution.
 
@@ -32,7 +34,7 @@ Resolution does not stop at the result. Its interpretation returns to the world.
 
 The complete loop can therefore be read as:
 
-> **fiction / sheet → Intention → Focus / Zoom → Bets / orientations → perspectives / Prisms → uncertainty → mechanical outputs → aggregation / comparison → result → interpretation → transformed fiction / sheet**
+> **fiction / sheet → Intention → Focus / Zoom → outcomes in the balance → Bets → perspectives / Prisms → uncertainty → reality's answers → comparison → result → interpretation → transformed fiction / sheet**
 
 The exact mechanism at the center of this loop can change. The movement itself does not.
 

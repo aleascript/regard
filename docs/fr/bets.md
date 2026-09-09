@@ -94,53 +94,60 @@ On peut résumer le mouvement ainsi :
 
 > **La fiction propose. Le Focus sélectionne. La Mise actualise.**
 
-## L’orientation d’une Mise dépend du Focus
+## Deux issues mises en balance
+
+Une résolution n’essaie pas de dresser la liste de tout ce qui pourrait arriver ensuite.
+
+Le **Focus** isole ce qui doit être tranché maintenant en mettant **deux issues possibles en balance**.
+
+Une Intention donne souvent une première issue : ce que le personnage, le groupe ou la force cherche à obtenir. La situation permet de formuler ce qui se joue de l’autre côté. Les deux issues peuvent être directement opposées, mais ce n’est pas une obligation.
+
+> **Les deux issues disent ce que la résolution doit trancher. Elles ne prétendent pas décrire à elles seules tout ce qui pourra arriver.**
+
+Par exemple, un messager veut franchir un gué avant d’être rejoint. Le Focus peut mettre en balance :
+
+- *le messager atteint l’autre rive avant la patrouille* ;
+- *la patrouille le rejoint avant qu’il ne termine sa traversée*.
+
+D’autres événements restent évidemment possibles autour de ces issues. Ils appartiennent à l’interprétation, aux conséquences ou à la suite de la fiction, pas nécessairement à la question que cette résolution doit trancher.
+
+## Une Mise joue en faveur d’une issue
 
 Une Mise n’est pas favorable ou adverse en soi.
 
 > *Pluie battante*
 
-peut pousser contre l’Intention lorsque le Focus est :
+peut jouer contre une traversée rapide lorsque le Focus concerne le franchissement d’un col avant la nuit, mais jouer en faveur d’une fuite lorsqu’elle masque les traces des personnages.
 
-> *Parvenons-nous à franchir le col avant la nuit ?*
+> **Une Mise joue en faveur de l’une des deux issues relativement au Focus présent.**
 
-mais pousser dans son sens lorsque le Focus devient :
+Le Focus sélectionne donc ce qui compte **et permet de voir de quel côté cela compte**.
 
-> *Parvenons-nous à semer nos poursuivants ?*
+Une blessure peut appartenir au personnage et pourtant jouer en faveur de l’autre issue. Une faiblesse de l’opposition peut au contraire jouer en faveur de l’issue recherchée par le personnage.
 
-> **Une Mise est favorable ou adverse relativement au Focus et à l’Intention considérée.**
+L’origine fictionnelle d’une Mise et le côté en faveur duquel elle joue sont deux questions distinctes.
 
-Dans la configuration standard :
+Lorsque des personnages, groupes ou forces identifiables portent les deux issues, **camp** reste un raccourci naturel à la table. Mais une blessure, une montagne, un climat ou une distance peuvent jouer de l’autre côté sans constituer un « camp » au sens fictionnel.
 
-- les Mises qui poussent **dans le sens de l’Intention** forment une orientation ;
-- celles qui poussent **contre l’Intention** forment l’autre ;
-- les Mises de chacune de ces orientations forment un pool.
+Il n’est donc pas nécessaire de donner un nom particulier aux ensembles mécaniques ainsi formés. À la table, on peut simplement parler :
 
-Lorsque des personnages, groupes ou forces identifiables portent ces orientations, **camp** reste un raccourci naturel à la table.
+- des **Mises en faveur de cette issue** ;
+- des **Mises de l’autre côté** ;
+- ou, lorsque cela correspond réellement à la fiction, des **Mises de chaque camp**.
 
-Mais une blessure, une montagne, un climat ou une distance peuvent alimenter une orientation adverse sans constituer un « camp » au sens fictionnel.
+## Une issue peut n’avoir aucune Mise
 
-> **Les deux pools ne représentent pas toujours deux personnages. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
+L’une des deux issues peut ne recevoir aucune Mise. Elle est alors représentée par **zéro dé** dans la configuration standard.
 
-Le Focus sélectionne donc ce qui compte **et permet de voir dans quel sens cela compte**.
-
-Une blessure peut appartenir au personnage et pourtant alimenter l’orientation adverse. Une faiblesse de l’opposition peut au contraire alimenter l’orientation favorable.
-
-L’origine fictionnelle d’une Mise et son orientation sont deux questions distinctes.
-
-## Un pool peut être vide
-
-Une orientation peut ne recevoir aucune Mise. Son pool contient alors **zéro dé**.
-
-Ni l’Intention, ni le simple fait qu’une orientation existe ne fournissent de Mise implicite. Regard n’ajoute pas de « dé de base » pour représenter le personnage, son action ou son orientation.
+Ni l’Intention, ni le simple fait qu’une issue soit mise en balance ne fournissent de Mise implicite. Regard n’ajoute pas de « dé de base » pour représenter le personnage, son action ou une issue.
 
 > **Chaque dé posé sur la table doit représenter une vérité fictionnelle effectivement rendue pertinente par le Focus.**
 
 La réponse « c’est le dé de base parce qu’il en faut un » n’est donc jamais suffisante.
 
-### Une orientation vide : 0 / N
+### Un côté sans Mise : 0 / N
 
-Un pool vide est valide. Il signifie simplement qu’aucune vérité retenue comme pertinente ne pèse dans cette orientation.
+Un côté sans Mise est valide. Il signifie simplement qu’aucune vérité retenue comme pertinente ne joue en faveur de cette issue.
 
 Un personnage tente par exemple de convaincre son frère de le laisser partir. Rien de particulièrement pertinent ne joue en sa faveur, mais son frère a *Juré à leur père de le protéger*. La résolution peut donc être **0 / 1**.
 
@@ -148,13 +155,13 @@ Cela ne signifie pas que le personnage possède « zéro compétence sociale ».
 
 Un résultat très asymétrique est donc acceptable s’il exprime réellement la situation fictionnelle.
 
-### Les deux orientations sont vides : 0 / 0
+### Aucune Mise d’un côté ni de l’autre : 0 / 0
 
 Un **0 / 0 n’est pas un tirage à effectuer**. C’est un signal de cadrage.
 
 La table revient alors à la question :
 
-> **Si rien ne compte dans un sens ni dans l’autre, qu’est-ce qui rend réellement l’issue incertaine ?**
+> **Si rien ne compte en faveur d’une issue ni de l’autre, qu’est-ce qui rend réellement cette résolution incertaine ?**
 
 Deux possibilités se présentent :
 
@@ -230,11 +237,11 @@ Le rite de table peut rester extrêmement léger :
 > *Silence.*  
 > **Alors voyons ce qui arrive.**
 
-La conversation sert à rendre la situation suffisamment claire pour être résolue, pas à maximiser un pool.
+La conversation sert à rendre la situation suffisamment claire pour être résolue, pas à accumuler des dés.
 
 ## Opposition et contre-Mises
 
-Une Mise peut naturellement faire apparaître une vérité qui pousse dans l’autre sens du Focus.
+Une Mise peut naturellement faire apparaître une vérité qui joue en faveur de l’autre issue.
 
 > **Joueur :** Je suis déjà entre lui et la porte.
 >
@@ -244,12 +251,12 @@ Une Mise peut naturellement faire apparaître une vérité qui pousse dans l’a
 >
 > **Meneur :** Mais deux soldats arrivent derrière toi.
 
-Cette conversation n’est pas une négociation de bonus. Elle fait apparaître progressivement les différents éléments que la fiction rend pertinents dans les deux orientations.
+Cette conversation n’est pas une négociation de bonus. Elle fait apparaître progressivement les différents éléments que la fiction rend pertinents d’un côté et de l’autre.
 
-C’est aussi pourquoi les oppositions peuvent tendre à s’équilibrer organiquement : regarder une situation de plus près révèle souvent des éléments nouveaux dans plusieurs sens.
+C’est aussi pourquoi les oppositions peuvent tendre à s’équilibrer organiquement : regarder une situation de plus près révèle souvent des éléments nouveaux en faveur de chaque issue.
 
 Cela ne signifie pas que chaque opposition doit être équilibrée.
 
 Un avantage fictionnel réel doit rester un avantage fictionnel réel.
 
-Les contre-Mises sont un **contrepoids organique** produit par l’exploration de la fiction, pas une obligation mathématique de rendre tous les pools égaux.
+Les contre-Mises sont un **contrepoids organique** produit par l’exploration de la fiction, pas une obligation mathématique d’égaliser le nombre de dés de chaque côté.

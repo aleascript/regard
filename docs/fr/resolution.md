@@ -8,30 +8,32 @@ sidebar_position: 5
 
 La configuration standard de Regard permet de jouer immédiatement avec des dés à six faces.
 
-Les deux orientations du Focus deviennent les deux pools de la résolution.
+Le Focus met **deux issues possibles en balance**. Les Mises qui jouent en faveur de chacune sont résolues de part et d’autre.
 
-Pour chaque orientation :
+Dans la configuration standard :
 
-- chaque Mise retenue apporte **un D6** à son pool ;
+- chaque Mise retenue apporte **un D6** du côté de l’issue qu’elle favorise ;
 - chaque résultat **pair** compte comme une **Réussite** ;
 - chaque résultat **impair** ne produit pas de Réussite ;
-- on compare ensuite le nombre de Réussites obtenues par les deux orientations.
+- on compare ensuite le nombre de Réussites obtenues de chaque côté.
 
 > **Cette lecture pair / impair constitue le Prisme standard de Regard, que nous appelons aussi le *Regard indifférent*.** Il lit l’incertitude sans y inscrire de perspective particulière : chaque dé est traité de la même manière. Nous l’utilisons ici comme réponse par défaut pour apprendre à jouer. Nous verrons plus loin pourquoi ce Prisme n’est ni plus « réel » ni plus fondamental qu’un autre : il constitue un **point zéro de design**, que la fiction peut conserver ou transformer.
 
-Lorsque les orientations correspondent à des acteurs identifiables, on peut simplement parler des **camps**.
+Le tirage et sa lecture par un Prisme donnent, pour chaque côté, une **réponse du réel** sous une forme exploitable par le jeu. Dans la configuration standard, cette réponse est simplement un nombre de Réussites.
 
-Mais les deux pools ne supposent pas toujours deux volontés opposées : un personnage qui traverse une tempête peut produire un pool favorable à son Intention et un pool adverse constitué par le froid, le vent, la fatigue et le terrain.
+Lorsque plusieurs perspectives ou plusieurs Prismes contribuent à la même issue, leurs sorties compatibles sont réunies avant la comparaison.
 
-Cette opération transforme l’incertitude en un signal mécanique comparable : un nombre de Réussites.
+Lorsque les issues correspondent à des acteurs identifiables, on peut simplement parler des **camps**. Mais les deux côtés ne supposent pas toujours deux volontés opposées : un personnage qui traverse une tempête peut avoir des Mises en faveur de sa traversée tandis que le froid, le vent, la fatigue et le terrain jouent en faveur de l’autre issue.
 
-> **Mises orientées → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
+Cette opération transforme l’incertitude en deux réponses comparables, puis en un résultat fictionnel.
+
+> **Mises de chaque côté → D6 → Prisme → réponse du réel → comparaison → interprétation par les Mises**
 
 ## L’échelle standard de résultat
 
 ### Égalité : Statu quo ou surenchère
 
-Si les deux orientations obtiennent le même nombre de Réussites, aucune ne s’impose clairement.
+Si les deux côtés obtiennent le même nombre de Réussites, aucune issue ne s’impose clairement.
 
 Le résultat standard est un **Statu quo**.
 
@@ -41,7 +43,7 @@ Si les acteurs impliqués refusent d’en rester là, la configuration standard 
 
 - on conserve les Mises déjà présentes ;
 - chaque camp qui pousse la confrontation ajoute une Mise représentant sa **volonté d’en finir** ;
-- on résout de nouveau avec les pools augmentés.
+- on résout de nouveau avec les Mises ainsi augmentées.
 
 La surenchère rend mécaniquement présent le fait que les camps choisissent de pousser plus loin une confrontation qui aurait pu s’arrêter sur un équilibre.
 
@@ -49,9 +51,9 @@ Un jeu conçu avec Regard peut choisir une autre philosophie de l’égalité. C
 
 ### Différence positive : Victoire / Défaite
 
-Si une orientation obtient plus de Réussites que l’autre, l’Intention qu’elle soutient s’impose sur l’autre sens possible de la situation.
+Si les Mises en faveur d’une issue produisent plus de Réussites que celles de l’autre, **cette issue s’impose dans la fiction**.
 
-Lorsque les orientations correspondent à des camps, le camp gagnant obtient une **Victoire** et l’autre subit une **Défaite**.
+Lorsque les deux issues correspondent à des camps, le camp gagnant obtient une **Victoire** et l’autre subit une **Défaite**.
 
 Pour l’Intention du camp gagnant, cela se lit généralement comme **Oui**.
 
@@ -62,7 +64,7 @@ Pour l’Intention du camp perdant, cela se lit généralement comme **Non**.
 Dans la configuration standard, un résultat est **dominé** lorsque les deux conditions suivantes sont réunies :
 
 1. l’écart est **strictement supérieur à 1 Réussite** ;
-2. l’orientation gagnante obtient **strictement plus du double** des Réussites de l’autre.
+2. le côté gagnant obtient **strictement plus du double** des Réussites de l’autre.
 
 Exemples :
 
@@ -83,17 +85,20 @@ Exploit et Fiasco ne sont pas automatiquement symétriques.
 
 Une réussite spectaculaire pour un camp ne transforme pas nécessairement l’échec de l’autre en catastrophe. Inversement, une Défaite peut avoir des conséquences particulièrement graves sans que le vainqueur accomplisse davantage que sa propre Intention.
 
-**La domination indique qu’une amplification est disponible ; la fiction détermine ce qu’elle signifie pour chaque côté.**
+Les deux issues mises en balance avant le jet ne constituent donc pas un catalogue exhaustif de ce qui peut arriver. Elles définissent **ce que la résolution doit trancher**. L’**Et** d’un Exploit ou d’un Fiasco peut introduire une conséquence, une découverte, une transformation ou un avantage qui n’était pas contenu dans la formulation initiale de ces deux issues.
+
+**La domination indique qu’une amplification est disponible ; la fiction détermine ce qu’elle ajoute au résultat établi.**
 
 ## Interpréter : les Mises reviennent dans la fiction
 
-Les Mises ne servent pas seulement à construire les pools avant le jet.
+Les Mises ne servent pas seulement à produire les dés avant le jet.
 
 **Elles fournissent aussi la matière de l’interprétation après le jet.**
 
 Lorsque le résultat est connu, la table possède déjà :
 
-- l’Intention ;
+- les Intentions ;
+- les deux issues mises en balance par le Focus ;
 - le Focus et son Zoom ;
 - les conséquences importantes éventuellement annoncées ;
 - ce qui comptait dans la fiction ;
@@ -110,9 +115,9 @@ Imaginons une traversée de montagne où les Mises sont :
 
 En cas de Défaite, la pluie peut rendre le passage impraticable, l’urgence provoquer une mauvaise décision, l’expérience éviter une conséquence plus grave ou le compagnon rester en arrière pour permettre aux autres de continuer.
 
-Les dés tranchent le rapport entre les deux orientations.
+Les dés et les Prismes donnent la réponse du réel à ce qui a été mis en balance.
 
-**Les Mises donnent à la table la matière avec laquelle ce résultat devient fiction.**
+**Les Mises donnent à la table la matière avec laquelle cette réponse devient fiction.**
 
 Les mots **Oui**, **Non**, **Et** et **Mais** sont un vocabulaire pratique d’interprétation. Ils ne constituent pas une mécanique propre à Regard.
 
@@ -139,4 +144,4 @@ Mais lorsqu’un changement devient durable et appartient désormais à ce que l
 
 La boucle complète devient alors :
 
-> **fiction / feuille → Intention → Focus / Zoom → Mises / orientations → résolution → forme du résultat → interprétation → fiction / feuille transformées**
+> **fiction / feuille → Intention → Focus / Zoom → issues mises en balance → Mises → résolution → forme du résultat → interprétation → fiction / feuille transformées**

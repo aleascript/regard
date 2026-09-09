@@ -16,7 +16,8 @@ The following elements constitute the gesture of Regard:
 - define a Focus and its Zoom;
 - make resolution concern what remains genuinely uncertain;
 - make important consequences visible when the table contract requires it;
-- select what matters and in which direction it matters;
+- place two possible outcomes in the balance;
+- select what matters and which outcome it favors;
 - avoid redundancy at the chosen scale;
 - confront the Bets with some form of uncertainty;
 - produce a form of result that fiction can use;
@@ -28,7 +29,7 @@ Other elements belong to the standard configuration and can be transformed:
 - using D6s;
 - associating one Bet with one die;
 - reading even numbers as Successes;
-- forming two pools from the two orientations of the Focus;
+- comparing the Bets favoring the two outcomes;
 - using the same physical representation for every Bet;
 - using the standard result scale;
 - using escalation;
@@ -40,25 +41,25 @@ Variation is not something added from outside the framework.
 
 ## A standard chain of responsibilities
 
-In the standard configuration — and in implementations that compare two orientations — the operations can be separated as follows:
+In the standard configuration — and in implementations that compare two outcomes — the operations can be separated as follows:
 
-> **Oriented Bets → uncertainty medium → Prism → mechanical signals → aggregation by orientation → result scale → interpretation → transformed fiction**
+> **Bets on each side → uncertainty medium → Prism → mechanical signals → grouping by outcome → result scale → interpretation → transformed fiction**
 
 In the standard configuration:
 
-> **Oriented Bets → D6 → even / odd → Successes → comparison → interpretation through the Bets**
+> **Bets on each side → D6 → even / odd → Successes → comparison → interpretation through the Bets**
 
 This separation avoids asking a single mechanic to do everything.
 
 The **Prism** transforms uncertainty into mechanical signals.
 
-When several contributions belong to the same orientation, they must be able to be brought together before comparison.
+When several contributions favor the same outcome, they must be able to be brought together before comparison.
 
 The **result scale** then transforms that comparison into a form of result.
 
 **Interpretation** finally transforms that form of result into fiction from the Bets and the situation.
 
-This chain is a reference architecture, not a universal obligation. A light implementation can use a Prism whose result is directly usable without passing through an opposition between two pools.
+This chain is a reference architecture, not a universal obligation. A light implementation can use a Prism whose result is directly usable without passing through an opposition between two sets of Bets.
 
 ## Prisms: how a perspective transforms uncertainty
 
@@ -81,7 +82,7 @@ It can modify:
 - which dice can be rerolled or transformed;
 - which results cancel one another;
 - what costs are attached to certain results;
-- relationships between several pools;
+- relationships between the Bets on either side;
 - the media being used;
 - the very form of the result.
 
@@ -103,30 +104,30 @@ It is a **design zero point**, not a norm that other Prisms should resemble.
 
 It is also the default behavior for adversity without a perspective of its own when neither the world nor the design justifies another treatment.
 
-### Orientation and Prism answer two different questions
+### Two distinct questions: which side a Bet weighs on, and how it is read
 
 Two decisions should not be confused:
 
-1. **Which pool does this Bet enter?**  
-   That depends on its orientation relative to the Focus and the Intention.
+1. **Which outcome does this Bet favor?**  
+   That depends on the Focus and the fictional situation.
 2. **How does this Bet become mechanically readable?**  
    That depends on the Prism of the perspective carrying it, or on the Prism the game assigns to its actualization.
 
-> **Orientation determines which side a truth weighs on. The Prism determines how that truth passes through uncertainty to become mechanically readable.**
+> **The Focus determines which side a truth weighs on. The Prism determines how that truth passes through uncertainty to become mechanically readable.**
 
-A pool is therefore first and foremost a grouping of Bets oriented in the same direction. It does not need to be homogeneous in terms of Prisms.
+The Bets favoring the same outcome therefore do not need to be homogeneous in terms of Prisms.
 
 ### A collective side can bring together several Prisms
 
 > **Sharing an Intention does not mean sharing a perspective.**
 
-If several protagonists contribute to the same Intention from different perspectives, their Bets remain grouped by their common orientation, but are processed according to their respective Prisms.
+If several protagonists contribute to the same outcome from different perspectives, their Bets remain on the same side but are processed according to their respective Prisms.
 
 In that case:
 
-1. Bets remain grouped by orientation;
+1. Bets remain grouped according to the outcome they favor;
 2. they are processed in coherent subsets according to the Prisms of the perspectives carrying them;
-3. comparable outputs are brought together at the level of the orientation.
+3. comparable outputs are brought together for that outcome before comparison.
 
 > **The side determines which contributions are brought together. The Prism determines how each becomes a mechanically comparable contribution.**
 
@@ -140,15 +141,15 @@ In Regard as it currently stands, several Prisms can contribute to the same reso
 
 However, this current solution should be distinguished from the more general architectural principle.
 
-> **When several Prisms contribute to the same resolution, their outputs must be able to become mechanically comparable at the point of aggregation. Regard currently uses Successes to ensure this comparability. Other interoperability contracts are conceivable, but the framework does not yet formalize them.**
+> **When several Prisms contribute to the same outcome in a resolution, their outputs must be able to become mechanically comparable when they are brought together. Regard currently uses Successes to ensure this comparability. Other interoperability contracts are conceivable, but the framework does not yet formalize them.**
 
 Success should therefore not be prematurely turned into a mandatory universal output for every future Regard implementation.
 
-A game whose Prisms do not produce directly comparable outputs must itself define how several perspectives can cooperate within the same orientation.
+A game whose Prisms do not produce directly comparable outputs must itself define how several perspectives can cooperate on the same side.
 
 ### Adversity without a perspective of its own
 
-An adverse orientation can be made up of truths such as:
+The Bets favoring the adverse outcome may be truths such as:
 
 - *vertical wall*;
 - *extreme cold*;
@@ -253,7 +254,7 @@ Only then choose what can make that logic perceptible:
 - rerolls;
 - die sizes;
 - cards, colors, or symbols;
-- interactions between pools;
+- interactions between the Bets on either side;
 - changes to adversity;
 - another uncertainty medium.
 
@@ -261,7 +262,7 @@ The medium comes after the meaning it is meant to produce.
 
 ### 4. Decide what form of result to produce
 
-If several Prisms must take part in the same opposition, their outputs must be able to become comparable at the point of aggregation. Regard currently uses Successes for this role.
+If several Prisms must take part in the same opposition, their outputs must be able to become comparable when they are brought together. Regard currently uses Successes for this role.
 
 But a light game can use a standalone result if that better serves the intended experience.
 
@@ -336,18 +337,18 @@ When a table uses this rule:
 
 1. the Bet must first be relevant and non-redundant for the Focus;
 2. its embodiment must make the fictional truth it expresses immediately intelligible;
-3. **the Bet remains in its pool** and is processed normally by its Prism;
-4. its embodiment contributes **1 additional Success** to its orientation;
-5. at most **one Embodied Bet per orientation and per resolution**;
+3. **the Bet remains among the Bets on its side** and is processed normally by its Prism;
+4. its embodiment contributes **1 additional Success** on the same side;
+5. at most **one Embodied Bet on each side per resolution**;
 6. the GM can embody a Bet from adversity under the same rules.
 
-> **Embodiment adds one Success without changing how the Prism processes the pool.**
+> **Embodiment adds one Success without changing how the Prism processes the corresponding dice.**
 
 This wording matters. Removing the die for an Embodied Bet could artificially change the behavior of a Prism based on a sum, doubles, patterns, explosions, or other internal relationships in the roll.
 
 Resolution remains global: after the fact, the table does not try to establish which specific Bet "succeeded" in the roll.
 
-If both orientations systematically seek embodiment, the additional Successes may tend to cancel one another and the gesture may become automatic.
+If both sides systematically seek embodiment, the additional Successes may tend to cancel one another and the gesture may become automatic.
 
 That is not necessarily a flaw for a game deliberately seeking a ritual, performative, or strongly embodied practice. But Regard does not impose that aesthetic on every implementation.
 
@@ -492,15 +493,15 @@ When designing a game with Regard, ask in particular:
 6. **Does the Focus concern a genuine uncertainty, or is it asking the dice to decide something the fiction has already established?**
 7. **If a truth is already fixed, what question genuinely remains open around it?**
 8. **Does the chosen Zoom correspond to the differences the fiction still wants to distinguish?**
-9. **Which truths push in the direction of the Intention and which push against it for this particular Focus?**
-10. **Do several perspectives or Prisms contribute to the same orientation? If so, can their outputs become interoperable?**
-11. **Does the adverse orientation have a perspective or logic of its own that deserves a particular Prism?**
+9. **What are the two outcomes in the balance, and which truths favor each one for this particular Focus?**
+10. **Do several perspectives or Prisms contribute to the same outcome? If so, can their outputs become interoperable?**
+11. **Does the other side have a perspective or logic of its own that deserves a particular Prism?**
 12. **If not, should Mirror Mode or the standard Prism be used, and why?**
 13. **If a Mirror is being considered for a collective resolution, is there genuinely a single perspective to reflect?**
 14. **Which consequences must be explicit before a player exposes themselves to them?**
 15. **Is the standard configuration enough to express this world?**
 16. **If not, what perspective deserves a particular Prism, and what should it make the player feel rather than merely simulate?**
-17. **Does the game need opposed pools, and do several Prisms need to share a common output format?**
+17. **Does the game need to compare two sets of Bets, and do several Prisms need to share a common output format?**
 18. **Would another medium than a D6 make the experience more direct?**
 19. **Does a correspondence between the actual table apparatus and the fiction make something of the world genuinely perceptible, or merely add a gimmick?**
 20. **Which consequences should return durably to the fiction or the sheet?**

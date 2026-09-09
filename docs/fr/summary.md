@@ -12,19 +12,21 @@ Une résolution commence par une **Intention**. Le **Focus** précise la questio
 
 > **La fiction propose. Le Focus sélectionne. La Mise actualise.**
 
-Le Focus permet aussi de voir dans quel sens chaque Mise compte. Dans la configuration standard, les Mises qui poussent dans le sens de l’Intention et celles qui poussent contre elle forment les deux orientations de la résolution, puis les deux pools.
+Le Focus met **deux issues possibles en balance**. Ces deux issues disent ce que la résolution doit trancher maintenant ; elles ne prétendent pas décrire exhaustivement tout ce qui pourra arriver ensuite.
 
-> **Les deux pools ne représentent pas toujours deux personnages. Ils représentent les deux sens dans lesquels la situation peut basculer pour le Focus.**
+Chaque Mise joue en faveur de l’une de ces issues. Il n’est pas nécessaire de donner un nom particulier aux ensembles ainsi formés : à la table, on parle simplement des **Mises d’un côté et de l’autre**, ou des **Mises de chaque camp** lorsqu’il existe réellement deux camps dans la fiction.
 
-Dans la configuration standard, chaque Mise apporte un D6 et chaque résultat pair produit une Réussite. La comparaison des Réussites permet de déterminer vers quelle orientation la fiction va pencher. Cette configuration suffit pour jouer immédiatement, mais elle n’est pas l’identité du framework : elle constitue une réponse par défaut aux décisions que toute implémentation de Regard doit prendre.
+Dans la configuration standard, chaque Mise apporte un D6 et chaque résultat pair produit une Réussite. Le tirage et sa lecture par un Prisme donnent, de chaque côté, une **réponse du réel** sous une forme exploitable. La comparaison de ces réponses détermine quelle issue s’impose dans la fiction. Cette configuration suffit pour jouer immédiatement, mais elle n’est pas l’identité du framework : elle constitue une réponse par défaut aux décisions que toute implémentation de Regard doit prendre.
 
-Lorsqu’une perspective mérite de devenir mécaniquement opérante, un **Prisme** peut transformer la manière dont l’incertitude est lue. Une même orientation peut réunir plusieurs perspectives : leurs Mises sont traitées par leurs Prismes respectifs puis leurs sorties sont agrégées lorsqu’elles sont comparables. Regard utilise actuellement les **Réussites** comme format commun d’interopérabilité, sans en faire une obligation universelle pour toutes les implémentations futures.
+Lorsqu’une perspective mérite de devenir mécaniquement opérante, un **Prisme** peut transformer la manière dont l’incertitude est lue. Plusieurs perspectives peuvent contribuer à la même issue : leurs Mises sont traitées par leurs Prismes respectifs puis leurs sorties sont réunies lorsqu’elles sont comparables. Regard utilise actuellement les **Réussites** comme format commun d’interopérabilité, sans en faire une obligation universelle pour toutes les implémentations futures.
 
 Une adversité sans perspective propre n’a pas besoin d’en recevoir artificiellement une : elle peut posséder sa propre logique, être traitée en **Mode Miroir** lorsque le design veut que la perspective du protagoniste colore l’ensemble de l’épreuve, ou utiliser par défaut le **Prisme standard — le Regard indifférent**.
 
-Le support, les motifs recherchés, les interactions entre pools ou même la forme du résultat peuvent ainsi exprimer une relation particulière au monde. Plus exceptionnellement, un jeu peut aussi faire entrer le dispositif réel de la table en résonance avec la fiction — par exemple avec des **Mises incarnées** optionnelles ou une synchronisation temporelle — lorsque cette continuité apporte réellement quelque chose à l’expérience.
+Le support, les motifs recherchés, les interactions entre les Mises des deux côtés ou même la forme du résultat peuvent ainsi exprimer une relation particulière au monde. Plus exceptionnellement, un jeu peut aussi faire entrer le dispositif réel de la table en résonance avec la fiction — par exemple avec des **Mises incarnées** optionnelles ou une synchronisation temporelle — lorsque cette continuité apporte réellement quelque chose à l’expérience.
 
-> **Le Prisme transforme l’incertitude. Les orientations déterminent de quel côté les vérités pèsent. Le résultat tranche entre elles. Les Mises donnent à ce résultat une forme fictionnelle.**
+> **Le Prisme transforme l’incertitude. Le Focus met deux issues en balance. Les Mises disent ce qui pèse de chaque côté. La réponse du réel tranche entre elles. L’interprétation donne à ce résultat une forme fictionnelle.**
+
+Exploit et Fiasco rappellent que les deux issues initiales ne bornent pas tout ce que la fiction peut produire. Ils peuvent établir l’une des issues **et** faire apparaître une conséquence, une découverte ou une transformation qui n’avait pas été formulée au départ.
 
 La résolution ne s’arrête pas au résultat. Son interprétation retourne dans le monde. Certaines conséquences restent locales ; d’autres deviennent des vérités persistantes, inscrites sur la feuille ou ailleurs dans la fiction. Elles pourront à leur tour devenir pertinentes lors d’une résolution future.
 
@@ -32,7 +34,7 @@ La résolution ne s’arrête pas au résultat. Son interprétation retourne dan
 
 La boucle complète peut ainsi se lire :
 
-> **fiction / feuille → Intention → Focus / Zoom → Mises / orientations → perspectives / Prismes → incertitude → sorties mécaniques → agrégation / comparaison → résultat → interprétation → fiction / feuille transformées**
+> **fiction / feuille → Intention → Focus / Zoom → issues mises en balance → Mises → perspectives / Prismes → incertitude → réponses du réel → comparaison → résultat → interprétation → fiction / feuille transformées**
 
 Le mécanisme exact au centre de cette boucle peut changer. Le mouvement, lui, reste celui de Regard.
 

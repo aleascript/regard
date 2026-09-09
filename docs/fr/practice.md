@@ -120,9 +120,9 @@ Les joueurs restent libres de tenter ce qu’ils veulent, mais le jeu leur appre
 
 ### Le Duo Maladroit : un résultat autonome
 
-Sammy et Scooby ne jouent pas nécessairement contre un pool adverse.
+Sammy et Scooby ne jouent pas nécessairement contre des Mises adverses.
 
-Ils rassemblent chacun leurs propres Mises puis lancent deux pools distincts.
+Ils rassemblent chacun leurs propres Mises puis effectuent deux tirages distincts.
 
 On compte normalement leurs résultats pairs et on additionne leurs Réussites.
 
@@ -132,13 +132,13 @@ Mais leur lien possède une traduction mécanique supplémentaire :
 
 Un `3` de Sammy ne résonne pas avec un autre `3` de Sammy. Il faut qu’un `3` apparaisse aussi dans le tirage de Scooby.
 
-Ils restent deux personnages avec deux pools distincts, mais leur maladresse devient plus efficace lorsqu’ils sont ensemble.
+Ils restent deux personnages avec deux ensembles de Mises distincts, mais leur maladresse devient plus efficace lorsqu’ils sont ensemble.
 
 La règle les pousse donc mécaniquement à reproduire leur trope : **Sammy et Scooby ont intérêt à rester côte à côte.**
 
 Le résultat décrit directement **l’ampleur du chaos qu’ils produisent**.
 
-Ce cas montre qu’un Prisme peut produire un **résultat autonome** : Regard n’oblige pas toutes les implémentations à passer par « deux pools → Réussites comparables → opposition ».
+Ce cas montre qu’un Prisme peut produire un **résultat autonome** : Regard n’oblige pas toutes les implémentations à passer par « deux ensembles de Mises → Réussites comparables → opposition ».
 
 ### L’Intello : la logique la plus classique
 

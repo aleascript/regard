@@ -4,7 +4,7 @@ title: 5. Ce qui maintient la cohérence
 sidebar_position: 6
 ---
 
-À première lecture, Regard peut sembler offrir une liberté dangereuse : si presque n’importe quelle vérité fictionnelle peut devenir une Mise, pourquoi la table ne pourrait-elle pas simplement tout invoquer jusqu’à faire grossir les pools sans limite ?
+À première lecture, Regard peut sembler offrir une liberté dangereuse : si presque n’importe quelle vérité fictionnelle peut devenir une Mise, pourquoi la table ne pourrait-elle pas simplement tout invoquer jusqu’à accumuler des Mises sans limite ?
 
 La réponse n’est pas un mécanisme unique.
 
@@ -41,7 +41,7 @@ Ce n’est pas une action très difficile. Elle n’appartient simplement pas à
 
 > *On ne tue pas un dragon avec un cure-dent simplement en accumulant des Mises pertinentes.*
 
-Le problème n’est pas la taille du pool. Le moyen proposé ne permet pas d’ouvrir cette résolution sous cette forme.
+Le problème n’est pas le nombre de Mises. Le moyen proposé ne permet pas d’ouvrir cette résolution sous cette forme.
 
 ### Facteur Cadre local
 
@@ -136,7 +136,7 @@ Elle peut être matérialisée par :
 - des dés **bleus** en faveur des protagonistes ;
 - des dés **rouges** en faveur de l’adversité.
 
-Avant le tirage, si les pools sont déséquilibrés, la différence alimente la Jauge en faveur du camp actuellement désavantagé.
+Avant le tirage, si le nombre de Mises diffère d’un côté à l’autre, la différence alimente la Jauge en faveur du camp actuellement désavantagé.
 
 > Les protagonistes possèdent 5 Mises et l’adversité 3.  
 > L’opposition reste **5 contre 3**.  
