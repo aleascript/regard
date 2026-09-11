@@ -94,22 +94,7 @@ On peut résumer le mouvement ainsi :
 
 > **La fiction propose. Le Focus sélectionne. La Mise actualise.**
 
-## Deux issues mises en balance
-
-Une résolution n’essaie pas de dresser la liste de tout ce qui pourrait arriver ensuite.
-
-Le **Focus** isole ce qui doit être tranché maintenant en mettant **deux issues possibles en balance**.
-
-Une Intention donne souvent une première issue : ce que le personnage, le groupe ou la force cherche à obtenir. La situation permet de formuler ce qui se joue de l’autre côté. Les deux issues peuvent être directement opposées, mais ce n’est pas une obligation.
-
-> **Les deux issues disent ce que la résolution doit trancher. Elles ne prétendent pas décrire à elles seules tout ce qui pourra arriver.**
-
-Par exemple, un messager veut franchir un gué avant d’être rejoint. Le Focus peut mettre en balance :
-
-- *le messager atteint l’autre rive avant la patrouille* ;
-- *la patrouille le rejoint avant qu’il ne termine sa traversée*.
-
-D’autres événements restent évidemment possibles autour de ces issues. Ils appartiennent à l’interprétation, aux conséquences ou à la suite de la fiction, pas nécessairement à la question que cette résolution doit trancher.
+Le cadrage a déjà isolé ce qui reste incertain et mis **deux issues possibles en balance**. Les Mises disent maintenant quelles vérités comptent en faveur de chacune.
 
 ## Une Mise joue en faveur d’une issue
 
