@@ -30,13 +30,17 @@ The necessary level of precision depends on the table contract and the game bein
 
 The goal is not to announce everything that might happen, but to let the player make an informed decision **from their character's situation**.
 
-## Focus: what question are we resolving?
+## Focus: what don't we know yet?
 
-The table then clarifies the question the resolution is meant to answer.
+A resolution does not necessarily test whether an action "succeeds."
 
-> *Do you manage to stop the guard before they raise the alarm?*
+Success or failure may already be established by the fiction. In that case, resolution concerns what remains open: the form of the result, its price, its consequences, or what it transforms.
 
-That question defines the **Focus**.
+> **A resolution does not necessarily ask, "Does it work?" It asks, "What don't we know yet?"**
+
+The table then clarifies the question the resolution is meant to answer. That question defines the **Focus**.
+
+> *Does the guard manage to raise the alarm before you stop them?*
 
 The Focus does not describe everything happening in the scene. It determines **what this resolution is looking at**.
 
@@ -46,13 +50,30 @@ Not everything in the world is necessarily relevant.
 
 Even something important to the story may not matter to this particular resolution.
 
-The Focus must also concern a **genuine uncertainty**.
+The Focus must concern a **genuine uncertainty**.
 
 If the fiction has already established that a possibility is open or closed, resolution should not ask the dice to revisit that fact. It should look at what remains genuinely uncertain around it.
 
 > **A resolution does not ask the dice what the fiction already knows. It brings them in where the fiction remains open.**
 
-Conversely, once the table genuinely accepts a Focus, its possible outcomes must actually be able to happen. Framing should not pretend that a possibility is in play only to remove it after the roll.
+A king may necessarily refuse a request without removing all uncertainty: the Focus may instead concern what the characters preserve of their relationship with the king. A ship may be doomed to sink while resolution concerns what can still be saved.
+
+### Putting two outcomes in the balance
+
+The Focus makes uncertainty resolvable by placing **two possible outcomes in the balance**.
+
+An Intention often provides one outcome: what the character, group, or force is trying to obtain. The situation lets the table formulate what is at stake on the other side. The two outcomes may be directly opposed, but they do not have to be.
+
+In the guard example, the two outcomes might be:
+
+- *the character stops the guard before the alarm is raised*;
+- *the guard raises the alarm before being stopped*.
+
+> **The two outcomes state what the resolution must decide. They do not claim to describe everything that may happen.**
+
+Other events can still occur around either outcome. They belong to interpretation, consequences, or what happens next, not necessarily to the question this resolution must decide.
+
+Conversely, once the table accepts the Focus, both outcomes bind the table: each must genuinely be able to happen. Framing should not pretend that a possibility is in play only to remove it after the roll.
 
 ## Zoom: at what scale?
 
