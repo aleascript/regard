@@ -8,11 +8,11 @@ Regard organise un mouvement simple :
 
 > **Partir de la fiction, déterminer ce qui compte, confronter ces vérités à l’incertitude, puis revenir à une fiction transformée.**
 
-Une résolution commence par une **Intention**. Le **Focus** précise la question et son **Zoom** l’échelle à laquelle elle est regardée. La résolution ne porte que sur ce qui reste réellement ouvert dans la fiction. La **grammaire de pertinence** apprend à la table quelles familles de vérités méritent son attention ; les **Facteurs Cadres** ferment ce qui n’appartient pas à l’espace des possibles. Parmi tout ce qui est vrai du personnage, de ses relations, de la situation et du monde, les éléments réellement pertinents et non redondants deviennent des **Mises**.
+Une résolution commence par une **Intention**. Elle demande ensuite **ce que nous ne savons pas encore**. Le **Focus** isole cette incertitude et la rend résoluble en mettant **deux issues possibles en balance** ; son **Zoom** précise l’échelle à laquelle elle est regardée. La résolution ne porte donc que sur ce qui reste réellement ouvert dans la fiction. La **grammaire de pertinence** apprend à la table quelles familles de vérités méritent son attention ; les **Facteurs Cadres** ferment ce qui n’appartient pas à l’espace des possibles. Parmi tout ce qui est vrai du personnage, de ses relations, de la situation et du monde, les éléments réellement pertinents et non redondants deviennent des **Mises**.
 
 > **La fiction propose. Le Focus sélectionne. La Mise actualise.**
 
-Le Focus met **deux issues possibles en balance**. Ces deux issues disent ce que la résolution doit trancher maintenant ; elles ne prétendent pas décrire exhaustivement tout ce qui pourra arriver ensuite.
+Les deux issues disent ce que la résolution doit trancher maintenant ; elles ne prétendent pas décrire exhaustivement tout ce qui pourra arriver ensuite. Chacune doit réellement pouvoir arriver une fois le Focus accepté.
 
 Chaque Mise joue en faveur de l’une de ces issues. Il n’est pas nécessaire de donner un nom particulier aux ensembles ainsi formés : à la table, on parle simplement des **Mises d’un côté et de l’autre**, ou des **Mises de chaque camp** lorsqu’il existe réellement deux camps dans la fiction.
 
@@ -34,7 +34,7 @@ La résolution ne s’arrête pas au résultat. Son interprétation retourne dan
 
 La boucle complète peut ainsi se lire :
 
-> **fiction / feuille → Intention → Focus / Zoom → issues mises en balance → Mises → perspectives / Prismes → incertitude → réponses du réel → comparaison → résultat → interprétation → fiction / feuille transformées**
+> **fiction / feuille → Intention → question encore ouverte → Focus / Zoom / deux issues → Mises → perspectives / Prismes → incertitude → réponses du réel → comparaison → résultat → interprétation → fiction / feuille transformées**
 
 Le mécanisme exact au centre de cette boucle peut changer. Le mouvement, lui, reste celui de Regard.
 
