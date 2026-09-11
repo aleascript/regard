@@ -8,11 +8,11 @@ Regard organizes a simple movement:
 
 > **Start from fiction, determine what matters, confront those truths with uncertainty, then return to transformed fiction.**
 
-A resolution begins with an **Intention**. The **Focus** specifies the question and its **Zoom** the scale at which it is viewed. Resolution concerns only what genuinely remains open in the fiction. The **grammar of relevance** teaches the table which families of truths deserve its attention; **Frame Factors** close off what does not belong to the space of possibilities. Among everything that is true of the character, their relationships, the situation, and the world, the elements that are genuinely relevant and non-redundant become **Bets**.
+A resolution begins with an **Intention**. It then asks **what we don't know yet**. The **Focus** isolates that uncertainty and makes it resolvable by placing **two possible outcomes in the balance**; its **Zoom** specifies the scale at which it is viewed. Resolution therefore concerns only what genuinely remains open in the fiction. The **grammar of relevance** teaches the table which families of truths deserve its attention; **Frame Factors** close off what does not belong to the space of possibilities. Among everything that is true of the character, their relationships, the situation, and the world, the elements that are genuinely relevant and non-redundant become **Bets**.
 
 > **Fiction proposes. Focus selects. The Bet makes it operative.**
 
-The Focus places **two possible outcomes in the balance**. Those two outcomes state what the resolution must decide now; they do not claim to exhaustively describe everything that may happen next.
+The two outcomes state what the resolution must decide now; they do not claim to exhaustively describe everything that may happen next. Once the Focus is accepted, each outcome must genuinely be able to happen.
 
 Each Bet favors one of those outcomes. There is no need to give the resulting mechanical groupings a special name: at the table, simply speak of the **Bets on either side**, or the **Bets of each side** when the fiction actually contains two sides.
 
@@ -34,7 +34,7 @@ Resolution does not stop at the result. Its interpretation returns to the world.
 
 The complete loop can therefore be read as:
 
-> **fiction / sheet → Intention → Focus / Zoom → outcomes in the balance → Bets → perspectives / Prisms → uncertainty → reality's answers → comparison → result → interpretation → transformed fiction / sheet**
+> **fiction / sheet → Intention → open question → Focus / Zoom / two outcomes → Bets → perspectives / Prisms → uncertainty → reality's answers → comparison → result → interpretation → transformed fiction / sheet**
 
 The exact mechanism at the center of this loop can change. The movement itself does not.
 
