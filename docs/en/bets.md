@@ -94,22 +94,7 @@ The movement can be summarized as follows:
 
 > **Fiction proposes. Focus selects. The Bet makes it operative.**
 
-## Two outcomes in the balance
-
-A resolution does not try to list everything that might happen next.
-
-The **Focus** isolates what must be decided now by placing **two possible outcomes in the balance**.
-
-An Intention often provides one outcome: what the character, group, or force is trying to obtain. The situation lets the table formulate what is at stake on the other side. The two outcomes may be directly opposed, but they do not have to be.
-
-> **The two outcomes state what the resolution must decide. They do not claim to describe everything that may happen.**
-
-For example, a messenger wants to cross a ford before being caught. The Focus can place in the balance:
-
-- *the messenger reaches the far bank before the patrol*;
-- *the patrol catches the messenger before the crossing is complete*.
-
-Other events can obviously occur around either outcome. They belong to interpretation, consequences, or what happens next, not necessarily to the question this resolution must decide.
+Framing has already isolated what remains uncertain and placed **two possible outcomes in the balance**. Bets now say which truths matter in favor of each one.
 
 ## A Bet favors an outcome
 
