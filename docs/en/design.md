@@ -6,38 +6,51 @@ sidebar_position: 7
 
 The standard configuration is enough to play.
 
-But Regard was designed for another possibility: when a world has a sufficiently strong logic, **the mechanics can stop being generic and start expressing it**.
+But transforming Regard can mean far more than changing a die, a result table, or a few parameters.
 
-## Invariants and design choices
+**Glorantha Perspectives** transforms the reading of uncertainty through several ways of inhabiting reality. **Regard: Scooby-Doo** pushes the architecture elsewhere and can even give some protagonists a form of resolution that does not use the standard comparison between two sets of Bets.
 
-The following elements constitute the gesture of Regard:
+These are not exceptions tolerated at the margins.
 
-- begin from a fictional Intention;
-- define a Focus and its Zoom;
-- make resolution concern what remains genuinely uncertain;
-- make important consequences visible when the table contract requires it;
+**They show what designing with Regard means: preserve a recognizable gesture while allowing the intended experience to transform its form.**
+
+## What must remain recognizable
+
+The invariants of Regard should describe its **gesture**, not freeze every one of its current articulations.
+
+A Regard game should preserve four movements:
+
+1. **Begin from fiction and isolate an uncertainty that genuinely deserves resolution.**
+2. **Determine which truths matter to that uncertainty.**
+3. **Bring those truths into contact with a form of uncertainty capable of producing a result the game can use.**
+4. **Interpret that result through the fiction that was put into play, then continue from a transformed world.**
+
+> **Fiction → relevance → uncertainty → transformed fiction**
+
+The SRD uses **Intention**, **Focus**, **Zoom**, **Bets**, and other concepts to make the responsibilities within this movement explicit. They are precise tools for understanding and designing Regard; a particular game does not need to expose all of that vocabulary to its players if its own design makes the same decisions obvious in another way.
+
+## What the standard configuration decides for you
+
+The standard configuration provides, among others, these answers:
+
+- explicitly frame an Intention, a Focus, and a Zoom;
 - place two possible outcomes in the balance;
-- select what matters and which outcome it favors;
-- avoid redundancy at the chosen scale;
-- confront the Bets with some form of uncertainty;
-- produce a form of result that fiction can use;
-- interpret that result from the fiction that was put into play;
-- begin again from the transformed world.
+- use D6s;
+- associate one Bet with one die;
+- read even numbers as Successes;
+- compare contributions favoring the two outcomes;
+- use the same physical representation for every Bet;
+- use the standard result scale;
+- use escalation;
+- optionally use the Fate Gauge.
 
-Other elements belong to the standard configuration and can be transformed:
+These answers are coherent with one another and make the game immediately playable.
 
-- using D6s;
-- associating one Bet with one die;
-- reading even numbers as Successes;
-- comparing the Bets favoring the two outcomes;
-- using the same physical representation for every Bet;
-- using the standard result scale;
-- using escalation;
-- using the Fate Gauge.
+But they are not all the identity of Regard.
 
-Variation is not something added from outside the framework.
+A game may keep them, hide them behind its own vocabulary, recombine them, or replace some of them when doing so makes its world and intended experience more directly playable.
 
-**It is part of its design.**
+> **The standard configuration is a complete implementation of Regard, not the form every other implementation should resemble.**
 
 ## A standard chain of responsibilities
 
