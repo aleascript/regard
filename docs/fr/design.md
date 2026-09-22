@@ -6,38 +6,51 @@ sidebar_position: 7
 
 La configuration standard suffit pour jouer.
 
-Mais Regard a été conçu pour une autre possibilité : lorsqu’un monde possède une logique suffisamment forte, **la mécanique peut cesser d’être générique et commencer à l’exprimer**.
+Mais transformer Regard peut signifier bien davantage que changer un dé, une table de résultats ou quelques paramètres.
 
-## Invariants et choix de design
+**Glorantha Perspectives** transforme la lecture de l’incertitude selon plusieurs manières d’habiter le réel. **Regard: Scooby-Doo** pousse ailleurs l’architecture et peut même donner à certains protagonistes une forme de résolution qui ne passe pas par la comparaison standard de deux ensembles de Mises.
 
-Les éléments suivants constituent le geste de Regard :
+Ce ne sont pas des exceptions tolérées à la marge.
 
-- partir d’une Intention fictionnelle ;
-- définir un Focus et son Zoom ;
-- faire porter la résolution sur ce qui reste réellement incertain ;
-- rendre visibles les conséquences importantes lorsque le contrat de table le demande ;
+**Elles montrent ce que signifie concevoir avec Regard : conserver un geste reconnaissable tout en laissant l’expérience recherchée transformer sa forme.**
+
+## Ce qui doit rester reconnaissable
+
+Les invariants de Regard doivent décrire son **geste**, pas figer chacune de ses articulations actuelles.
+
+Un jeu Regard doit préserver quatre mouvements :
+
+1. **Partir de la fiction et isoler une incertitude qui mérite réellement une résolution.**
+2. **Déterminer quelles vérités comptent pour cette incertitude.**
+3. **Faire rencontrer ces vérités à une forme d’incertitude capable de produire un résultat exploitable par le jeu.**
+4. **Interpréter ce résultat depuis la fiction mise en jeu et repartir d’un monde transformé.**
+
+> **Fiction → pertinence → incertitude → fiction transformée**
+
+Le SRD emploie **Intention**, **Focus**, **Zoom**, **Mises** et d’autres notions pour rendre les responsabilités de ce mouvement explicites. Elles constituent des outils précis pour comprendre et concevoir Regard ; un jeu particulier n’a pas besoin d’exposer tout ce vocabulaire à ses joueurs si son propre dispositif rend les mêmes décisions évidentes autrement.
+
+## Ce que la configuration standard décide pour vous
+
+La configuration standard fournit notamment les réponses suivantes :
+
+- cadrer explicitement une Intention, un Focus et un Zoom ;
 - mettre deux issues possibles en balance ;
-- sélectionner ce qui compte et en faveur de quelle issue cela compte ;
-- éviter les redondances à l’échelle choisie ;
-- confronter les Mises à une forme d’incertitude ;
-- produire une forme de résultat exploitable par la fiction ;
-- interpréter ce résultat à partir de la fiction mise en jeu ;
-- repartir du monde transformé.
-
-D’autres éléments appartiennent à la configuration standard et peuvent être transformés :
-
 - utiliser des D6 ;
 - associer une Mise à un dé ;
 - lire les nombres pairs comme des Réussites ;
-- comparer les Mises qui jouent en faveur des deux issues ;
+- comparer les contributions en faveur des deux issues ;
 - utiliser la même représentation physique pour toutes les Mises ;
 - employer l’échelle standard de résultats ;
 - employer la surenchère ;
-- utiliser la Jauge de Destin.
+- utiliser éventuellement la Jauge de Destin.
 
-La variation n’est pas un ajout extérieur au framework.
+Ces réponses sont cohérentes entre elles et permettent de jouer immédiatement.
 
-**Elle fait partie de sa conception.**
+Mais elles ne constituent pas toutes l’identité de Regard.
+
+Un jeu peut les conserver, les masquer derrière un vocabulaire propre, les recomposer ou en remplacer certaines lorsque cela rend son monde et son expérience plus directement jouables.
+
+> **La configuration standard est une implémentation complète de Regard, pas la forme à laquelle toutes les autres doivent ressembler.**
 
 ## Une chaîne standard de responsabilités
 
