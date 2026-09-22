@@ -40,9 +40,20 @@ The rule does not try to replace the player's view of the scene.
 
 **It extends that view.**
 
-## The resolution loop
+## Four questions are enough to play
 
-A Regard resolution follows a simple loop:
+When uncertainty appears, you can begin without memorizing a complete procedure:
+
+1. **What do you want to achieve?**
+2. **What do we still not know?**
+3. **What matters here?**
+4. **What does the result change in the world?**
+
+These four questions are enough to understand the movement of Regard. The concepts introduced later in the SRD make some decisions more precise when they become difficult; they are not a vocabulary checklist to recite before every roll.
+
+## The loop unfolded
+
+When you need to see every articulation, a resolution can be unfolded like this:
 
 1. **State what you want to achieve.**
 2. **Frame the question and its scale.**
@@ -54,7 +65,9 @@ A Regard resolution follows a simple loop:
 8. **Interpret that result from what was put into play.**
 9. **Continue from the transformed world.**
 
-This loop is the heart of Regard. The way uncertainty is materialized or read can vary from one game to another; to learn how to play, we will begin with the **standard configuration**.
+This detailed version is a reading and design tool. At the table, it should be able to condense until it feels almost obvious.
+
+The way uncertainty is materialized or read can vary from one game to another; to learn how to play, we will begin with the **standard configuration**.
 
 ## The table contract comes before the mechanics
 
