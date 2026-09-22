@@ -10,34 +10,49 @@ description: "Regard: a TTRPG framework where fiction determines what matters an
 
 ![Regard](/img/site/regard_mosaic_valid_pips_400.svg)
 
-**Regard is a game design framework for role-playing games in which fiction determines what enters resolution and can also determine how that resolution works.**
+**Regard begins with a very simple gesture: look at the fiction and ask what matters here.**
 
-Regard therefore asks two complementary questions:
+> **What matters here?**
 
-- **What matters here?** Fiction determines which truths become mechanically relevant to the resolution: these are **Bets**.
-- **How does this way of inhabiting the world transform uncertainty?** When a perspective deserves to become mechanically operative, it can transform the way that uncertainty is read: this is the role of **Prisms**.
+The fictional world always contains more than a resolution can hold. Regard asks the table to recognize the truths that genuinely weigh on the situation, put them into play, and then let uncertainty transform the fiction.
 
-The first question organizes what the resolution looks at. The second opens the possibility that resolution itself can express a culture, cosmology, trope, or perspective.
+At the table, the essential movement is short:
 
-> **We will first learn how to determine what matters. We will then see how a perspective can transform the way it is resolved.**
+1. state what you are trying to achieve;
+2. isolate what remains genuinely uncertain;
+3. recognize what matters to that uncertainty;
+4. confront those truths with some form of uncertainty;
+5. return to the world with what the result has changed.
 
-At the same time, Regard provides a **fully playable standard configuration**. You do not need to design your own game in order to use Regard.
+Truths made relevant become **Bets**.
+
+When a way of inhabiting the world deserves to transform uncertainty itself, a **Prism** can make that perspective mechanically operative.
+
+> **The rule does not replace the way you look at the scene. It trains and extends that view.**
+
+## Play immediately
+
+Regard provides a **fully playable standard configuration**. It uses D6s, an even / odd reading, and a simple comparison of results. You do not need to design your own game in order to use Regard.
 
 You can simply play.
 
-Or you can go further and make resolution resonate with a particular world, culture, cosmology, genre, trope, or perspective.
+The rest of the SRD progressively explains the decisions that support this gesture: how to frame uncertainty, recognize Bets without turning fiction into a catalogue of bonuses, resolve, interpret, and maintain coherence.
+
+## Transform Regard
+
+Regard is not an engine whose games can only modify the margins.
+
+A game may keep the standard configuration. It may also deeply transform how Bets encounter uncertainty, the form of the result, the media used, cooperation between several perspectives, or the parts of the world that resolution teaches the table to notice.
+
+[**Glorantha Perspectives** and **Regard: Scooby-Doo**](./practice.md) deliberately occupy very different regions of that space. They do more than reskin the same roll: they show that the architecture can be pushed, compressed, or reshaped when the intended experience calls for it.
+
+The useful distinction is therefore between three levels:
+
+- **the gesture of Regard**: begin from fiction, determine what matters, pass through uncertainty, and return to transformed fiction;
+- **the standard configuration**: a simple, immediately playable answer to the decisions resolution requires;
+- **a game designed with Regard**: a particular form that may keep those answers or transform them deeply.
 
 > **Regard is complete for play and open for design.**
-
-The useful distinction is not between a core engine and additional modules, but between three levels:
-
-- **the invariants of Regard**, which define the framework's fundamental gesture;
-- **the standard configuration**, which provides simple, immediately playable choices;
-- **design choices**, which a game can keep or transform in order to express its world.
-
-> **Regard defines what must be decided.**  
-> **The standard configuration provides a default decision.**  
-> **A Regard game can keep or transform those decisions.**
 
 ## Read the SRD
 
