@@ -40,9 +40,20 @@ La règle ne cherche pas à remplacer le regard porté sur la scène.
 
 **Elle prolonge ce regard.**
 
-## La boucle de résolution
+## Pour jouer, quatre questions suffisent
 
-Une résolution Regard suit une boucle simple :
+Lorsque l’incertitude apparaît, on peut commencer sans mémoriser toute une procédure :
+
+1. **Qu’est-ce que tu veux obtenir ?**
+2. **Qu’est-ce que nous ne savons pas encore ?**
+3. **Qu’est-ce qui compte ici ?**
+4. **Qu’est-ce que le résultat change dans le monde ?**
+
+Ces quatre questions suffisent pour comprendre le mouvement de Regard. Les concepts introduits dans la suite du SRD servent à rendre certaines décisions plus précises lorsqu’elles deviennent difficiles ; ils ne sont pas une liste de mots à réciter avant chaque jet.
+
+## La boucle dépliée
+
+Lorsqu’on a besoin de voir toutes les articulations, une résolution peut se déplier ainsi :
 
 1. **Dire ce que l’on veut obtenir.**
 2. **Cadrer la question et son échelle.**
@@ -54,7 +65,9 @@ Une résolution Regard suit une boucle simple :
 8. **Interpréter ce résultat à partir de ce qui a été mis en jeu.**
 9. **Continuer depuis le monde transformé.**
 
-Cette boucle constitue le cœur de Regard. La manière de matérialiser ou de lire l’incertitude peut varier d’un jeu à l’autre ; pour apprendre à jouer, nous utiliserons d’abord la **configuration standard**.
+Cette version détaillée est un outil de lecture et de conception. À la table, elle doit pouvoir se condenser jusqu’à devenir presque évidente.
+
+La manière de matérialiser ou de lire l’incertitude peut varier d’un jeu à l’autre ; pour apprendre à jouer, nous utiliserons d’abord la **configuration standard**.
 
 ## Le contrat de table vient avant la mécanique
 
