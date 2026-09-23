@@ -3,7 +3,7 @@ id: home
 title: Regard
 slug: /
 sidebar_position: 1
-description: "Regard: a TTRPG framework where fiction determines what matters and can transform resolution."
+description: "Regard: a TTRPG framework where what matters becomes mechanical and perspectives can transform uncertainty."
 ---
 
 # Regard
