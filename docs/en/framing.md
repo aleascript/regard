@@ -50,6 +50,10 @@ Not everything in the world is necessarily relevant.
 
 Even something important to the story may not matter to this particular resolution.
 
+The **Gaze** is not limited to what stands in front of the character in the present moment. To answer the Focus, the table may look into memory, past experience, relationships, the lore of the world, or what the character projects and anticipates about the future.
+
+The Focus determines **what we are looking at**, not where what matters must come from.
+
 The Focus must concern a **genuine uncertainty**.
 
 If the fiction has already established that a possibility is open or closed, resolution should not ask the dice to revisit that fact. It should look at what remains genuinely uncertain around it.
