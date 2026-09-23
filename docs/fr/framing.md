@@ -50,6 +50,10 @@ Tout ce qui existe dans le monde n’est pas forcément pertinent.
 
 Même un élément important dans l’histoire peut ne pas compter pour cette résolution précise.
 
+Le **Regard** ne se limite toutefois pas à ce qui se trouve devant le personnage au présent. Pour répondre au Focus, la table peut regarder dans sa mémoire, son passé, son expérience, ses relations, le lore du monde ou ce qu’il projette et anticipe de l’avenir.
+
+Le Focus détermine **ce que nous regardons**, pas l’endroit d’où doit provenir ce qui compte.
+
 Le Focus doit porter sur une **véritable incertitude**.
 
 Si la fiction a déjà établi qu’une possibilité est ouverte ou fermée, la résolution n’a pas à demander aux dés de revenir sur ce fait. Elle doit regarder ce qui reste réellement incertain autour de lui.
