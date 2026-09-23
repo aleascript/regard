@@ -4,11 +4,11 @@ title: 3. Putting fiction in the balance
 sidebar_position: 4
 ---
 
-## The character sheet: a memory of fiction
+## The character sheet: a memory of what may matter
 
-Regard uses a character sheet, but it is not organized around levels, classes, or numerical values to be increased.
+Regard uses a character sheet, but it is not a catalogue of abilities or bonuses.
 
-It is primarily **literary and meaningful**: keywords, relationships, states, objects, affiliations, convictions, symbols, injuries, oaths, reputations, or other elements specific to the game world.
+It keeps track of elements that may matter during play: keywords, relationships, states, objects, affiliations, convictions, symbols, injuries, oaths, reputations, or other elements specific to the game world.
 
 For example:
 
@@ -19,24 +19,18 @@ For example:
 - the name of an ally or rival;
 - a Rune, title, debt, or mark that matters to the game.
 
-The sheet is one of the persistent memories of what is true about the character.
-
-It is neither the only source of Bets nor a catalogue of automatic bonuses.
-
 > **Reading your sheet is not about looking for what gives you a die.**  
-> **It is about remembering who the character is and what is true about them.**
+> **It is about remembering who the character is and what may matter.**
 
-A keyword on the sheet can be perfectly true without being relevant to the current Focus.
+An element written on the sheet may contribute nothing to the current Focus. Conversely, something that has never appeared on the sheet may become decisive.
 
-Conversely, a decisive truth in the scene can become a Bet even if it has never been written on any sheet.
+The sheet is therefore only one of the memories available to the Gaze.
 
-## The character's relevance space
+The Gaze may also draw from the scene, relationships, the character's past, their experience, what they know of the world, lore, or what they anticipate about the future.
 
-The sheet also describes part of the character's current **relevance space**: the lasting truths that constitute them and that the fiction may eventually make relevant.
+## What may matter changes
 
-This space is neither a power level nor a list of activatable abilities.
-
-It describes what the character has become: what they know, what they believe, what they belong to, what they love or hate, what they carry, what they have suffered, the ties that bind them, and the symbols that mean something to them.
+The character changes through fiction. What the table may recognize as relevant changes with them.
 
 A young warrior might begin with:
 
@@ -46,41 +40,37 @@ Then their story might bring forth:
 
 > *Compassion* — *Personal love* — *Doubt* — *Truth* — *Refusal of an unjust order*
 
-Some truths are added. Others disappear. Others are transformed:
+Some elements appear. Others disappear. Others are transformed:
 
 > *Obedient to my master* → *Doubtful of my master* → *Betrayed by my master*
 
 The character has not necessarily gained an ability.
 
-**Their relevance space has changed.**
-
-This is how Regard approaches progression: not as an intrinsic numerical climb, but as a transformation of the truths that can matter.
+**What may matter for them has changed.**
 
 > **To progress in Regard is to transform what can matter.**
 
 ## Bets
 
-The elements the table decides matter become **Bets**.
+Elements that the game and the table recognize as relevant become **Bets**.
 
-> **A Bet is a fictional truth that the game and the table make relevant to the current Focus.**
+> **A Bet is an element recognized as relevant to the Focus, at this Zoom.**
 
-A Bet exists in the fiction before it exists in the mechanics.
+Where it comes from matters less than why it matters now.
 
-It can come, among other things, from:
+A Bet may come, among other things, from:
 
 - the character or their sheet: experience, ability, state, reputation, fear, conviction;
+- their memory or past;
 - their relationships: ally, debt, rivalry, oath, love, loyalty;
 - the situation: position, preparation, surprise, urgency;
 - the environment: rain, darkness, terrain, crowd, fire;
-- the adversity: weakness, advantage, discipline, numbers, knowledge;
-- the world: custom, taboo, status, magic, cosmology, or a particular constraint;
-- anything else the game and situation make genuinely significant.
+- adversity: weakness, advantage, discipline, numbers, knowledge;
+- the world or its lore: custom, taboo, status, magic, cosmology, history;
+- what the character projects or anticipates: a plan, fear, promise, expected consequence;
+- anything else the game and the table recognize as significant to this Focus.
 
 This list is not exhaustive.
-
-A Bet is therefore not an abstract bonus attached to the character.
-
-But not everything that is true in the fiction automatically becomes a Bet.
 
 The question is not:
 
@@ -88,13 +78,11 @@ The question is not:
 
 The question is:
 
-> **Does this genuinely matter to the resolution we are looking at?**
+> **Does this genuinely matter to the Focus we are looking at, at this Zoom?**
 
-The movement can be summarized as follows:
+The Focus does not create those elements. It **turns the Gaze toward them** and lets the table decide which ones become Bets.
 
-> **Fiction proposes. Focus selects. The Bet makes it operative.**
-
-Framing has already isolated what remains uncertain and placed **two possible outcomes in the balance**. Bets now say which truths matter in favor of each one.
+Framing has already isolated what remains uncertain and placed **two possible outcomes in the balance**. Bets now say what matters in favor of each one.
 
 ## A Bet favors an outcome
 
@@ -126,13 +114,13 @@ One of the two outcomes may receive no Bet. In the standard configuration it is 
 
 Neither the Intention nor the mere fact that an outcome is in the balance supplies an implicit Bet. Regard does not add a “base die” to represent the character, their action, or an outcome.
 
-> **Every die placed on the table must represent a fictional truth that the Focus has actually made relevant.**
+> **Every die placed on the table must represent an element that the Focus has actually made relevant.**
 
 “It's the base die because there has to be one” is therefore never a sufficient answer.
 
 ### One side with no Bet: 0 / N
 
-A side with no Bet is valid. It simply means that no truth retained as relevant favors that outcome.
+A side with no Bet is valid. It simply means that no element retained as relevant favors that outcome.
 
 For example, a character tries to convince their brother to let them leave. Nothing especially relevant weighs in the character's favor, but the brother has *Sworn to their father to protect them*. The resolution may therefore be **0 / 1**.
 
@@ -150,8 +138,8 @@ The table returns to the question:
 
 Two possibilities follow:
 
-1. the answer reveals a relevant truth that had not yet been identified: it may become a Bet;
-2. no relevant truth appears: the situation probably does not require resolution, and the fiction moves forward directly.
+1. the answer reveals a relevant element that had not yet been identified: it may become a Bet;
+2. no relevant element appears: the situation probably does not require resolution, and the fiction moves forward directly.
 
 This extends the framing principle that resolution does not ask the dice what the fiction already knows: it brings them in where the fiction remains open.
 
@@ -199,7 +187,7 @@ Non-redundancy is therefore not an accounting rule.
 
 It depends on the Focus and its Zoom.
 
-It applies in the same way to a group: several characters can contribute several genuinely distinct truths, but a single dimension of the situation does not become several Bets simply because it affects several people.
+It applies in the same way to a group: several characters can contribute several genuinely distinct elements, but a single dimension of the situation does not become several Bets simply because it affects several people.
 
 ## Closing the Bets
 
