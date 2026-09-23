@@ -10,47 +10,43 @@ description: "Regard: a TTRPG framework where fiction determines what matters an
 
 ![Regard](/img/site/regard_mosaic_valid_pips_400.svg)
 
-**Regard begins with a very simple gesture: look at the fiction and ask what matters here.**
+**Regard is a role-playing game framework built around two questions.**
 
 > **What matters here?**
 
-The fictional world always contains more than a resolution can hold. Regard asks the table to recognize the truths that genuinely weigh on the situation, put them into play, and then let uncertainty transform the fiction.
+For a given **Focus**, at a given **Zoom**, the table recognizes the elements that genuinely matter. Those elements become **Bets**.
 
-At the table, the essential movement is short:
+They do not come only from what is immediately visible in the scene. The Gaze can turn toward the character, their relationships, experience, memory, past, lore, the world, or what they anticipate about the future.
 
-1. state what you are trying to achieve;
-2. isolate what remains genuinely uncertain;
-3. recognize what matters to that uncertainty;
-4. confront those truths with some form of uncertainty;
-5. return to the world with what the result has changed.
+> **A Bet is an element that the game and the table recognize as relevant to the Focus, at this Zoom.**
 
-Truths made relevant become **Bets**.
+The second question appears when a way of inhabiting the world deserves to become mechanical too:
 
-When a way of inhabiting the world deserves to transform uncertainty itself, a **Prism** can make that perspective mechanically operative.
+> **How does this way of inhabiting the world transform uncertainty?**
 
-> **The rule does not replace the way you look at the scene. It trains and extends that view.**
+That is the role of the **Prism**.
+
+A Prism determines how uncertainty is read. It can remain discreet, as in the standard configuration, or strongly express a culture, cosmology, trope, or perspective.
+
+These two ideas are the heart of Regard: **what matters becomes mechanical; the way uncertainty is read can belong to the world too.**
 
 ## Play immediately
 
-Regard provides a **fully playable standard configuration**. It uses D6s, an even / odd reading, and a simple comparison of results. You do not need to design your own game in order to use Regard.
+Regard provides a **fully playable standard configuration**.
 
-You can simply play.
+It frames the Intention, Focus, and Zoom, places two outcomes in the balance, turns each Bet into a D6, reads even results as Successes, and compares the results.
 
-The rest of the SRD progressively explains the decisions that support this gesture: how to frame uncertainty, recognize Bets without turning fiction into a catalogue of bonuses, resolve, interpret, and maintain coherence.
+You can simply play with this configuration.
+
+The rest of the SRD explains how to decide what matters, handle disagreements, interpret results, and let fiction evolve without turning Regard into a catalogue of bonuses.
 
 ## Transform Regard
 
-Regard is not an engine whose games can only modify the margins.
+But Regard was also designed for another possibility: when a world has a sufficiently strong logic, **the mechanics can stop being generic and start expressing it**.
 
-A game may keep the standard configuration. It may also deeply transform how Bets encounter uncertainty, the form of the result, the media used, cooperation between several perspectives, or the parts of the world that resolution teaches the table to notice.
+A game may keep the standard configuration. It may also deeply change how Bets are selected, how a Prism reads uncertainty, the medium being used, the form of the result, or how several perspectives act together.
 
-[**Glorantha Perspectives** and **Regard: Scooby-Doo**](./practice.md) deliberately occupy very different regions of that space. They do more than reskin the same roll: they show that the architecture can be pushed, compressed, or reshaped when the intended experience calls for it.
-
-The useful distinction is therefore between three levels:
-
-- **the gesture of Regard**: begin from fiction, determine what matters, pass through uncertainty, and return to transformed fiction;
-- **the standard configuration**: a simple, immediately playable answer to the decisions resolution requires;
-- **a game designed with Regard**: a particular form that may keep those answers or transform them deeply.
+[**Glorantha Perspectives** and **Regard: Scooby-Doo**](./practice.md) show two very different extensions of Regard.
 
 > **Regard is complete for play and open for design.**
 
