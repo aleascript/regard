@@ -132,7 +132,7 @@ Par exemple :
 - un serment peut être brisé ou remplacé ;
 - une réputation peut être gagnée ;
 - un objet, un symbole ou une marque peut être perdu ;
-- une nouvelle vérité peut apparaître à la suite d’un **Et** ou d’un **Mais**.
+- un nouvel élément peut apparaître à la suite d’un **Et** ou d’un **Mais**.
 
 La feuille ne sert donc pas seulement à rappeler ce qui pouvait compter avant le jet.
 
