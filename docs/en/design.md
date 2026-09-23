@@ -6,73 +6,57 @@ sidebar_position: 7
 
 The standard configuration is enough to play.
 
-But transforming Regard can mean far more than changing a die, a result table, or a few parameters.
+But Regard was also designed for another possibility: when a world has a sufficiently strong logic, **the mechanics can stop being generic and start expressing it**.
 
-**Glorantha Perspectives** transforms the reading of uncertainty through several ways of inhabiting reality. **Regard: Scooby-Doo** pushes the architecture elsewhere and can even give some protagonists a form of resolution that does not use the standard comparison between two sets of Bets.
+That may require a small variation. It may also deeply transform resolution.
 
-These are not exceptions tolerated at the margins.
+## Two ideas at the heart of Regard
 
-**They show what designing with Regard means: preserve a recognizable gesture while allowing the intended experience to transform its form.**
+### Bets: what matters here?
 
-## What must remain recognizable
+For a given **Focus**, at a given **Zoom**, the game and the table recognize the elements that matter.
 
-The invariants of Regard should describe its **gesture**, not freeze every one of its current articulations.
+Those elements become **Bets**.
 
-A Regard game should preserve four movements:
+They may come from the scene, the character, memory, relationships, the past, lore, the world, or what the character anticipates about the future. What matters is not where they come from, but why they matter to what the Gaze is looking at now.
 
-1. **Begin from fiction and isolate an uncertainty that genuinely deserves resolution.**
-2. **Determine which truths matter to that uncertainty.**
-3. **Bring those truths into contact with a form of uncertainty capable of producing a result the game can use.**
-4. **Interpret that result through the fiction that was put into play, then continue from a transformed world.**
+> **A Bet is an element recognized as relevant to the Focus, at this Zoom.**
 
-> **Fiction → relevance → uncertainty → transformed fiction**
+### Prisms: how is uncertainty read?
 
-The SRD uses **Intention**, **Focus**, **Zoom**, **Bets**, and other concepts to make the responsibilities within this movement explicit. They are precise tools for understanding and designing Regard; a particular game does not need to expose all of that vocabulary to its players if its own design makes the same decisions obvious in another way.
+Every resolution must also give uncertainty a form.
 
-## What the standard configuration decides for you
+In the standard configuration, the **standard Prism** reads D6s simply: even, one Success; odd, none.
 
-The standard configuration provides, among others, these answers:
+But a game may have a strong reason to read uncertainty differently. A culture, cosmology, trope, or another way of inhabiting the world may then become a **Prism**.
 
-- explicitly frame an Intention, a Focus, and a Zoom;
-- place two possible outcomes in the balance;
-- use D6s;
-- associate one Bet with one die;
-- read even numbers as Successes;
-- compare contributions favoring the two outcomes;
-- use the same physical representation for every Bet;
-- use the standard result scale;
-- use escalation;
-- optionally use the Fate Gauge.
+> **A Prism determines how a perspective transforms the reading of uncertainty.**
 
-These answers are coherent with one another and make the game immediately playable.
+These are the two most characteristic parts of Regard: **select what matters** and, when it makes sense, **make the way uncertainty is read part of the world**.
 
-But they are not all the identity of Regard.
+Focus and Zoom naturally serve the first gesture: Focus says what the Gaze is looking at; Zoom says at what scale.
 
-A game may keep them, hide them behind its own vocabulary, recombine them, or replace some of them when doing so makes its world and intended experience more directly playable.
+## What the standard configuration decides
 
-> **The standard configuration is a complete implementation of Regard, not the form every other implementation should resemble.**
+To be immediately playable, the standard configuration makes specific choices:
 
-## A standard chain of responsibilities
+- an Intention;
+- a Focus and Zoom;
+- two outcomes placed in the balance;
+- one D6 per Bet;
+- even numbers as Successes;
+- a comparison of Successes;
+- a standard result scale;
+- the possibility of escalation;
+- an optional Fate Gauge.
 
-In the standard configuration — and in implementations that compare two outcomes — the operations can be separated as follows:
+Together, these choices make a complete game.
 
-> **Bets on each side → uncertainty medium → Prism → mechanical signals → grouping by outcome → result scale → interpretation → transformed fiction**
+They are not all mandatory in a game designed with Regard.
 
-In the standard configuration:
+A game may keep this configuration, change the medium, change how dice are read, produce another kind of result, or even avoid comparing two pools when its Prism works better autonomously.
 
-> **Bets on each side → D6 → even / odd → Successes → comparison → interpretation through the Bets**
-
-This separation avoids asking a single mechanic to do everything.
-
-The **Prism** transforms uncertainty into mechanical signals.
-
-When several contributions favor the same outcome, they must be able to be brought together before comparison.
-
-The **result scale** then transforms that comparison into a form of result.
-
-**Interpretation** finally transforms that form of result into fiction from the Bets and the situation.
-
-This chain is a reference architecture, not a universal obligation. A light implementation can use a Prism whose result is directly usable without passing through an opposition between two sets of Bets.
+> **The standard configuration is a complete way to play Regard, not a mold every Regard game must resemble.**
 
 ## Prisms: how a perspective transforms uncertainty
 
@@ -126,7 +110,7 @@ Two decisions should not be confused:
 2. **How does this Bet become mechanically readable?**  
    That depends on the Prism of the perspective carrying it, or on the Prism the game assigns to its actualization.
 
-> **The Focus determines which side a truth weighs on. The Prism determines how that truth passes through uncertainty to become mechanically readable.**
+> **The Focus determines which side a Bet weighs on. The Prism determines how it passes through uncertainty and becomes readable by the game.**
 
 The Bets favoring the same outcome therefore do not need to be homogeneous in terms of Prisms.
 
@@ -162,7 +146,7 @@ A game whose Prisms do not produce directly comparable outputs must itself defin
 
 ### Adversity without a perspective of its own
 
-The Bets favoring the adverse outcome may be truths such as:
+The Bets favoring the adverse outcome may be elements such as:
 
 - *vertical wall*;
 - *extreme cold*;
@@ -171,7 +155,7 @@ The Bets favoring the adverse outcome may be truths such as:
 - *accumulated fatigue*;
 - *distance to cover*.
 
-These truths do create opposition, but they do not necessarily possess a perspective on the world.
+These elements do create opposition, but they do not necessarily possess a perspective on the world.
 
 Regard recommends reading them in the following order.
 
@@ -349,7 +333,7 @@ A Regard game may choose to include them. When a game does not decide for itself
 When a table uses this rule:
 
 1. the Bet must first be relevant and non-redundant for the Focus;
-2. its embodiment must make the fictional truth it expresses immediately intelligible;
+2. its embodiment must make the fictional element it expresses immediately intelligible;
 3. **the Bet remains among the Bets on its side** and is processed normally by its Prism;
 4. its embodiment contributes **1 additional Success** on the same side;
 5. at most **one Embodied Bet on each side per resolution**;
@@ -390,13 +374,13 @@ The principle is therefore not "thinking too long gives you a penalty."
 
 It is that the world may continue to exist while the table deliberates when the fiction already had a reason not to wait.
 
-## Designing relevance
+## Designing what the game teaches you to notice
 
 Prisms are only one of Regard's design points.
 
-A game must also decide which families of fictional truths it wants to make visible and naturally available to the table's attention.
+A game must also decide which elements it wants to make visible and naturally available to the table's attention.
 
-This **grammar of relevance** can be organized around:
+That attention can be organized around:
 
 - cultures of the world;
 - magic;
@@ -407,7 +391,7 @@ This **grammar of relevance** can be organized around:
 - tropes;
 - consequences accumulated in the fiction.
 
-The grammar resembles a **semantic map** more than a closed list.
+This is not a closed list: the game mainly indicates where it is worth looking.
 
 Two games can use exactly the same Prism and still produce very different experiences because they do not teach the table to look at the same things.
 
@@ -423,7 +407,7 @@ Powered by the Apocalypse games provide a useful point of comparison.
 
 Many PbtA games bring forth their genre by giving privileged mechanical structure to particular fictional triggers, consequences, Playbooks, or archetypes.
 
-Regard can act at another level: it can leave the space of actions broadly open while orienting the families of truths the game teaches players to treat as significant.
+Regard can act at another level: it can leave the space of actions broadly open while orienting the elements the game teaches players to treat as significant.
 
 The trope can then emerge because the game teaches the player **what to look at, what relationships to recognize, and what reasons to let carry weight** in their own actions.
 
@@ -433,19 +417,18 @@ This difference does not mean that Regard is "freer" than PbtA in every circumst
 
 ## Designing character evolution
 
-Because evolution happens through persistent truths, designing progression in a Regard game does not mean drawing a level curve.
+Because evolution also happens through persistent elements of the character, designing progression in a Regard game does not necessarily mean drawing a level curve.
 
 The game designer should instead decide:
 
-- which families of truths can appear on the sheet;
+- which kinds of elements can appear on the sheet;
 - how an experience can create a new one;
-- when a truth can be reworded, replaced, or removed;
+- when an element can be reworded, replaced, or removed;
 - who has authority to write those transformations;
 - which changes require a resolution and which simply follow from an established fictional event;
 - how the game makes important transformations visible.
 
-> **The grammar of relevance defines the possible language of evolution.**  
-> **The character's story progressively writes their relevance space in that language.**
+> **The character's story progressively transforms what may matter for them.**
 
 Two characters who began with similar sheets can therefore diverge dramatically without either one being "higher level" than the other.
 
@@ -455,7 +438,7 @@ Two characters who began with similar sheets can therefore diverge dramatically 
 
 The framework.
 
-It provides the general grammar of resolution, its concepts, and its points of variation.
+It provides its resolution concepts and their main points of variation.
 
 ### The standard configuration
 
@@ -469,7 +452,7 @@ An implementation that chooses what to keep and what to transform in order to pr
 
 It can define, among other things:
 
-- its grammar of relevance;
+- what the game teaches players to notice;
 - the form of its sheets and fictional memories;
 - its Prisms;
 - its Frame Factors;
@@ -481,32 +464,19 @@ It can define, among other things:
 - its policy for activating Mirror Mode;
 - any forms of resonance between the table apparatus and the fiction.
 
-## Situating a Regard game on the design axes
-
-[Resonance proposes four design axes](https://aleascript.github.io/resonance/design-axes) for describing how a game organizes the relationship between players, system, fiction, and world: **cognitive**, **diegetic**, **perspectivist**, and **ontological**.
-
-They do not all have the same status in Regard:
-
-- the resolution gesture is **structurally cognitive**: it first asks participants to judge what matters in the situation rather than search for a value or rule to activate;
-- it is also **structurally diegetic**: a Bet is first a fictional truth made relevant, not an abstract modifier attached to the character;
-- **perspectivism** is a design possibility, notably through Prisms, but a Regard game can keep the standard Prism without making a particular perspective mechanically operative;
-- **ontological** commitment belongs to the game and its world: Regard can express that a perspective actually changes how the world works, but never asserts that by default.
-
-These axes do not replace Regard's own design choices. They help situate what an implementation is trying to do with them.
-
 ## A design checklist
 
 When designing a game with Regard, ask in particular:
 
 1. **What does this world or genre teach players to notice?**
-2. **Which families of truths should be especially visible?**
-3. **How do the sheet, lore, or other media make these truths memorable without turning them into automatic bonuses?**
+2. **Which elements should be especially visible?**
+3. **How do the sheet, lore, or other media make these elements memorable without turning them into automatic bonuses?**
 4. **What makes two Bets distinct or redundant?**
 5. **Which Frame Factors genuinely close off possibilities?**
 6. **Does the Focus concern a genuine uncertainty, or is it asking the dice to decide something the fiction has already established?**
-7. **If a truth is already fixed, what question genuinely remains open around it?**
+7. **If an element is already established, what question genuinely remains open around it?**
 8. **Does the chosen Zoom correspond to the differences the fiction still wants to distinguish?**
-9. **What are the two outcomes in the balance, and which truths favor each one for this particular Focus?**
+9. **What are the two outcomes in the balance, and which elements favor each one for this particular Focus?**
 10. **Do several perspectives or Prisms contribute to the same outcome? If so, can their outputs become interoperable?**
 11. **Does the other side have a perspective or logic of its own that deserves a particular Prism?**
 12. **If not, should Mirror Mode or the standard Prism be used, and why?**
@@ -518,7 +488,7 @@ When designing a game with Regard, ask in particular:
 18. **Would another medium than a D6 make the experience more direct?**
 19. **Does a correspondence between the actual table apparatus and the fiction make something of the world genuinely perceptible, or merely add a gimmick?**
 20. **Which consequences should return durably to the fiction or the sheet?**
-21. **How can the character's truths appear, transform, and disappear?**
+21. **How can the character's lasting elements appear, transform, and disappear?**
 22. **What mechanisms maintain coherence when the table interprets relevance freely?**
 23. **What safeguards prevent the search for Bets or embodiments from becoming mechanical optimization empty of fictional meaning?**
 
