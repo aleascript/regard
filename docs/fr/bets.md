@@ -1,14 +1,14 @@
 ---
 id: bets
-title: 3. Mettre la fiction dans la balance
+title: 3. Mettre ce qui compte dans la balance
 sidebar_position: 4
 ---
 
-## La feuille de personnage : une mémoire de la fiction
+## La feuille de personnage : une mémoire de ce qui peut compter
 
-Regard utilise une feuille de personnage, mais celle-ci n’est pas organisée autour de niveaux, de classes ou de valeurs numériques à faire progresser.
+Regard utilise une feuille de personnage, mais elle n’est pas un catalogue de capacités ou de bonus.
 
-Elle est essentiellement **littéraire et signifiante** : mots-clés, relations, états, objets, appartenances, convictions, symboles, blessures, serments, réputations ou autres éléments propres à l’univers de jeu.
+Elle garde en mémoire des éléments qui pourront compter au cours du jeu : mots-clés, relations, états, objets, appartenances, convictions, symboles, blessures, serments, réputations ou autres éléments propres à l’univers.
 
 Par exemple :
 
@@ -19,24 +19,18 @@ Par exemple :
 - le nom d’un allié ou d’un rival ;
 - une Rune, un titre, une dette ou une marque importante pour le jeu.
 
-La feuille est l’une des mémoires persistantes de ce qui est vrai au sujet du personnage.
-
-Elle n’est ni la seule source de Mises, ni un catalogue de bonus automatiques.
-
 > **Lire sa feuille ne consiste pas à chercher ce qui rapporte un dé.**  
-> **Cela consiste à se rappeler qui est le personnage et ce qui est vrai de lui.**
+> **Cela consiste à se rappeler qui est le personnage et ce qui peut compter.**
 
-Un mot-clé écrit sur la feuille peut être parfaitement vrai sans être pertinent dans le Focus présent.
+Un élément écrit sur la feuille peut ne rien apporter au Focus présent. Inversement, quelque chose qui n’a jamais été écrit sur la feuille peut devenir décisif.
 
-Inversement, une vérité décisive de la scène peut devenir une Mise alors qu’elle n’a jamais été inscrite sur aucune feuille.
+La feuille n’est donc qu’une des mémoires du Regard.
 
-## L’espace de pertinence du personnage
+Le Regard peut aussi aller chercher dans la scène, les relations, le passé du personnage, son expérience, ce qu’il sait du monde, le lore, ou ce qu’il anticipe de l’avenir.
 
-La feuille décrit aussi une partie de l’**espace de pertinence** actuel du personnage : les vérités durables qui le constituent et que la fiction pourra éventuellement rendre pertinentes.
+## Ce qui peut compter évolue
 
-Cet espace n’est ni un niveau de puissance ni une liste de capacités activables.
-
-Il décrit ce que le personnage est devenu : ce qu’il sait, ce qu’il croit, ce à quoi il appartient, ce qu’il aime ou déteste, ce qu’il porte, ce qu’il a subi, les liens qui l’engagent et les symboles qui ont un sens pour lui.
+Le personnage change au fil de la fiction. Ce que la table pourra reconnaître comme pertinent change avec lui.
 
 Un jeune guerrier peut par exemple commencer avec :
 
@@ -46,41 +40,37 @@ Puis son histoire peut faire apparaître :
 
 > *Compassion* — *Amour personnel* — *Doute* — *Vérité* — *Refus d’un ordre injuste*
 
-Certaines vérités s’ajoutent. D’autres disparaissent. D’autres encore se transforment :
+Certains éléments apparaissent. D’autres disparaissent. D’autres encore se transforment :
 
 > *Obéissance au maître* → *Doute envers le maître* → *Trahi par mon maître*
 
 Le personnage ne gagne pas nécessairement une capacité.
 
-**Son espace de pertinence se transforme.**
-
-C’est ainsi que Regard pense la progression : non comme une montée numérique intrinsèque, mais comme la transformation des vérités capables de compter.
+**Ce qui peut compter pour lui se transforme.**
 
 > **Progresser, dans Regard, c’est transformer ce qui peut compter.**
 
 ## Les Mises
 
-Les éléments que la table fait compter deviennent des **Mises**.
+Les éléments que le jeu et la table reconnaissent comme pertinents deviennent des **Mises**.
 
-> **Une Mise est une vérité fictionnelle que le jeu et la table rendent pertinente pour le Focus présent.**
+> **Une Mise est un élément reconnu comme pertinent pour le Focus, à ce Zoom.**
 
-Une Mise existe dans la fiction avant d’exister dans la mécanique.
+Son origine importe moins que la raison pour laquelle il compte maintenant.
 
-Elle peut provenir, entre autres :
+Une Mise peut venir, entre autres :
 
 - du personnage ou de sa feuille : expérience, capacité, état, réputation, peur, conviction ;
+- de sa mémoire ou de son passé ;
 - de ses relations : allié, dette, rivalité, serment, amour, loyauté ;
 - de la situation : position, préparation, surprise, urgence ;
 - de l’environnement : pluie, obscurité, terrain, foule, incendie ;
 - de l’adversité : faiblesse, avantage, discipline, nombre, connaissance ;
-- du monde : coutume, tabou, statut, magie, cosmologie ou contrainte particulière ;
-- de tout autre élément que le jeu et la situation rendent réellement significatif.
+- du monde ou de son lore : coutume, tabou, statut, magie, cosmologie, histoire ;
+- de ce que le personnage projette ou anticipe : plan, peur, promesse, conséquence attendue ;
+- de tout autre élément que le jeu et la table reconnaissent comme significatif pour ce Focus.
 
 Cette liste n’est pas exhaustive.
-
-Une Mise n’est donc pas un bonus abstrait attaché au personnage.
-
-Mais tout élément vrai dans la fiction n’est pas automatiquement une Mise.
 
 La question n’est pas :
 
@@ -88,13 +78,11 @@ La question n’est pas :
 
 La question est :
 
-> **Est-ce que ceci compte vraiment dans la résolution que nous regardons ?**
+> **Est-ce que ceci compte vraiment pour le Focus que nous regardons, à ce Zoom ?**
 
-On peut résumer le mouvement ainsi :
+Le Focus ne crée pas les éléments. Il **porte le Regard sur eux** et permet à la table de décider lesquels deviennent des Mises.
 
-> **La fiction propose. Le Focus sélectionne. La Mise actualise.**
-
-Le cadrage a déjà isolé ce qui reste incertain et mis **deux issues possibles en balance**. Les Mises disent maintenant quelles vérités comptent en faveur de chacune.
+Le cadrage a déjà isolé ce qui reste incertain et mis **deux issues possibles en balance**. Les Mises disent maintenant ce qui compte en faveur de chacune.
 
 ## Une Mise joue en faveur d’une issue
 
@@ -126,13 +114,13 @@ L’une des deux issues peut ne recevoir aucune Mise. Elle est alors représent�
 
 Ni l’Intention, ni le simple fait qu’une issue soit mise en balance ne fournissent de Mise implicite. Regard n’ajoute pas de « dé de base » pour représenter le personnage, son action ou une issue.
 
-> **Chaque dé posé sur la table doit représenter une vérité fictionnelle effectivement rendue pertinente par le Focus.**
+> **Chaque dé posé sur la table doit représenter une élément effectivement reconnu comme pertinent par le Focus.**
 
 La réponse « c’est le dé de base parce qu’il en faut un » n’est donc jamais suffisante.
 
 ### Un côté sans Mise : 0 / N
 
-Un côté sans Mise est valide. Il signifie simplement qu’aucune vérité retenue comme pertinente ne joue en faveur de cette issue.
+Un côté sans Mise est valide. Il signifie simplement qu’aucun élément retenu comme pertinent ne joue en faveur de cette issue.
 
 Un personnage tente par exemple de convaincre son frère de le laisser partir. Rien de particulièrement pertinent ne joue en sa faveur, mais son frère a *Juré à leur père de le protéger*. La résolution peut donc être **0 / 1**.
 
@@ -150,8 +138,8 @@ La table revient alors à la question :
 
 Deux possibilités se présentent :
 
-1. la réponse révèle une vérité pertinente qui n’avait pas encore été identifiée : elle peut devenir une Mise ;
-2. aucune vérité pertinente n’apparaît : la situation ne nécessite probablement pas de résolution et la fiction avance directement.
+1. la réponse révèle un élément pertinent qui n’avait pas encore été identifié : elle peut devenir une Mise ;
+2. aucun élément pertinent n’apparaît : la situation ne nécessite probablement pas de résolution et la fiction avance directement.
 
 Cela prolonge le principe de cadrage selon lequel une résolution ne demande pas aux dés ce que la fiction sait déjà : elle les fait intervenir là où la fiction reste ouverte.
 
@@ -199,7 +187,7 @@ La non-redondance n’est donc pas une règle comptable.
 
 Elle dépend du Focus et de son Zoom.
 
-Elle s’applique de la même manière à un groupe : plusieurs personnages peuvent apporter plusieurs vérités réellement distinctes, mais une même dimension de la situation ne devient pas plusieurs Mises simplement parce qu’elle affecte plusieurs personnes.
+Elle s’applique de la même manière à un groupe : plusieurs personnages peuvent apporter plusieurs éléments réellement distincts, mais une même dimension de la situation ne devient pas plusieurs Mises simplement parce qu’elle affecte plusieurs personnes.
 
 ## Clore les Mises
 
@@ -226,7 +214,7 @@ La conversation sert à rendre la situation suffisamment claire pour être réso
 
 ## Opposition et contre-Mises
 
-Une Mise peut naturellement faire apparaître une vérité qui joue en faveur de l’autre issue.
+Une Mise peut naturellement faire apparaître un élément qui joue en faveur de l’autre issue.
 
 > **Joueur :** Je suis déjà entre lui et la porte.
 >

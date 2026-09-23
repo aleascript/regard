@@ -4,14 +4,14 @@ title: 5. Ce qui maintient la cohérence
 sidebar_position: 6
 ---
 
-À première lecture, Regard peut sembler offrir une liberté dangereuse : si presque n’importe quelle vérité fictionnelle peut devenir une Mise, pourquoi la table ne pourrait-elle pas simplement tout invoquer jusqu’à accumuler des Mises sans limite ?
+À première lecture, Regard peut sembler offrir une liberté dangereuse : si les éléments qui comptent peuvent venir du personnage, de la scène, du lore, du passé ou d’ailleurs, pourquoi la table ne pourrait-elle pas simplement tout invoquer jusqu’à accumuler des Mises sans limite ?
 
 La réponse n’est pas un mécanisme unique.
 
 Regard repose sur **plusieurs niveaux de cohérence qui agissent à des endroits différents** :
 
 1. **Le contrat de table** définit la manière de jouer ensemble et l’autorité confiée aux participants.
-2. **La grammaire de pertinence** indique dans quelles familles de sens le jeu invite la table à regarder.
+2. **Ce que le jeu apprend à remarquer** oriente l’attention vers certains éléments plutôt que d’autres.
 3. **Les Facteurs Cadres** ferment certaines possibilités.
 4. **Le Focus et son Zoom** déterminent ce que la résolution regarde ici et maintenant.
 5. **La pertinence et la non-redondance** déterminent ce qui peut devenir une Mise distincte.
@@ -77,36 +77,21 @@ Lorsque tuer le Dragon devient réellement possible et que ce Focus est accepté
 
 Regard ne promet pas une difficulté numérique objective indépendante de tout arbitrage. Il peut en revanche rendre cet arbitrage **traçable** : Focus, Mises, Facteurs Cadres et conséquences importantes sont rendus visibles avant que l’incertitude tranche.
 
-## La grammaire de pertinence : ce que le jeu apprend à remarquer
+## Ce que le jeu apprend à remarquer
 
-La grammaire de pertinence fait presque le mouvement inverse.
+Un jeu n’a pas besoin de dresser une liste exhaustive de Mises autorisées.
 
-Elle ne ferme pas l’espace des possibles. Elle indique **où le jeu invite l’attention à se porter pour découvrir des vérités susceptibles de devenir des Mises**.
+Il peut en revanche apprendre à la table **où porter son Regard**.
 
-Elle peut prendre la forme de familles sémantiques imbriquées.
+Un jeu centré sur les relations rendra naturellement visibles les serments, les dettes, les amours et les rivalités. Un autre pourra attirer l’attention vers les coutumes, les tabous, la magie, les institutions, les lieux, les motifs d’un genre ou les conséquences accumulées au fil de la partie.
 
-Par exemple :
+La feuille de personnage peut en garder une partie en mémoire. Le lore, les personnages non joueurs, les lieux, les règles du monde ou les conventions du genre peuvent en porter une autre.
 
-> **Relations**  
-> → serments, dettes, amours, rivalités  
-> → personnes ou liens concrets  
-> → vérités actuellement pertinentes  
-> → Mises possibles
+Ces éléments ne deviennent pas automatiquement des Mises.
 
-Ou :
+Ils deviennent des Mises lorsqu’ils comptent réellement pour le Focus, à ce Zoom.
 
-> **Identité culturelle**  
-> → appartenance, coutumes, tabous, valeurs, symboles  
-> → mots-clés particuliers du personnage et du monde  
-> → éléments que le Focus peut rendre pertinents
-
-Une feuille peut matérialiser une partie de cette grammaire.
-
-Mais la grammaire reste plus large que la feuille : elle existe aussi dans le lore, les personnages non joueurs, les institutions, les lieux, la magie, les tropes et les conventions de genre.
-
-Elle n’est pas une liste exhaustive de Mises autorisées.
-
-**C’est une organisation du regard.**
+> **Le jeu apprend où regarder. Le Focus détermine ce qui compte maintenant.**
 
 ## Arbitrer une Mise
 
@@ -116,7 +101,7 @@ Dans une configuration classique :
 
 - les joueurs proposent les éléments qu’ils voient comme pertinents ;
 - le meneur fait vivre l’adversité et le monde ;
-- la table confronte ces propositions au Focus, au Zoom, aux Facteurs Cadres et à la grammaire du jeu ;
+- la table confronte ces propositions au Focus, au Zoom, aux Facteurs Cadres et à ce que le jeu a appris à remarquer ;
 - le meneur tranche en dernier recours si le contrat de table lui confie cette responsabilité.
 
 Cette validation ne devrait pas reposer sur le seul goût personnel de l’arbitre.

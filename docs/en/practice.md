@@ -1,184 +1,52 @@
 ---
 id: practice
-title: "7. Regard in practice: two bounds of the design space"
+title: "7. Two games, two extensions of Regard"
 sidebar_position: 8
 ---
 
-The first two Regard case studies deliberately occupy very different positions.
+Regard provides a complete standard configuration, but it can be transformed far beyond a few parameters.
 
-**Glorantha Perspectives** tests depth: a dense world, several cosmologies, different relationships to reality, and a strong continuity between lore and mechanics.
+**Glorantha Perspectives** and **Regard: Scooby-Doo** provide two very different examples.
 
-**Regard: Scooby-Doo** tests compression: an immediately recognizable trope, character creation in a handful of keywords, strongly characterized Prisms, and minimal infrastructure.
+This page does not summarize their rules. It only points out **what they change compared with Regard**.
 
-Together, they provide two useful bounds for the design space.
+## Glorantha Perspectives
 
-## Glorantha Perspectives — the depth test
+**Glorantha Perspectives** adapts Regard to a setting where ways of inhabiting the world are already part of the lore itself.
 
-**Glorantha Perspectives** is a complete implementation of Regard.
+Its main shifts are:
 
-In that implementation, Prisms are called **worldviews**, using terminology specific to Glorantha. It is the same design concept; only the implementation's vocabulary changes.
+- **Prisms** become **Worldviews**, a term taken directly from Glorantha;
+- the standard even / odd reading becomes the reading of the **Middle World**, again named from the lore rather than from Regard;
+- a Worldview may be **weakened, ordinary, or heroic**, and some heroic readings are gradual;
+- setting-specific influences may pass through a Worldview without replacing it: the **Red Moon**, for example, may alter how some Worldviews read uncertainty;
+- not every extension goes through Prisms: **Chaos**, for example, also affects which possibilities are open, what may matter, and how protagonists are durably transformed.
 
-Glorantha is particularly well suited to Regard because its cosmologies are not merely decorative opinions laid over a single mechanical physics.
-
-The way a character inhabits the world can change how that world becomes mechanically accessible.
-
-### Theism
-
-Even numbers are Successes.
-
-Sixes can produce extraordinary effects and give some normally failed results another possibility.
-
-**Faith transforms the meaning of failure.**
-
-### Animism
-
-Even numbers are Successes.
-
-Patterns among dice that would normally fail can become meaningful.
-
-**The world remains populated by relationships and presences even within what seemed to produce nothing.**
-
-### Logic
-
-Dice are no longer read as independent successes.
-
-Their values are aggregated according to a calculation rule.
-
-**Uncertainty becomes calculation.**
-
-### Mysticism
-
-Some results can cancel an opponent's apparent Successes.
-
-**Material victory can become secondary to a deeper reality.**
-
-### Draconic Thought
-
-Bets use D8s, and particular patterns can create choices between material accomplishment and spiritual transformation.
-
-**The result itself brings forth a tension proper to Draconic thought.**
-
-### Going beyond a list of Prisms
-
-Lunar influence can change the way some Prisms are experienced.
-
-Illumination can become a transformation genuinely lived by the player through the mechanics.
-
-Heroquests can go as far as allowing characters to seek, discover, or create a new way of understanding reality.
-
-At that point, the mechanics no longer merely illustrate the lore.
-
-**They let the player think through it.**
-
-Glorantha Perspectives shows how:
-
-- a grammar of relevance can emerge from a very dense world;
-- several Prisms can make different relationships to reality mechanically operative;
-- Frame Factors can express cosmological, social, or cultural truths;
-- an economy such as the Fate Gauge can act as a safety net;
-- lore can become material for play rather than a corpus consulted beside the rules.
-
-> **The system does not merely describe the world. It lets the player experience the world through its own logic.**
+Glorantha Perspectives therefore shows that a game can preserve the ideas of Regard while renaming them, grading them, and combining them with rules that belong specifically to its world.
 
 [Read Glorantha Perspectives →](https://aleascript.github.io/glorantha-perspectives/)
 
-## Regard: Scooby-Doo — the compression test
+## Regard: Scooby-Doo
 
-At the other extreme, **Regard: Scooby-Doo** shows how far the framework can be compressed without losing its central idea.
+**Regard: Scooby-Doo** is deliberately a small, unpretentious game, designed in part to push Regard in a very different direction.
 
-The design material is not an encyclopedic cosmology, but an immediately recognizable trope: a group of young people, a van, a monster that is probably fake, an absurd investigation, and a chase that descends into chaos.
+It notably explores **Prisms that can work autonomously**.
 
-### Character creation through keywords
+Regard's standard configuration compares Successes obtained on either side of a Focus. Scooby-Doo shows that a Prism may instead read a given pool directly — for example by looking at its own balance between Successes and Failures — without needing an opposing pool built in the same way.
 
-Players choose an archetype and a few keywords that make it immediately playable.
+That opens one important possibility:
 
-For example:
-
-- **The Handsome Guy with the terrible plan**: natural authority, obsession with elaborate traps, "let's split up," wildly disproportionate confidence in his own ideas;
-- **The Brain**: absolute skepticism, walking encyclopedia, severe myopia, relentless deduction;
-- **The Pretty Airhead**: danger-prone, piercing scream, improbable handbag, ability to discover important things by accident;
-- **The Clumsy Duo**: hunger, fear, flight, shared language, and an almost supernatural ability to produce chaos.
-
-Even the **Van** has a small shared sheet: psychedelic paint, temperamental engine, secret snack reserve, dubious equipment, or any other truth likely to return in the fiction.
-
-This creation process directly illustrates Regard's literary character sheet: keywords do not define what the character is allowed to do; they give the player memorable material that may become relevant.
-
-### Trope as a grammar of relevance
-
-The game naturally makes the following visible:
-
-- fear;
-- appetite;
-- clues;
-- overcomplicated plans;
-- splitting up the group;
-- absurd coincidences;
-- the mask behind the monster;
-- each team member's relationships and gimmicks.
-
-Players remain free to attempt whatever they want, but the game quickly teaches them what kinds of reasons belong to this fiction.
-
-### The Clumsy Duo: a standalone result
-
-Shaggy and Scooby do not necessarily play against adverse Bets.
-
-Each gathers their own Bets and makes a separate roll.
-
-Their even results count normally and their Successes are added together.
-
-But their bond has an additional mechanical translation:
-
-> **each cross-pair of matching odd results between their two rolls produces one additional Success.**
-
-A `3` rolled by Shaggy does not resonate with another `3` rolled by Shaggy. A `3` must also appear in Scooby's roll.
-
-They remain two characters with two distinct sets of Bets, but their clumsiness becomes more effective when they are together.
-
-The rule therefore pushes them mechanically toward their trope: **Shaggy and Scooby benefit from staying side by side.**
-
-The result directly describes **the scale of the chaos they produce**.
-
-This case shows that a Prism can produce a **standalone result**: Regard does not force every implementation through "two sets of Bets → comparable Successes → opposition."
-
-### The Brain: the most conventional logic
-
-The Brain instead uses an opposition close to the standard configuration.
-
-She searches for clues, confronts hypotheses with the world, and gets a resolution that reads in an almost rational way.
-
-The contrast with the other characters is part of her identity.
-
-### The Handsome Guy: misalignment
-
-His Prism makes his plans resonate sideways.
-
-A plan can work exactly as intended but on the wrong target; an apparent failure can accidentally trigger the mechanism that actually captures the monster.
-
-The design goal is also to make his tendency to split up the group mechanically attractive: the trope should not merely be narrated, it should create an incentive in play.
-
-### The Pretty Airhead: meaningful accident
-
-She can look for patterns, sequences, or particular correspondences instead of merely maximizing Successes.
-
-A pattern can trigger an "Oops": she leans on a bookshelf and opens a secret passage, presses the wrong button and shuts down the force field, or accidentally draws the monster's attention at the perfect moment.
-
-The game therefore teaches her player to seek a particular form of chance that is coherent with her trope.
-
-### Why this implementation matters
-
-Scooby-Doo demonstrates that Regard can work when:
-
-- the lore fits into a few paragraphs;
-- character creation takes a few minutes;
-- keywords are deliberately comic;
-- Prisms are asymmetric;
-- some results are standalone;
-- fidelity is about rhythm and trope more than complex cosmology.
-
-Glorantha tests how far Regard can **descend into the depth of a world**.
-
-Scooby-Doo tests how far it can **rise toward simplicity without becoming generic**.
-
-The space between them remains open.
+> **a Prism does not need to be a variation of the standard comparison in order to remain a Regard Prism.**
 
 [Read Regard: Scooby-Doo →](https://aleascript.github.io/scooby-doo/)
+
+## What the two games show
+
+These two games do not define the limits of Regard.
+
+They simply show two ways of extending it:
+
+- **Glorantha Perspectives** lets the world deeply transform Prisms and other parts of the game;
+- **Scooby-Doo** shows that a game can also move away from the standard structure itself with very little infrastructure.
+
+The details of those transformations belong in the games themselves, not in the Regard SRD.

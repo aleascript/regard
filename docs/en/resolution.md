@@ -132,7 +132,7 @@ For example:
 - an oath may be broken or replaced;
 - a reputation may be earned;
 - an object, symbol, or mark may be lost;
-- a new truth may appear as a consequence of an **And** or a **But**.
+- a new element may appear as a consequence of an **And** or a **But**.
 
 The sheet therefore does not merely recall what could matter before the roll.
 

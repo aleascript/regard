@@ -3,41 +3,52 @@ id: home
 title: Regard
 slug: /
 sidebar_position: 1
-description: "Regard: a TTRPG framework where fiction determines what matters and can transform resolution."
+description: "Regard: a TTRPG framework where what matters becomes mechanical and perspectives can transform uncertainty."
 ---
 
 # Regard
 
 ![Regard](/img/site/regard_mosaic_valid_pips_400.svg)
 
-**Regard is a game design framework for role-playing games in which fiction determines what enters resolution and can also determine how that resolution works.**
+**Regard is a role-playing game framework built around two questions.**
 
-Regard therefore asks two complementary questions:
+> **What matters here?**
 
-- **What matters here?** Fiction determines which truths become mechanically relevant to the resolution: these are **Bets**.
-- **How does this way of inhabiting the world transform uncertainty?** When a perspective deserves to become mechanically operative, it can transform the way that uncertainty is read: this is the role of **Prisms**.
+For a given **Focus**, at a given **Zoom**, the table recognizes the elements that genuinely matter. Those elements become **Bets**.
 
-The first question organizes what the resolution looks at. The second opens the possibility that resolution itself can express a culture, cosmology, trope, or perspective.
+They do not come only from what is immediately visible in the scene. The Gaze can turn toward the character, their relationships, experience, memory, past, lore, the world, or what they anticipate about the future.
 
-> **We will first learn how to determine what matters. We will then see how a perspective can transform the way it is resolved.**
+> **A Bet is an element that the game and the table recognize as relevant to the Focus, at this Zoom.**
 
-At the same time, Regard provides a **fully playable standard configuration**. You do not need to design your own game in order to use Regard.
+The second question appears when a way of inhabiting the world deserves to become mechanical too:
 
-You can simply play.
+> **How does this way of inhabiting the world transform uncertainty?**
 
-Or you can go further and make resolution resonate with a particular world, culture, cosmology, genre, trope, or perspective.
+That is the role of the **Prism**.
+
+A Prism determines how uncertainty is read. It can remain discreet, as in the standard configuration, or strongly express a culture, cosmology, trope, or perspective.
+
+These two ideas are the heart of Regard: **what matters becomes mechanical; the way uncertainty is read can belong to the world too.**
+
+## Play immediately
+
+Regard provides a **fully playable standard configuration**.
+
+It frames the Intention, Focus, and Zoom, places two outcomes in the balance, turns each Bet into a D6, reads even results as Successes, and compares the results.
+
+You can simply play with this configuration.
+
+The rest of the SRD explains how to decide what matters, handle disagreements, interpret results, and let fiction evolve without turning Regard into a catalogue of bonuses.
+
+## Transform Regard
+
+But Regard was also designed for another possibility: when a world has a sufficiently strong logic, **the mechanics can stop being generic and start expressing it**.
+
+A game may keep the standard configuration. It may also deeply change how Bets are selected, how a Prism reads uncertainty, the medium being used, the form of the result, or how several perspectives act together.
+
+[**Glorantha Perspectives** and **Regard: Scooby-Doo**](./practice.md) show two very different extensions of Regard.
 
 > **Regard is complete for play and open for design.**
-
-The useful distinction is not between a core engine and additional modules, but between three levels:
-
-- **the invariants of Regard**, which define the framework's fundamental gesture;
-- **the standard configuration**, which provides simple, immediately playable choices;
-- **design choices**, which a game can keep or transform in order to express its world.
-
-> **Regard defines what must be decided.**  
-> **The standard configuration provides a default decision.**  
-> **A Regard game can keep or transform those decisions.**
 
 ## Read the SRD
 

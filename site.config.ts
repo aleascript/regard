@@ -61,7 +61,7 @@ export type SiteTheme = {
 export const site = {
   title: 'Regard',
   tagline: 'A TTRPG framework with a fully playable standard configuration',
-  description: 'A TTRPG framework in which fiction determines what matters and can shape how uncertainty is resolved.',
+  description: 'A TTRPG framework where what matters becomes mechanically relevant and perspectives can shape how uncertainty is read.',
   author: 'AleaScript',
   defaultLocale: 'en',
   locales: {

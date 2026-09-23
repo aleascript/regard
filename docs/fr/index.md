@@ -3,41 +3,52 @@ id: home
 title: Regard
 slug: /
 sidebar_position: 1
-description: "Regard : un framework de JdR où la fiction détermine ce qui compte et peut transformer la résolution."
+description: "Regard : un framework de JdR où ce qui compte devient mécanique et où les perspectives peuvent transformer l’incertitude."
 ---
 
 # Regard
 
 ![Regard](/img/site/regard_mosaic_valid_pips_400.svg)
 
-**Regard est un framework de game design pour jeux de rôles dans lequel la fiction détermine ce qui entre dans la résolution et peut également déterminer comment cette résolution fonctionne.**
+**Regard est un framework de jeu de rôle construit autour de deux questions.**
 
-Regard pose ainsi deux questions complémentaires :
+> **Qu’est-ce qui compte ici ?**
 
-- **Qu’est-ce qui compte ici ?** La fiction détermine quelles vérités deviennent mécaniquement pertinentes dans la résolution : ce sont les **Mises**.
-- **Comment cette manière d’habiter le monde transforme-t-elle l’incertitude ?** Lorsqu’une perspective mérite de devenir mécaniquement opérante, elle peut transformer la manière dont cette incertitude est lue : c’est le rôle des **Prismes**.
+Pour un **Focus** donné, à un **Zoom** donné, la table reconnaît les éléments qui comptent réellement. Ces éléments deviennent des **Mises**.
 
-La première question organise ce que la résolution regarde. La seconde ouvre la possibilité que la résolution elle-même exprime une culture, une cosmologie, un trope ou une perspective.
+Ils ne viennent pas seulement de ce qui est immédiatement visible dans la scène. Le Regard peut se porter sur le personnage, ses liens, son expérience, sa mémoire, son passé, le lore, le monde, ou ce qu’il anticipe de l’avenir.
 
-> **Nous apprendrons d’abord à déterminer ce qui compte. Nous verrons ensuite comment une perspective peut transformer la manière dont cela se résout.**
+> **Une Mise est un élément que le jeu et la table reconnaissent comme pertinent pour le Focus, à ce Zoom.**
 
-Regard fournit en même temps une **configuration standard entièrement jouable**. Il n’est donc pas nécessaire de concevoir son propre jeu pour utiliser Regard.
+La seconde question apparaît lorsqu’une manière d’habiter le monde mérite elle aussi de devenir mécanique :
 
-On peut simplement jouer.
+> **Comment cette manière d’habiter le monde transforme-t-elle l’incertitude ?**
 
-Ou l’on peut aller plus loin et faire résonner la résolution avec un monde, une culture, une cosmologie, un genre, un trope ou une perspective particulière.
+C’est le rôle du **Prisme**.
+
+Un Prisme détermine comment l’incertitude est lue. Il peut rester discret, comme dans la configuration standard, ou exprimer fortement une culture, une cosmologie, un trope ou une perspective.
+
+Ces deux idées sont le cœur de Regard : **ce qui compte devient mécanique ; la manière de lire l’incertitude peut elle aussi appartenir au monde.**
+
+## Jouer immédiatement
+
+Regard fournit une **configuration standard entièrement jouable**.
+
+Elle cadre l’Intention, le Focus et le Zoom, met deux issues en balance, transforme chaque Mise en D6, lit les pairs comme des Réussites et compare les résultats.
+
+On peut simplement jouer avec cette configuration.
+
+Le reste du SRD explique comment choisir ce qui compte, résoudre les désaccords, interpréter les résultats et faire évoluer la fiction sans transformer Regard en catalogue de bonus.
+
+## Transformer Regard
+
+Mais Regard a été conçu pour une autre possibilité : lorsqu’un monde possède une logique suffisamment forte, **la mécanique peut cesser d’être générique et commencer à l’exprimer**.
+
+Un jeu peut conserver la configuration standard. Il peut aussi changer profondément la manière dont les Mises sont choisies, la façon dont un Prisme lit l’incertitude, le support utilisé, la forme du résultat ou la manière dont plusieurs perspectives agissent ensemble.
+
+[**Glorantha Perspectives** et **Regard: Scooby-Doo**](./practice.md) montrent deux extensions très différentes de Regard.
 
 > **Regard est complet pour jouer et ouvert pour concevoir.**
-
-La distinction utile n’est pas entre un moteur de base et des modules supplémentaires, mais entre trois niveaux :
-
-- **les invariants de Regard**, qui définissent son geste fondamental ;
-- **la configuration standard**, qui fournit des choix simples et immédiatement jouables ;
-- **les choix de design**, qu’un jeu peut conserver ou transformer pour exprimer son monde.
-
-> **Regard définit ce qui doit être décidé.**  
-> **La configuration standard fournit une décision par défaut.**  
-> **Un jeu Regard peut conserver ou transformer ces décisions.**
 
 ## Lire le SRD
 
