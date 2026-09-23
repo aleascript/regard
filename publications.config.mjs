@@ -49,10 +49,7 @@ export default definePublications({
         },
       },
       lineage: {
-        designedWith: {
-          label: 'Resonance',
-          href: 'https://aleascript.github.io/resonance/',
-        },
+        designedWith: null,
         poweredBy: null,
       },
       size: 'A5',
