@@ -10,47 +10,43 @@ description: "Regard : un framework de JdR où la fiction détermine ce qui comp
 
 ![Regard](/img/site/regard_mosaic_valid_pips_400.svg)
 
-**Regard part d’un geste très simple : regarder la fiction et demander ce qui compte ici.**
+**Regard est un framework de jeu de rôle construit autour de deux questions.**
 
 > **Qu’est-ce qui compte ici ?**
 
-Le monde fictionnel contient toujours plus de choses qu’une résolution ne peut en retenir. Regard demande à la table de reconnaître les vérités qui pèsent réellement dans la situation, de les mettre en jeu, puis de laisser l’incertitude transformer la fiction.
+Pour un **Focus** donné, à un **Zoom** donné, la table reconnaît les éléments qui comptent réellement. Ces éléments deviennent des **Mises**.
 
-À la table, le mouvement essentiel est court :
+Ils ne viennent pas seulement de ce qui est immédiatement visible dans la scène. Le Regard peut se porter sur le personnage, ses liens, son expérience, sa mémoire, son passé, le lore, le monde, ou ce qu’il anticipe de l’avenir.
 
-1. dire ce que l’on cherche à obtenir ;
-2. isoler ce qui reste réellement incertain ;
-3. reconnaître ce qui compte pour cette incertitude ;
-4. confronter ces vérités à une forme d’incertitude ;
-5. revenir au monde avec ce que le résultat a changé.
+> **Une Mise est un élément que le jeu et la table reconnaissent comme pertinent pour le Focus, à ce Zoom.**
 
-Les vérités rendues pertinentes deviennent des **Mises**.
+La seconde question apparaît lorsqu’une manière d’habiter le monde mérite elle aussi de devenir mécanique :
 
-Lorsqu’une manière d’habiter le monde mérite de transformer l’incertitude elle-même, un **Prisme** peut rendre cette perspective mécaniquement opérante.
+> **Comment cette manière d’habiter le monde transforme-t-elle l’incertitude ?**
 
-> **La règle ne remplace pas le regard porté sur la scène. Elle l’entraîne et le prolonge.**
+C’est le rôle du **Prisme**.
+
+Un Prisme détermine comment l’incertitude est lue. Il peut rester discret, comme dans la configuration standard, ou exprimer fortement une culture, une cosmologie, un trope ou une perspective.
+
+Ces deux idées sont le cœur de Regard : **ce qui compte devient mécanique ; la manière de lire l’incertitude peut elle aussi appartenir au monde.**
 
 ## Jouer immédiatement
 
-Regard fournit une **configuration standard entièrement jouable**. Elle utilise des D6, une lecture pair / impair et une comparaison simple des résultats. Il n’est pas nécessaire de concevoir son propre jeu pour utiliser Regard.
+Regard fournit une **configuration standard entièrement jouable**.
 
-On peut simplement jouer.
+Elle cadre l’Intention, le Focus et le Zoom, met deux issues en balance, transforme chaque Mise en D6, lit les pairs comme des Réussites et compare les résultats.
 
-Le reste du SRD explique progressivement les décisions qui soutiennent ce geste : comment cadrer une incertitude, reconnaître des Mises sans transformer la fiction en catalogue de bonus, résoudre, interpréter et maintenir la cohérence.
+On peut simplement jouer avec cette configuration.
+
+Le reste du SRD explique comment choisir ce qui compte, résoudre les désaccords, interpréter les résultats et faire évoluer la fiction sans transformer Regard en catalogue de bonus.
 
 ## Transformer Regard
 
-Regard n’est pourtant pas un moteur dont les jeux ne modifieraient que les marges.
+Mais Regard a été conçu pour une autre possibilité : lorsqu’un monde possède une logique suffisamment forte, **la mécanique peut cesser d’être générique et commencer à l’exprimer**.
 
-Un jeu peut conserver la configuration standard. Il peut aussi transformer profondément la manière dont les Mises rencontrent l’incertitude, la forme du résultat, les supports utilisés, la coopération entre plusieurs perspectives ou les éléments du monde que la résolution apprend à remarquer.
+Un jeu peut conserver la configuration standard. Il peut aussi changer profondément la manière dont les Mises sont choisies, la façon dont un Prisme lit l’incertitude, le support utilisé, la forme du résultat ou la manière dont plusieurs perspectives agissent ensemble.
 
-[**Glorantha Perspectives** et **Regard: Scooby-Doo**](./practice.md) occupent volontairement des régions très différentes de cet espace. Ils ne se contentent pas de changer l’habillage d’un même jet : ils montrent que l’architecture peut être poussée, comprimée ou déformée lorsque l’expérience recherchée le demande.
-
-La distinction utile est donc entre trois niveaux :
-
-- **le geste de Regard** : partir de la fiction, déterminer ce qui compte, traverser une incertitude et revenir à une fiction transformée ;
-- **la configuration standard** : une réponse simple et immédiatement jouable aux décisions de résolution ;
-- **un jeu conçu avec Regard** : une forme particulière qui peut conserver ces réponses ou les transformer profondément.
+[**Glorantha Perspectives** et **Regard: Scooby-Doo**](./practice.md) montrent deux extensions très différentes de Regard.
 
 > **Regard est complet pour jouer et ouvert pour concevoir.**
 
