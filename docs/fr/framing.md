@@ -136,6 +136,6 @@ alors *Froid glacial* est une seule dimension de cette situation collective. Il 
 
 > **Une Mise ne compte pas une fois par personnage. Elle compte une fois par dimension pertinente au Focus.**
 
-Le Focus collectif peut naturellement faire apparaître d’autres vérités propres au groupe : protéger un blessé, avancer au rythme du moins expérimenté, coordonner plusieurs personnes ou franchir un passage un par un.
+Le Focus collectif peut naturellement faire apparaître d’autres éléments propres au groupe : protéger un blessé, avancer au rythme du moins expérimenté, coordonner plusieurs personnes ou franchir un passage un par un.
 
 Changer de Zoom change donc la **question posée à la fiction**, pas simplement le nombre de dés.
