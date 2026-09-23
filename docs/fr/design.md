@@ -6,73 +6,57 @@ sidebar_position: 7
 
 La configuration standard suffit pour jouer.
 
-Mais transformer Regard peut signifier bien davantage que changer un dé, une table de résultats ou quelques paramètres.
+Mais Regard a été conçu pour une autre possibilité : lorsqu’un monde possède une logique suffisamment forte, **la mécanique peut cesser d’être générique et commencer à l’exprimer**.
 
-**Glorantha Perspectives** transforme la lecture de l’incertitude selon plusieurs manières d’habiter le réel. **Regard: Scooby-Doo** pousse ailleurs l’architecture et peut même donner à certains protagonistes une forme de résolution qui ne passe pas par la comparaison standard de deux ensembles de Mises.
+Cela peut demander une petite variation. Cela peut aussi transformer profondément la résolution.
 
-Ce ne sont pas des exceptions tolérées à la marge.
+## Deux idées au cœur de Regard
 
-**Elles montrent ce que signifie concevoir avec Regard : conserver un geste reconnaissable tout en laissant l’expérience recherchée transformer sa forme.**
+### Les Mises : qu’est-ce qui compte ici ?
 
-## Ce qui doit rester reconnaissable
+Pour un **Focus** donné, à un **Zoom** donné, le jeu et la table reconnaissent les éléments qui comptent.
 
-Les invariants de Regard doivent décrire son **geste**, pas figer chacune de ses articulations actuelles.
+Ces éléments deviennent des **Mises**.
 
-Un jeu Regard doit préserver quatre mouvements :
+Ils peuvent venir de la scène, du personnage, de sa mémoire, de ses relations, de son passé, du lore, du monde ou de ce qu’il anticipe de l’avenir. Ce qui importe n’est pas leur origine, mais leur pertinence pour ce que le Regard observe maintenant.
 
-1. **Partir de la fiction et isoler une incertitude qui mérite réellement une résolution.**
-2. **Déterminer quelles vérités comptent pour cette incertitude.**
-3. **Faire rencontrer ces vérités à une forme d’incertitude capable de produire un résultat exploitable par le jeu.**
-4. **Interpréter ce résultat depuis la fiction mise en jeu et repartir d’un monde transformé.**
+> **Une Mise est un élément reconnu comme pertinent pour le Focus, à ce Zoom.**
 
-> **Fiction → pertinence → incertitude → fiction transformée**
+### Les Prismes : comment l’incertitude est-elle lue ?
 
-Le SRD emploie **Intention**, **Focus**, **Zoom**, **Mises** et d’autres notions pour rendre les responsabilités de ce mouvement explicites. Elles constituent des outils précis pour comprendre et concevoir Regard ; un jeu particulier n’a pas besoin d’exposer tout ce vocabulaire à ses joueurs si son propre dispositif rend les mêmes décisions évidentes autrement.
+Chaque résolution doit aussi donner une forme à l’incertitude.
 
-## Ce que la configuration standard décide pour vous
+Dans la configuration standard, le **Prisme standard** lit simplement les D6 : pair, une Réussite ; impair, aucune.
 
-La configuration standard fournit notamment les réponses suivantes :
+Mais un jeu peut avoir une raison forte de lire l’incertitude autrement. Une culture, une cosmologie, un trope ou une autre manière d’habiter le monde peut alors devenir un **Prisme**.
 
-- cadrer explicitement une Intention, un Focus et un Zoom ;
-- mettre deux issues possibles en balance ;
-- utiliser des D6 ;
-- associer une Mise à un dé ;
-- lire les nombres pairs comme des Réussites ;
-- comparer les contributions en faveur des deux issues ;
-- utiliser la même représentation physique pour toutes les Mises ;
-- employer l’échelle standard de résultats ;
-- employer la surenchère ;
-- utiliser éventuellement la Jauge de Destin.
+> **Un Prisme détermine comment une perspective transforme la lecture de l’incertitude.**
 
-Ces réponses sont cohérentes entre elles et permettent de jouer immédiatement.
+Ce sont les deux points les plus caractéristiques de Regard : **sélectionner ce qui compte** et, lorsque cela a du sens, **faire de la manière de lire l’incertitude une partie du monde**.
 
-Mais elles ne constituent pas toutes l’identité de Regard.
+Focus et Zoom servent naturellement le premier geste : le Focus dit ce que le Regard observe ; le Zoom dit à quelle échelle.
 
-Un jeu peut les conserver, les masquer derrière un vocabulaire propre, les recomposer ou en remplacer certaines lorsque cela rend son monde et son expérience plus directement jouables.
+## Ce que décide la configuration standard
 
-> **La configuration standard est une implémentation complète de Regard, pas la forme à laquelle toutes les autres doivent ressembler.**
+Pour être immédiatement jouable, la configuration standard fait des choix précis :
 
-## Une chaîne standard de responsabilités
+- une Intention ;
+- un Focus et un Zoom ;
+- deux issues mises en balance ;
+- un D6 par Mise ;
+- les nombres pairs comme Réussites ;
+- une comparaison des Réussites ;
+- une échelle standard de résultats ;
+- la possibilité d’une surenchère ;
+- une Jauge de Destin optionnelle.
 
-Dans la configuration standard — et dans les implémentations qui comparent deux issues — on peut séparer les opérations ainsi :
+Ces choix forment un jeu complet.
 
-> **Mises de chaque côté → support d’incertitude → Prisme → signaux mécaniques → regroupement par issue → échelle de résultat → interprétation → fiction transformée**
+Ils ne sont pas tous obligatoires dans un jeu conçu avec Regard.
 
-Dans la configuration standard :
+Un jeu peut conserver cette configuration, changer le support, modifier la lecture des dés, produire un autre type de résultat, ou même ne pas comparer deux pools lorsque son Prisme fonctionne mieux de manière autonome.
 
-> **Mises de chaque côté → D6 → pair / impair → Réussites → comparaison → interprétation par les Mises**
-
-Cette séparation évite de demander à une seule mécanique de tout faire.
-
-Le **Prisme** transforme l’incertitude en signaux mécaniques.
-
-Lorsque plusieurs contributions jouent en faveur de la même issue, elles doivent pouvoir être réunies avant la comparaison.
-
-L’**échelle de résultat** transforme ensuite la comparaison en une forme de résultat.
-
-L’**interprétation** transforme enfin cette forme de résultat en fiction à partir des Mises et de la situation.
-
-Cette chaîne est une architecture de référence, pas une obligation universelle. Une implémentation légère peut employer un Prisme dont le résultat est directement exploitable sans passer par une opposition entre deux ensembles de Mises.
+> **La configuration standard est une manière complète de jouer Regard, pas un moule auquel tous les jeux Regard doivent ressembler.**
 
 ## Les Prismes : comment une perspective transforme l’incertitude
 
@@ -126,7 +110,7 @@ Deux décisions ne doivent pas être confondues :
 2. **Comment cette Mise devient-elle mécaniquement lisible ?**  
    Cela dépend du Prisme de la perspective qui la porte, ou du Prisme que le jeu attribue à son actualisation.
 
-> **Le Focus détermine de quel côté une vérité pèse. Le Prisme détermine comment cette vérité traverse l’incertitude pour devenir mécaniquement lisible.**
+> **Le Focus détermine de quel côté une Mise pèse. Le Prisme détermine comment elle traverse l’incertitude et devient lisible par le jeu.**
 
 Les Mises qui favorisent une même issue n’ont donc pas besoin d’être homogènes du point de vue des Prismes.
 
@@ -162,7 +146,7 @@ Un jeu dont les Prismes ne produisent pas de sorties directement comparables doi
 
 ### Adversité sans perspective propre
 
-Les Mises qui jouent en faveur de l’issue adverse peuvent être des vérités comme :
+Les Mises qui jouent en faveur de l’issue adverse peuvent être des éléments comme :
 
 - *paroi verticale* ;
 - *froid extrême* ;
@@ -171,7 +155,7 @@ Les Mises qui jouent en faveur de l’issue adverse peuvent être des vérités 
 - *fatigue accumulée* ;
 - *distance à parcourir*.
 
-Ces vérités produisent bien une opposition, mais elles ne possèdent pas nécessairement une perspective sur le monde.
+Ces éléments produisent bien une opposition, mais elles ne possèdent pas nécessairement une perspective sur le monde.
 
 Regard recommande de les lire dans cet ordre.
 
@@ -349,7 +333,7 @@ Un jeu Regard peut décider de les intégrer. Lorsqu’un jeu ne tranche pas lui
 Lorsqu’une table utilise cette règle :
 
 1. la Mise doit d’abord être pertinente et non redondante pour le Focus ;
-2. son incarnation doit rendre immédiatement intelligible la vérité fictionnelle qu’elle exprime ;
+2. son incarnation doit rendre immédiatement intelligible l’élément de fiction qu’elle exprime ;
 3. **la Mise reste parmi les Mises de son côté** et est traitée normalement par son Prisme ;
 4. son incarnation apporte **1 Réussite supplémentaire** du même côté ;
 5. au maximum **une Mise incarnée de chaque côté et par résolution** ;
@@ -390,13 +374,13 @@ Le principe n’est donc pas « réfléchir trop longtemps donne un malus ».
 
 Il est que le monde peut continuer à exister pendant que la table délibère lorsque la fiction avait déjà une raison de ne pas attendre.
 
-## Concevoir la pertinence
+## Concevoir ce que le jeu apprend à remarquer
 
 Les Prismes ne sont qu’un des points de design de Regard.
 
-Un jeu doit également décider quelles familles de vérités fictionnelles il souhaite rendre visibles et naturellement disponibles à l’attention de la table.
+Un jeu doit également décider quels éléments il souhaite rendre visibles et naturellement disponibles à l’attention de la table.
 
-Cette **grammaire de pertinence** peut s’organiser à partir :
+Cette attention peut s’organiser à partir :
 
 - des cultures du monde ;
 - de la magie ;
@@ -407,7 +391,7 @@ Cette **grammaire de pertinence** peut s’organiser à partir :
 - des tropes ;
 - des conséquences accumulées dans la fiction.
 
-La grammaire ressemble moins à une liste fermée qu’à une **cartographie sémantique**.
+Il ne s’agit pas d’une liste fermée : le jeu indique surtout où il vaut la peine de regarder.
 
 Deux jeux peuvent utiliser exactement le même Prisme et produire des expériences très différentes parce qu’ils n’apprennent pas à la table à regarder les mêmes choses.
 
@@ -423,7 +407,7 @@ Les jeux Powered by the Apocalypse constituent un point de comparaison utile.
 
 De nombreux PbtA font émerger leur genre en donnant une structure mécanique privilégiée à certains déclencheurs fictionnels, conséquences, Playbooks ou archétypes.
 
-Regard peut agir à un autre niveau : laisser l’espace des actions largement ouvert tout en orientant les familles de vérités que le jeu apprend à considérer comme significatives.
+Regard peut agir à un autre niveau : laisser l’espace des actions largement ouvert tout en orientant les éléments que le jeu apprend à considérer comme significatifs.
 
 Le trope peut alors émerger parce que le jeu apprend au joueur **quoi regarder, quelles relations reconnaître et quelles raisons laisser peser** dans ses propres actions.
 
@@ -433,19 +417,18 @@ Cette différence n’implique pas que Regard soit « plus libre » qu’un PbtA
 
 ## Concevoir l’évolution du personnage
 
-Puisque l’évolution passe par les vérités persistantes, concevoir la progression d’un jeu Regard ne consiste pas à dessiner une courbe de niveaux.
+Puisque l’évolution passe aussi par les éléments durables du personnage, concevoir la progression d’un jeu Regard ne consiste pas nécessairement à dessiner une courbe de niveaux.
 
 Le game designer doit plutôt décider :
 
-- quelles familles de vérités peuvent apparaître sur la feuille ;
+- quels types d’éléments peuvent apparaître sur la feuille ;
 - comment une expérience peut en créer une nouvelle ;
-- quand une vérité peut être reformulée, remplacée ou supprimée ;
+- quand un élément peut être reformulé, remplacé ou supprimé ;
 - qui possède l’autorité pour écrire ces transformations ;
 - quels changements nécessitent une résolution et lesquels relèvent simplement d’un événement fictionnel établi ;
 - comment le jeu rend visibles les transformations importantes.
 
-> **La grammaire de pertinence définit le langage possible de l’évolution.**  
-> **L’histoire du personnage écrit progressivement son espace de pertinence dans ce langage.**
+> **L’histoire du personnage transforme progressivement ce qui pourra compter pour lui.**
 
 Deux personnages ayant commencé avec des feuilles similaires peuvent ainsi diverger fortement sans qu’aucun soit « de niveau supérieur » à l’autre.
 
@@ -455,7 +438,7 @@ Deux personnages ayant commencé avec des feuilles similaires peuvent ainsi dive
 
 Le framework.
 
-Il fournit la grammaire générale de résolution, ses concepts et ses points de variation.
+Il fournit ses concepts de résolution et leurs principaux points de variation.
 
 ### La configuration standard
 
@@ -469,7 +452,7 @@ Une implémentation qui choisit ce qu’elle conserve et ce qu’elle transforme
 
 Elle peut définir notamment :
 
-- sa grammaire de pertinence ;
+- ce que le jeu apprend à remarquer ;
 - la forme de ses feuilles et de ses mémoires fictionnelles ;
 - ses Prismes ;
 - ses Facteurs Cadres ;
@@ -481,32 +464,19 @@ Elle peut définir notamment :
 - sa politique d’activation du Mode Miroir ;
 - les éventuelles formes de résonance entre le dispositif de table et la fiction.
 
-## Situer un jeu Regard dans les axes de design
-
-[Resonance propose quatre axes de design](https://aleascript.github.io/resonance/fr/design-axes) pour décrire comment un jeu organise la relation entre joueurs, système, fiction et monde : **cognitif**, **diégétique**, **perspectiviste** et **ontologique**.
-
-Dans Regard, ils n’ont pas tous le même statut :
-
-- le geste de résolution est **structurellement cognitif** : il demande d’abord aux participants de juger ce qui compte dans la situation plutôt que de chercher une valeur ou une règle à activer ;
-- il est également **structurellement diégétique** : une Mise est d’abord une vérité fictionnelle rendue pertinente, pas un modificateur abstrait attaché au personnage ;
-- le **perspectivisme** est une possibilité de design, notamment grâce aux Prismes, mais un jeu Regard peut conserver le Prisme standard sans rendre une perspective particulière mécaniquement opérante ;
-- l’engagement **ontologique** appartient au jeu et à son monde : Regard peut exprimer qu’une perspective transforme réellement le fonctionnement du monde, mais il ne l’affirme jamais par défaut.
-
-Ces axes ne remplacent pas les choix de design propres à Regard. Ils permettent de situer ce que l’implémentation cherche à faire avec eux.
-
 ## Une grille de conception
 
 Pour concevoir un jeu avec Regard, demandez notamment :
 
 1. **Qu’est-ce que ce monde ou ce genre apprend aux joueurs à remarquer ?**
-2. **Quelles familles de vérités doivent être particulièrement visibles ?**
-3. **Comment la feuille, le lore ou d’autres supports rendent-ils ces vérités mémorables sans les transformer en bonus automatiques ?**
+2. **Quels éléments doivent être particulièrement visibles ?**
+3. **Comment la feuille, le lore ou d’autres supports rendent-ils ces éléments mémorables sans les transformer en bonus automatiques ?**
 4. **Qu’est-ce qui rend deux Mises distinctes ou redondantes ?**
 5. **Quels Facteurs Cadres ferment réellement certaines possibilités ?**
 6. **Le Focus porte-t-il sur une véritable incertitude, ou demande-t-il aux dés de décider quelque chose que la fiction a déjà établi ?**
-7. **Si une vérité est déjà fixée, quelle question reste réellement ouverte autour d’elle ?**
+7. **Si un élément est déjà établi, quelle question reste réellement ouverte autour d’elle ?**
 8. **Le Zoom choisi correspond-il aux différences que la fiction souhaite encore distinguer ?**
-9. **Quelles sont les deux issues mises en balance, et quelles vérités jouent en faveur de chacune pour ce Focus précis ?**
+9. **Quelles sont les deux issues mises en balance, et quels éléments jouent en faveur de chacune pour ce Focus précis ?**
 10. **Plusieurs perspectives ou Prismes contribuent-ils à la même issue ? Si oui, leurs sorties peuvent-elles devenir interopérables ?**
 11. **L’autre côté possède-t-il une perspective ou une logique propre qui mérite un Prisme particulier ?**
 12. **Si ce n’est pas le cas, faut-il employer le Mode Miroir ou le Prisme standard, et pourquoi ?**
@@ -518,7 +488,7 @@ Pour concevoir un jeu avec Regard, demandez notamment :
 18. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
 19. **Une correspondance entre le dispositif réel de table et la fiction rend-elle quelque chose du monde réellement perceptible, ou ajoute-t-elle seulement un gimmick ?**
 20. **Quelles conséquences doivent retourner durablement dans la fiction ou sur la feuille ?**
-21. **Comment les vérités du personnage peuvent-elles apparaître, se transformer et disparaître ?**
+21. **Comment les éléments durables du personnage peuvent-ils apparaître, se transformer et disparaître ?**
 22. **Quels mécanismes maintiennent la cohérence lorsque la table interprète librement la pertinence ?**
 23. **Quels garde-fous empêchent la recherche de Mises ou d’incarnations de redevenir une optimisation mécanique vide de sens fictionnel ?**
 
