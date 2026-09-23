@@ -1,6 +1,6 @@
 ---
 id: bets
-title: 3. Mettre la fiction dans la balance
+title: 3. Mettre ce qui compte dans la balance
 sidebar_position: 4
 ---
 
