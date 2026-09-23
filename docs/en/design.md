@@ -132,17 +132,15 @@ This rule avoids artificially imposing the leader's Prism, the majority Prism, o
 
 If the fiction establishes that one perspective genuinely dominates collective action, a game can of course represent that. It then becomes a property of the situation, not a general tie-breaking rule.
 
-### Comparable outputs for different perspectives
+### Making several Prisms work together
 
-In Regard as it currently stands, several Prisms can contribute to the same resolution because they can produce a common output format: **Successes**.
+In the standard configuration, several Prisms can contribute to the same outcome because they all produce **Successes** that can be added together before comparison.
 
-However, this current solution should be distinguished from the more general architectural principle.
+That is not a general requirement of Regard.
 
-> **When several Prisms contribute to the same outcome in a resolution, their outputs must be able to become mechanically comparable when they are brought together. Regard currently uses Successes to ensure this comparability. Other interoperability contracts are conceivable, but the framework does not yet formalize them.**
+> **If several Prisms act together, the game simply needs to say how their results combine.**
 
-Success should therefore not be prematurely turned into a mandatory universal output for every future Regard implementation.
-
-A game whose Prisms do not produce directly comparable outputs must itself define how several perspectives can cooperate on the same side.
+Another game may use a different shared result, or provide a specific rule when its Prisms produce different kinds of results.
 
 ### Adversity without a perspective of its own
 
@@ -464,33 +462,22 @@ It can define, among other things:
 - its policy for activating Mirror Mode;
 - any forms of resonance between the table apparatus and the fiction.
 
-## A design checklist
+## Design questions
 
 When designing a game with Regard, ask in particular:
 
 1. **What does this world or genre teach players to notice?**
-2. **Which elements should be especially visible?**
-3. **How do the sheet, lore, or other media make these elements memorable without turning them into automatic bonuses?**
-4. **What makes two Bets distinct or redundant?**
-5. **Which Frame Factors genuinely close off possibilities?**
-6. **Does the Focus concern a genuine uncertainty, or is it asking the dice to decide something the fiction has already established?**
-7. **If an element is already established, what question genuinely remains open around it?**
-8. **Does the chosen Zoom correspond to the differences the fiction still wants to distinguish?**
-9. **What are the two outcomes in the balance, and which elements favor each one for this particular Focus?**
-10. **Do several perspectives or Prisms contribute to the same outcome? If so, can their outputs become interoperable?**
-11. **Does the other side have a perspective or logic of its own that deserves a particular Prism?**
-12. **If not, should Mirror Mode or the standard Prism be used, and why?**
-13. **If a Mirror is being considered for a collective resolution, is there genuinely a single perspective to reflect?**
-14. **Which consequences must be explicit before a player exposes themselves to them?**
-15. **Is the standard configuration enough to express this world?**
-16. **If not, what perspective deserves a particular Prism, and what should it make the player feel rather than merely simulate?**
-17. **Does the game need to compare two sets of Bets, and do several Prisms need to share a common output format?**
-18. **Would another medium than a D6 make the experience more direct?**
-19. **Does a correspondence between the actual table apparatus and the fiction make something of the world genuinely perceptible, or merely add a gimmick?**
-20. **Which consequences should return durably to the fiction or the sheet?**
-21. **How can the character's lasting elements appear, transform, and disappear?**
-22. **What mechanisms maintain coherence when the table interprets relevance freely?**
-23. **What safeguards prevent the search for Bets or embodiments from becoming mechanical optimization empty of fictional meaning?**
+2. **How do the sheet, lore, and other media make those elements memorable without turning them into automatic bonuses?**
+3. **What makes two Bets genuinely distinct rather than redundant?**
+4. **Which possibilities does the world close before resolution even begins?**
+5. **Does the Focus concern a genuine uncertainty, and does the Zoom match the scale the fiction wants to distinguish?**
+6. **Which outcomes are genuinely possible, and which elements matter for each one?**
+7. **If several Prisms act together, how do their results combine?**
+8. **Does adversity deserve its own Prism, a Mirror, or simply the standard Prism?**
+9. **Which consequences must be known before a player exposes themselves to them?**
+10. **Is the standard configuration enough? If not, what would another Prism, medium, or form of result make the player perceive or feel more directly?**
+11. **What should durably transform the character, their sheet, or the world?**
+12. **What safeguards maintain coherence and prevent the search for Bets from becoming mere optimization?**
 
 Every variation should be able to answer one simple question:
 
