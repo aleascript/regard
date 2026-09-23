@@ -1,6 +1,6 @@
 ---
 id: bets
-title: 3. Putting fiction in the balance
+title: 3. Putting what matters in the balance
 sidebar_position: 4
 ---
 
