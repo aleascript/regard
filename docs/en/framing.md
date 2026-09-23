@@ -136,6 +136,6 @@ then *Bitter cold* is one dimension of that collective situation. It should not 
 
 > **A Bet does not count once per character. It counts once per dimension relevant to the Focus.**
 
-A collective Focus may naturally bring out other truths specific to the group: protecting an injured member, moving at the pace of the least experienced, coordinating several people, or crossing a passage one at a time.
+A collective Focus may naturally bring out other elements specific to the group: protecting an injured member, moving at the pace of the least experienced, coordinating several people, or crossing a passage one at a time.
 
 Changing Zoom therefore changes the **question being asked of the fiction**, not simply the number of dice.
