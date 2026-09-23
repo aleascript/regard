@@ -132,17 +132,15 @@ Cette règle évite d’imposer artificiellement le Prisme d’un leader, le Pri
 
 Si la fiction établit qu’une perspective domine réellement l’action collective, un jeu peut naturellement le représenter. Ce devient alors une propriété de la situation, pas une règle générale de départage.
 
-### Des sorties comparables pour des perspectives différentes
+### Faire agir plusieurs Prismes ensemble
 
-Dans l’état actuel de Regard, plusieurs Prismes peuvent contribuer à une même résolution parce qu’ils peuvent produire un format de sortie commun : les **Réussites**.
+Dans la configuration standard, plusieurs Prismes peuvent contribuer à la même issue parce qu’ils produisent tous des **Réussites** que l’on peut additionner avant la comparaison.
 
-Il faut cependant distinguer cette solution actuelle du principe architectural plus général.
+Ce n’est pas une obligation générale de Regard.
 
-> **Lorsque plusieurs Prismes contribuent à la même issue dans une résolution, leurs sorties doivent pouvoir devenir mécaniquement comparables au moment où elles sont réunies. Regard utilise actuellement les Réussites pour assurer cette comparabilité. D’autres contrats d’interopérabilité sont concevables, mais le framework ne les formalise pas encore.**
+> **Si plusieurs Prismes agissent ensemble, le jeu doit simplement dire comment leurs résultats se combinent.**
 
-La Réussite ne doit donc pas être transformée prématurément en sortie universelle obligatoire pour toute implémentation future de Regard.
-
-Un jeu dont les Prismes ne produisent pas de sorties directement comparables doit définir lui-même comment plusieurs perspectives peuvent coopérer du même côté.
+Un autre jeu peut employer un autre résultat commun, ou prévoir une règle particulière lorsque ses Prismes produisent des résultats de nature différente.
 
 ### Adversité sans perspective propre
 
@@ -464,33 +462,22 @@ Elle peut définir notamment :
 - sa politique d’activation du Mode Miroir ;
 - les éventuelles formes de résonance entre le dispositif de table et la fiction.
 
-## Une grille de conception
+## Questions de conception
 
 Pour concevoir un jeu avec Regard, demandez notamment :
 
 1. **Qu’est-ce que ce monde ou ce genre apprend aux joueurs à remarquer ?**
-2. **Quels éléments doivent être particulièrement visibles ?**
-3. **Comment la feuille, le lore ou d’autres supports rendent-ils ces éléments mémorables sans les transformer en bonus automatiques ?**
-4. **Qu’est-ce qui rend deux Mises distinctes ou redondantes ?**
-5. **Quels Facteurs Cadres ferment réellement certaines possibilités ?**
-6. **Le Focus porte-t-il sur une véritable incertitude, ou demande-t-il aux dés de décider quelque chose que la fiction a déjà établi ?**
-7. **Si un élément est déjà établi, quelle question reste réellement ouverte autour d’elle ?**
-8. **Le Zoom choisi correspond-il aux différences que la fiction souhaite encore distinguer ?**
-9. **Quelles sont les deux issues mises en balance, et quels éléments jouent en faveur de chacune pour ce Focus précis ?**
-10. **Plusieurs perspectives ou Prismes contribuent-ils à la même issue ? Si oui, leurs sorties peuvent-elles devenir interopérables ?**
-11. **L’autre côté possède-t-il une perspective ou une logique propre qui mérite un Prisme particulier ?**
-12. **Si ce n’est pas le cas, faut-il employer le Mode Miroir ou le Prisme standard, et pourquoi ?**
-13. **Si un Miroir est envisagé pour une résolution collective, existe-t-il réellement une perspective unique à refléter ?**
-14. **Quelles conséquences doivent être explicites avant qu’un joueur s’y expose ?**
-15. **La configuration standard suffit-elle à exprimer ce monde ?**
-16. **Si non, quelle perspective mérite un Prisme particulier et que doit-il faire ressentir plutôt que simplement simuler ?**
-17. **Le jeu a-t-il besoin de comparer deux ensembles de Mises, et plusieurs Prismes doivent-ils partager un format de sortie commun ?**
-18. **Un autre support que le D6 rendrait-il cette expérience plus directe ?**
-19. **Une correspondance entre le dispositif réel de table et la fiction rend-elle quelque chose du monde réellement perceptible, ou ajoute-t-elle seulement un gimmick ?**
-20. **Quelles conséquences doivent retourner durablement dans la fiction ou sur la feuille ?**
-21. **Comment les éléments durables du personnage peuvent-ils apparaître, se transformer et disparaître ?**
-22. **Quels mécanismes maintiennent la cohérence lorsque la table interprète librement la pertinence ?**
-23. **Quels garde-fous empêchent la recherche de Mises ou d’incarnations de redevenir une optimisation mécanique vide de sens fictionnel ?**
+2. **Comment la feuille, le lore et les autres supports rendent-ils ces éléments mémorables sans en faire des bonus automatiques ?**
+3. **Qu’est-ce qui rend deux Mises réellement distinctes plutôt que redondantes ?**
+4. **Quelles possibilités le monde ferme-t-il avant même la résolution ?**
+5. **Le Focus porte-t-il sur une vraie incertitude, et le Zoom correspond-il à l’échelle que la fiction veut distinguer ?**
+6. **Quelles issues sont réellement possibles, et quels éléments comptent pour chacune ?**
+7. **Si plusieurs Prismes agissent ensemble, comment leurs résultats se combinent-ils ?**
+8. **L’adversité mérite-t-elle son propre Prisme, un Miroir, ou simplement le Prisme standard ?**
+9. **Quelles conséquences doivent être connues avant qu’un joueur s’y expose ?**
+10. **La configuration standard suffit-elle ? Sinon, qu’est-ce qu’un autre Prisme, un autre support ou une autre forme de résultat permettrait de mieux faire sentir ?**
+11. **Qu’est-ce qui doit transformer durablement le personnage, sa feuille ou le monde ?**
+12. **Quels garde-fous maintiennent la cohérence et empêchent la recherche de Mises de devenir une simple optimisation ?**
 
 Chaque variation devrait pouvoir répondre à une question simple :
 
