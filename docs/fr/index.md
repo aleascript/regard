@@ -3,7 +3,7 @@ id: home
 title: Regard
 slug: /
 sidebar_position: 1
-description: "Regard : un framework de JdR où la fiction détermine ce qui compte et peut transformer la résolution."
+description: "Regard : un framework de JdR où ce qui compte devient mécanique et où les perspectives peuvent transformer l’incertitude."
 ---
 
 # Regard
