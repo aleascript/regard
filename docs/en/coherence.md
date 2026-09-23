@@ -4,14 +4,14 @@ title: 5. What maintains coherence
 sidebar_position: 6
 ---
 
-At first glance, Regard may seem dangerously permissive: if almost any fictional truth can become a Bet, why couldn't the table simply invoke everything until Bets accumulate without limit?
+At first glance, Regard may seem dangerously permissive: if what matters can come from the character, the scene, lore, the past, or elsewhere, why couldn't the table simply invoke everything until Bets accumulate without limit?
 
 The answer is not one single mechanism.
 
 Regard relies on **several layers of coherence that act at different points**:
 
 1. **The table contract** defines how the group plays together and what authority is entrusted to each participant.
-2. **The grammar of relevance** indicates the families of meaning toward which the game directs the table's attention.
+2. **What the game teaches the table to notice** directs attention toward some elements rather than others.
 3. **Frame Factors** close off some possibilities.
 4. **The Focus and its Zoom** determine what the resolution is looking at here and now.
 5. **Relevance and non-redundancy** determine what can actually become a distinct Bet.
@@ -77,36 +77,21 @@ Once killing the Dragon genuinely becomes possible and that Focus is accepted, r
 
 Regard does not promise an objective numerical difficulty independent of all adjudication. It can, however, make that adjudication **traceable**: Focus, Bets, Frame Factors, and important consequences are made visible before uncertainty decides.
 
-## The grammar of relevance: what the game teaches you to notice
+## What the game teaches you to notice
 
-The grammar of relevance moves almost in the opposite direction.
+A game does not need an exhaustive list of allowed Bets.
 
-It does not close the space of possibilities. It indicates **where the game directs attention so that the table can discover truths likely to become Bets**.
+It can, however, teach the table **where to direct its Gaze**.
 
-It can take the form of nested semantic families.
+A game centered on relationships will naturally make oaths, debts, loves, and rivalries visible. Another may draw attention toward customs, taboos, magic, institutions, places, genre motifs, or consequences accumulated through play.
 
-For example:
+The character sheet may remember part of this. Lore, non-player characters, places, rules of the world, or genre conventions may carry another part.
 
-> **Relationships**  
-> → oaths, debts, loves, rivalries  
-> → specific people or bonds  
-> → currently relevant truths  
-> → possible Bets
+These elements do not automatically become Bets.
 
-Or:
+They become Bets when they genuinely matter to the Focus, at this Zoom.
 
-> **Cultural identity**  
-> → belonging, customs, taboos, values, symbols  
-> → specific keywords of the character and world  
-> → elements the Focus may make relevant
-
-A character sheet can materialize part of that grammar.
-
-But the grammar is broader than the sheet: it also exists in lore, non-player characters, institutions, places, magic, tropes, and genre conventions.
-
-It is not an exhaustive list of allowed Bets.
-
-**It is an organization of attention.**
+> **The game teaches you where to look. The Focus determines what matters now.**
 
 ## Adjudicating a Bet
 
@@ -116,7 +101,7 @@ In a classic configuration:
 
 - players propose the elements they see as relevant;
 - the GM embodies adversity and the world;
-- the table tests those proposals against the Focus, Zoom, Frame Factors, and the game's grammar;
+- the table tests those proposals against the Focus, Zoom, Frame Factors, and what the game has taught it to notice;
 - the GM makes the final call if the table contract gives them that responsibility.
 
 That validation should not rest on the adjudicator's personal preference alone.
