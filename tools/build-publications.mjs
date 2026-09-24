@@ -119,13 +119,17 @@ function readDocumentTitle(markdown) {
   return title || null;
 }
 
-function addPublicationDocumentStartAnchor(markdown) {
+function addPublicationDocumentStartAnchor(markdown, title) {
   const anchor = `<div id="${publicationDocumentStartId}" aria-hidden="true"></div>`;
+  const runningTitle = title
+    ? `<span class="publication-running-title" aria-hidden="true">${escapeHtml(title)}</span>`
+    : '';
+  const markers = [anchor, runningTitle].filter(Boolean).join('\n');
   const frontmatter = markdown.match(/^---\r?\n[\s\S]*?\r?\n---(?:\r?\n|$)/);
-  if (!frontmatter) return `${anchor}\n\n${markdown}`;
+  if (!frontmatter) return `${markers}\n\n${markdown}`;
 
   const insertionPoint = frontmatter[0].length;
-  return `${markdown.slice(0, insertionPoint)}\n${anchor}\n\n${markdown.slice(insertionPoint)}`;
+  return `${markdown.slice(0, insertionPoint)}\n${markers}\n\n${markdown.slice(insertionPoint)}`;
 }
 
 function transformTocDocumentList(nodeList) {
@@ -272,7 +276,7 @@ async function preparePublication(publicationName, publication, locale, localeCo
     const destinationAbsolute = path.join(publicationWorkDir, sourcePath);
     const markdown = await fs.readFile(sourceAbsolute, 'utf8');
     const title = readDocumentTitle(markdown);
-    const withDocumentStart = addPublicationDocumentStartAnchor(markdown);
+    const withDocumentStart = addPublicationDocumentStartAnchor(markdown, title);
     const withPortableImages = transformRootRelativeImages(withDocumentStart, sourcePath);
     const transformed = transformAdmonitions(withPortableImages, locale, customAdmonitions);
     await fs.mkdir(path.dirname(destinationAbsolute), {recursive: true});
@@ -286,7 +290,22 @@ async function preparePublication(publicationName, publication, locale, localeCo
   const staticDestination = path.join(publicationWorkDir, 'static');
   await fs.cp(staticSource, staticDestination, {recursive: true});
   const cover = await writeCover(publicationWorkDir, publication, locale, localeConfig, themeDestination, version);
-  const entries = [...(cover ? [cover.entry] : []), {rel: 'contents'}, ...contentEntries];
+  const blankPage = '<div class="publication-blank-page" aria-hidden="true"></div>\n';
+  const blankFront = 'publication-blank-front.md';
+  const blankBackOne = 'publication-blank-back-1.md';
+  const blankBackTwo = 'publication-blank-back-2.md';
+
+  await fs.writeFile(path.join(publicationWorkDir, blankFront), blankPage, 'utf8');
+  await fs.writeFile(path.join(publicationWorkDir, blankBackOne), blankPage, 'utf8');
+  await fs.writeFile(path.join(publicationWorkDir, blankBackTwo), blankPage, 'utf8');
+
+  const entries = [
+    ...(cover ? [cover.entry, blankFront] : []),
+    {rel: 'contents'},
+    ...contentEntries,
+    blankBackOne,
+    blankBackTwo,
+  ];
   return {
     title: localeConfig.title,
     author: publication.author,
