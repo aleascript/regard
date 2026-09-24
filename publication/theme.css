@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@500;600;700&display=swap');
 
 @page {
-  size: A5;
+  size: A4;
   margin: 18mm 16mm 20mm;
+
+  @top-center {
+    content: string(publication-chapter);
+    font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    color: #66747c;
+  }
 
   @bottom-center {
     content: counter(page);
@@ -13,6 +21,22 @@
 }
 
 @page:first {
+  @top-center {
+    content: none;
+  }
+
+  @bottom-center {
+    content: none;
+  }
+}
+
+@page publication-blank {
+  margin: 0;
+
+  @top-center {
+    content: none;
+  }
+
   @bottom-center {
     content: none;
   }
@@ -33,6 +57,24 @@ body {
 
 body {
   margin: 0;
+}
+
+.publication-running-title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  string-set: publication-chapter content(text);
+}
+
+.publication-blank-page {
+  page: publication-blank;
+  width: 100%;
+  height: 100vh;
+  break-before: page;
+  break-after: page;
 }
 
 h1,
