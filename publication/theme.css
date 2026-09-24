@@ -1,8 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@500;600;700&display=swap');
 
 @page {
-  size: A5;
+  size: A4;
   margin: 18mm 16mm 20mm;
+
+  @top-center {
+    content: env(doc-title);
+    font-family: 'IBM Plex Sans', 'Segoe UI', Arial, sans-serif;
+    font-size: 8pt;
+    font-weight: 600;
+    color: #66747c;
+  }
 
   @bottom-center {
     content: counter(page);
@@ -13,6 +21,37 @@
 }
 
 @page:first {
+  @top-center {
+    content: none;
+  }
+
+  @bottom-center {
+    content: none;
+  }
+}
+
+@page publication-blank {
+  margin: 0;
+  background: #fff;
+
+  @top-center {
+    content: none;
+  }
+
+  @bottom-center {
+    content: none;
+  }
+}
+
+@page publication-cover {
+  size: A4;
+  margin: 0;
+  background: #f7f9f8;
+
+  @top-center {
+    content: none;
+  }
+
   @bottom-center {
     content: none;
   }
@@ -33,6 +72,13 @@ body {
 
 body {
   margin: 0;
+}
+
+.publication-blank-page {
+  page: publication-blank;
+  width: 100%;
+  height: 100vh;
+  background: #fff;
 }
 
 h1,
@@ -263,16 +309,20 @@ blockquote:has(.publication-admonition-design) .publication-admonition-title {
 }
 
 .publication-cover-page {
+  page: publication-cover;
+  box-sizing: border-box;
   display: flex;
-  min-height: calc(100vh - 38mm);
+  min-height: 100vh;
+  padding: 18mm 16mm 20mm;
   flex-direction: column;
   align-items: stretch;
+  background: #f7f9f8;
   text-align: center;
 }
 
 .publication-cover-title {
   margin: 0 0 0.55em;
-  font-size: 31pt;
+  font-size: 44pt;
   color: #173c57;
   font-weight: 600;
   line-height: 1;

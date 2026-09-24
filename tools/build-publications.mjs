@@ -134,6 +134,10 @@ function transformTocDocumentList(nodeList) {
     tagName: 'ol',
     properties: {},
     children: nodeList.flatMap((document, index) => {
+      if ((document.href ?? '').includes('publication-blank-')) {
+        return [];
+      }
+
       const {children = []} = propsList[index] ?? {};
       const nestedChildren = [children].flat();
 
@@ -286,7 +290,22 @@ async function preparePublication(publicationName, publication, locale, localeCo
   const staticDestination = path.join(publicationWorkDir, 'static');
   await fs.cp(staticSource, staticDestination, {recursive: true});
   const cover = await writeCover(publicationWorkDir, publication, locale, localeConfig, themeDestination, version);
-  const entries = [...(cover ? [cover.entry] : []), {rel: 'contents'}, ...contentEntries];
+  const blankPage = '<div class="publication-blank-page" aria-hidden="true"></div>\n';
+  const blankFront = 'publication-blank-front.md';
+  const blankBackOne = 'publication-blank-back-1.md';
+  const blankBackTwo = 'publication-blank-back-2.md';
+
+  await fs.writeFile(path.join(publicationWorkDir, blankFront), blankPage, 'utf8');
+  await fs.writeFile(path.join(publicationWorkDir, blankBackOne), blankPage, 'utf8');
+  await fs.writeFile(path.join(publicationWorkDir, blankBackTwo), blankPage, 'utf8');
+
+  const entries = [
+    ...(cover ? [cover.entry, blankFront] : []),
+    {rel: 'contents'},
+    ...contentEntries,
+    blankBackOne,
+    blankBackTwo,
+  ];
   return {
     title: localeConfig.title,
     author: publication.author,

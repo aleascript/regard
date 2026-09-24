@@ -52,7 +52,7 @@ export default definePublications({
         designedWith: null,
         poweredBy: null,
       },
-      size: 'A5',
+      size: 'A4',
       theme: 'publication/theme.css',
       cover: {
         image: 'static/img/site/regard_mosaic_valid_pips_400.svg',
