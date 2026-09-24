@@ -134,6 +134,10 @@ function transformTocDocumentList(nodeList) {
     tagName: 'ol',
     properties: {},
     children: nodeList.flatMap((document, index) => {
+      if ((document.href ?? '').includes('publication-blank-')) {
+        return [];
+      }
+
       const {children = []} = propsList[index] ?? {};
       const nestedChildren = [children].flat();
 
